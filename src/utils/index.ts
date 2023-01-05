@@ -1,0 +1,247 @@
+export const groups=[
+    {
+        id:"1",
+        img:"https://fakeimg.pl/300/",
+        name:"行銷組",
+        text:"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur tempora porro laboriosam perspiciatisnemo, provident possimus vel quisquam consequuntur magnam eum obcaecati odio autem odit minima solutasit, nobis cum?"        
+    },
+    {
+        id:"2",
+        img:"https://fakeimg.pl/300/",
+        name:"影視組",
+        text:"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur tempora porro laboriosam perspiciatisnemo, provident possimus vel quisquam consequuntur magnam eum obcaecati odio autem odit minima solutasit, nobis cum?"        
+    },
+    {
+        id:"3",
+        img:"https://fakeimg.pl/300/",
+        name:"互動組",
+        text:"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur tempora porro laboriosam perspiciatisnemo, provident possimus vel quisquam consequuntur magnam eum obcaecati odio autem odit minima solutasit, nobis cum?"        
+    },
+    {
+        id:"4",
+        img:"https://fakeimg.pl/300/",
+        name:"遊戲組",
+        text:"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur tempora porro laboriosam perspiciatisnemo, provident possimus vel quisquam consequuntur magnam eum obcaecati odio autem odit minima solutasit, nobis cum?"        
+    }
+]
+
+export const classes=[
+    {
+        id:"1",
+        name:"設計組",
+        text:"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur tempora porro laboriosam perspiciatisnemo, provident possimus vel quisquam consequuntur magnam eum obcaecati odio autem odit minima solutasit, nobis cum?"
+    },
+    {
+        id:"2",
+        name:"科技組",
+        text:"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur tempora porro laboriosam perspiciatisnemo, provident possimus vel quisquam consequuntur magnam eum obcaecati odio autem odit minima solutasit, nobis cum?"
+    }
+]
+
+export const sponsors=[
+    {
+        id:"1",
+        img:"https://fakeimg.pl/300/",
+        name:"test",
+    },
+    {
+        id:"2",
+        img:"https://fakeimg.pl/300/",
+        name:"test",
+    },
+    {
+        id:"3",
+        img:"https://fakeimg.pl/300/",
+        name:"test",
+    },
+    {
+        id:"4",
+        img:"https://fakeimg.pl/300/",
+        name:"test",
+    },
+    {
+        id:"5",
+        img:"https://fakeimg.pl/300/",
+        name:"test",
+    },
+    {
+        id:"6",
+        img:"https://fakeimg.pl/300/",
+        name:"test",
+    }
+    ,
+    {
+        id:"7",
+        img:"https://fakeimg.pl/300/",
+        name:"test",
+    }
+]
+
+export const contacts=[
+    {
+        id:"1",
+        img:"./src/assets/img/ig.png",
+        link:"https://www.instagram.com/hung_dodo0427/",
+        name:"test",
+    },
+    {
+        id:"2",
+        img:"./src/assets/img/fb.png",
+        link:"https://www.instagram.com/hung_dodo0427/",
+        name:"test",
+    },
+]
+
+export const C1=[
+    {
+        id:"1",
+        img:"https://fakeimg.pl/300/",
+        name:"test"
+    },
+    {
+        id:"2",
+        img:"https://fakeimg.pl/300/",
+        name:"test"
+    },
+    {
+        id:"3",
+        img:"https://fakeimg.pl/300/",
+        name:"test"
+    },
+    {
+        id:"4",
+        img:"https://fakeimg.pl/300/",
+        name:"test"
+    },
+    {
+        id:"5",
+        img:"https://fakeimg.pl/300/",
+        name:"test"
+    },
+    {
+        id:"6",
+        img:"https://fakeimg.pl/300/",
+        name:"test"
+    },
+    {
+        id:"7",
+        img:"https://fakeimg.pl/300/",
+        name:"test"
+    },
+    {
+        id:"8",
+        img:"https://fakeimg.pl/300/",
+        name:"test"
+    },
+    {
+        id:"9",
+        img:"https://fakeimg.pl/300/",
+        name:"test"
+    },
+    {
+        id:"10",
+        img:"https://fakeimg.pl/300/",
+        name:"test"
+    },
+    {
+        id:"11",
+        img:"https://fakeimg.pl/300/",
+        name:"test"
+    },
+    {
+        id:"12",
+        img:"https://fakeimg.pl/300/",
+        name:"test"
+    },{
+        id:"13",
+        img:"https://fakeimg.pl/300/",
+        name:"test"
+    },
+    {
+        id:"14",
+        img:"https://fakeimg.pl/300/",
+        name:"test"
+    },
+    {
+        id:"15",
+        img:"https://fakeimg.pl/300/",
+        name:"test"
+    },
+]
+
+export const C2=[
+    {
+        id:"1",
+        img:"https://fakeimg.pl/300/",
+        name:"test"
+    },
+    {
+        id:"2",
+        img:"https://fakeimg.pl/300/",
+        name:"test"
+    },
+    {
+        id:"3",
+        img:"https://fakeimg.pl/300/",
+        name:"test"
+    },
+    {
+        id:"4",
+        img:"https://fakeimg.pl/300/",
+        name:"test"
+    },
+    {
+        id:"5",
+        img:"https://fakeimg.pl/300/",
+        name:"test"
+    },
+    {
+        id:"6",
+        img:"https://fakeimg.pl/300/",
+        name:"test"
+    },
+    {
+        id:"7",
+        img:"https://fakeimg.pl/300/",
+        name:"test"
+    },
+    {
+        id:"8",
+        img:"https://fakeimg.pl/300/",
+        name:"test"
+    },
+    {
+        id:"9",
+        img:"https://fakeimg.pl/300/",
+        name:"test"
+    },
+    {
+        id:"10",
+        img:"https://fakeimg.pl/300/",
+        name:"test"
+    },
+    {
+        id:"11",
+        img:"https://fakeimg.pl/300/",
+        name:"test"
+    },
+    {
+        id:"12",
+        img:"https://fakeimg.pl/300/",
+        name:"test"
+    },{
+        id:"13",
+        img:"https://fakeimg.pl/300/",
+        name:"test"
+    },
+    {
+        id:"14",
+        img:"https://fakeimg.pl/300/",
+        name:"test"
+    },
+    {
+        id:"15",
+        img:"https://fakeimg.pl/300/",
+        name:"test"
+    },
+]

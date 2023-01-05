@@ -1,0 +1,32 @@
+export const data=[
+    {
+        id:"1",
+        img:"https://fakeimg.pl/300/",
+        name:"test",
+        text:"文字說明，文字說明，文字說明"        
+    },
+    {
+        id:"2",
+        img:"https://fakeimg.pl/300/",
+        name:"test",
+        text:"文字說明，文字說明，文字說明"        
+    },
+    {
+        id:"3",
+        img:"https://fakeimg.pl/300/",
+        name:"test",
+        text:"文字說明，文字說明，文字說明"        
+    },
+    {
+        id:"4",
+        img:"https://fakeimg.pl/300/",
+        name:"test",
+        text:"文字說明，文字說明，文字說明"        
+    },
+    {
+        id:"5",
+        img:"https://fakeimg.pl/300/",
+        name:"test",
+        text:"文字說明，文字說明，文字說明"        
+    }
+]
