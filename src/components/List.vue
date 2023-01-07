@@ -36,60 +36,59 @@ onMounted(() => {
                         {{ item.name }}
                     </div>
                     <button class="w-[5vw] sm:w-[15vw] text-lg my-[2vh] bg-[white]" @click="show = true">view</button>
-                    <NModal v-model:show="show" class="bg-[red]">
-                        <NCard class="w-[600px] sm:w-[90vw] bg-[red]" :bordered="false" size="huge" role="card"
-                            aria-modal="true">
-                            <div class="flex flex-col">
-                                <div class="flex justify-around items-center">
-                                    <div class="flex flex-col items-center">
-                                        <div class="w-[8vw] sm:w-[20vw]">
-                                            <img src="https://fakeimg.pl/300/" class="w-full h-full rounded-full">
-                                        </div>
-                                        <div class="flex flex-col justify-center items-center mt-[1vh]">
-                                            <div class="text-lg sm:text-base font-bold">李油伯</div>
-                                            <div class="text-base">Weybabe Lee</div>
-                                        </div>
-                                    </div>
-                                    <div class="w-[15vw] sm:w-[30vw] flex flex-col">
-                                        <div class="text-xl sm:text-base font-bold mb-[1vh]">經歷</div>
-                                        <div class="self-center">
-                                            <ul class="list-disc text-base sm:text-sm">
-                                                <li>xxx公司 塗裝實習生</li>
-                                                <li>xxx大專生競賽 佳作</li>
-                                                <li>xxx公司 社群小編</li>
-                                            </ul>
-                                        </div>
-                                        <div class="flex flex-wrap">
-                                            <div class="w-[3vw] sm:w-[8vw] my-[2vh] mx-[1vw]">
-                                                <img src="https://fakeimg.pl/300/" class="w-full h-full rounded-full">
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="flex flex-col justify-center items-center mt-[2vh]">
-                                    <div class="flex justify-center items-center">
-                                        <div class="text-center ml-[.5vw] sm:ml-[2vw] text-lg sm:text-base font-bold">
-                                            聯絡資訊 :
-                                        </div>
-                                        <div class="text-base mx-[1vw]">s108xxxx@mail.yzu.edu.tw</div>
-                                    </div>
-                                    <div class="flex justify-center items-center">
-                                        <div class="text-lg sm:text-base font-bold">作品集連結 :</div>
-                                        <div class="text-base mx-[1vw]">www.wwww.wwww.www</div>
-                                    </div>
-                                </div>
-                            </div>
-                        </NCard>
-                    </NModal>
                 </div>
             </div>
         </div>
+        <NModal v-model:show="show">
+            <NCard class="w-[600px] sm:w-[90vw]" :bordered="false" size="huge" role="card" aria-modal="true">
+                <div class="flex flex-col">
+                    <div class="flex justify-around items-center">
+                        <div class="flex flex-col items-center">
+                            <div class="w-[8vw] sm:w-[20vw]">
+                                <img src="https://fakeimg.pl/300/" class="w-full h-full rounded-full">
+                            </div>
+                            <div class="flex flex-col justify-center items-center mt-[1vh]">
+                                <div class="text-lg sm:text-base font-bold">李油伯</div>
+                                <div class="text-base">Weybabe Lee</div>
+                            </div>
+                        </div>
+                        <div class="w-[15vw] sm:w-[30vw] flex flex-col">
+                            <div class="text-xl sm:text-base font-bold mb-[1vh]">經歷</div>
+                            <div class="self-center">
+                                <ul class="list-disc text-base sm:text-sm">
+                                    <li>xxx公司 塗裝實習生</li>
+                                    <li>xxx大專生競賽 佳作</li>
+                                    <li>xxx公司 社群小編</li>
+                                </ul>
+                            </div>
+                            <div class="flex flex-wrap">
+                                <div class="w-[3vw] sm:w-[8vw] my-[2vh] mx-[1vw]">
+                                    <img src="https://fakeimg.pl/300/" class="w-full h-full rounded-full">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex flex-col justify-center items-center mt-[2vh]">
+                        <div class="flex justify-center items-center">
+                            <div class="text-center ml-[.5vw] sm:ml-[2vw] text-lg sm:text-base font-bold">
+                                聯絡資訊 :
+                            </div>
+                            <div class="text-base mx-[1vw]">s108xxxx@mail.yzu.edu.tw</div>
+                        </div>
+                        <div class="flex justify-center items-center">
+                            <div class="text-lg sm:text-base font-bold">作品集連結 :</div>
+                            <div class="text-base mx-[1vw]">www.wwww.wwww.www</div>
+                        </div>
+                    </div>
+                </div>
+            </NCard>
+        </NModal>
     </div>
 </template>
 
 <style>
 .n-modal-mask {
-    background-color: rgba(0, 0, 0, 0.1);
+    background-color: rgba(0, 0, 0, .5);
 }
 
 .n-card__content {
