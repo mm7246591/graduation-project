@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { data } from '@/utils/info/index'
+import { warns } from '@/utils/info/index'
 import { onMounted, ref } from 'vue';
 
 interface Item {
@@ -12,7 +12,7 @@ interface Item {
 const items = ref<Item[] | null>(null)
 
 const getData = () => {
-    items.value = data
+    items.value = warns
 }
 
 onMounted(() => {
@@ -62,7 +62,7 @@ onMounted(() => {
                 <div v-for="item of items" :key="item.id"
                     class="lg:w-[30vw] flex justify-evenly items-center my-[2vh] sm:mx-[2vw]">
                     <div class="w-[10vw] sm:w-[20vw]">
-                        <img :src="item.img" class="rounded-full" alt="">
+                        <img :src="item.img" class="w-full h-full rounded-full" alt="">
                     </div>
                     <div class="mx-[2vw]">
                         <div class="text-xl sm:text-lg font-bold">{{ item.name }}</div>

@@ -1,4 +1,4 @@
-export const data=[
+export const warns=[
     {
         id:"1",
         img:"https://fakeimg.pl/300/",
@@ -29,4 +29,31 @@ export const data=[
         name:"test",
         text:"文字說明，文字說明，文字說明"        
     }
+]
+
+export const videos=[
+    {
+        id:"1",
+        img:"https://fakeimg.pl/300/",
+        name:"test",
+        text:"內容介紹"        
+    },
+    {
+        id:"2",
+        img:"https://fakeimg.pl/300/",
+        name:"test",
+        text:"內容介紹"        
+    },
+    {
+        id:"3",
+        img:"https://fakeimg.pl/300/",
+        name:"test",
+        text:"內容介紹"        
+    },
+    {
+        id:"4",
+        img:"https://fakeimg.pl/300/",
+        name:"test",
+        text:"內容介紹"        
+    },
 ]
