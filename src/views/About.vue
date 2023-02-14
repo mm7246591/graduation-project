@@ -10,16 +10,19 @@ const handleToClass = (name: string) => {
 </script>
 
 <template>
-    <div class="w-full bg-[rgba(216,250,255,.5)]">
+    <div class="w-full text-[#58595B] bg-[rgba(216,250,255,.5)]">
         <div class="img w-[90vw] h-[60vh] mx-auto py-[2vh]">
             <img src="https://picsum.photos/200/300" class="w-full h-full" />
         </div>
         <div
-            class="list w-[90vw] flex flex-col justify-evenly items-center mx-auto py-[4vh] bg-[rgba(187,241,249,0.5)]">
+            class="list w-[90vw] flex flex-col justify-evenly items-center mx-auto py-[4vh] bg-[rgba(187,241,249,0.5)] rounded-[35px]">
             <div class="text-3xl sm:text-xl font-bold">獵人名單</div>
+            <div class="px-[8vw] text-xl sm:text-base my-[3vh]">
+                本系是全國第一所以感知設計、傳播媒體、資訊科技三位一體的整合性學系，以「互動媒體技術之發展與應用」為主要研究發展方向，輔以「數位媒體內容之設計與整合」
+            </div>
             <div class="w-full flex sm:flex-col justify-evenly items-center my-[2vh]">
                 <div v-for="item of classes" :key="item.id"
-                    class="c2 w-[35vw] sm:w-[80vw] h-[40vh] flex flex-col justify-evenly p-5 mx-[1vw] sm:mb-[1vh] bg-[rgba(255,255,255,0.5)]">
+                    class="c2 w-[35vw] sm:w-[80vw] h-[20vh] flex flex-col justify-evenly p-5 mx-[1vw] sm:mb-[2vh] bg-[rgba(255,255,255,0.5)] rounded-[18px]">
                     <article class="text-2xl sm:text-lg font-bold">{{ item.name }}</article>
                     <section class="text-lg sm:text-base">{{ item.text }}</section>
                     <button class="w-[5vw] sm:w-[15vw] self-center text-lg bg-[white]"
@@ -42,7 +45,7 @@ const handleToClass = (name: string) => {
             </div>
         </div>
         <div
-            class="contact w-[90vw] flex flex-col justify-evenly items-center mx-auto py-[4vh] bg-[rgba(187,241,249,0.5)]">
+            class="contact w-[90vw] flex flex-col justify-evenly items-center mx-auto py-[4vh] bg-[rgba(187,241,249,0.5)] rounded-[25px]">
             <div class="text-3xl sm:text-xl font-bold">聯絡我們</div>
             <div class="w-full flex justify-evenly my-[2vh]">
                 <div v-for="contact of contacts" :key="contact.id"

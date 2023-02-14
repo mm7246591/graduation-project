@@ -1,33 +1,28 @@
 export const warns=[
     {
         id:"1",
-        img:"https://fakeimg.pl/300/",
-        name:"test",
-        text:"文字說明，文字說明，文字說明"        
+        img:"/src/assets/img/smoke.png",
+        text:"禁止吸菸"        
     },
     {
         id:"2",
-        img:"https://fakeimg.pl/300/",
-        name:"test",
-        text:"文字說明，文字說明，文字說明"        
+        img:"/src/assets/img/drink.png",
+        text:"禁止飲食"        
     },
     {
         id:"3",
-        img:"https://fakeimg.pl/300/",
-        name:"test",
-        text:"文字說明，文字說明，文字說明"        
+        img:"/src/assets/img/dangerous.png",
+        text:"禁止危險物品"        
     },
     {
         id:"4",
-        img:"https://fakeimg.pl/300/",
-        name:"test",
-        text:"文字說明，文字說明，文字說明"        
+        img:"/src/assets/img/trash.png",
+        text:"請勿亂丟垃圾"        
     },
     {
         id:"5",
-        img:"https://fakeimg.pl/300/",
-        name:"test",
-        text:"文字說明，文字說明，文字說明"        
+        img:"/src/assets/img/running.png",
+        text:"請勿奔跑、喧嘩"        
     }
 ]
 

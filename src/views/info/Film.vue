@@ -39,12 +39,13 @@ const handleSelect = (id: string) => {
                     tempora laudantium nulla repellat voluptatem libero!</div>
             </div>
         </div>
-        <div class="w-full lg:flex sm:hidden flex-col justify-evenly items-center py-[4vh] bg-[rgba(187,241,249,0.5)]">
+        <div
+            class="w-full lg:flex sm:hidden flex-col justify-evenly items-center py-[4vh] bg-[rgba(187,241,249,0.5)] rounded-[35px]">
             <div class="text-3xl sm:text-xl font-bold">影視作品</div>
             <div class="w-full flex flex-wrap justify-center items-center my-[4vh]">
                 <div v-for="item of videos" :key="item.id"
                     class="w-[20vw] flex flex-col justify-center items-center my-[2vh]">
-                    <div class="w-[15vw] h-[25vh]">
+                    <div class="w-[15vw] h-[25vh] shadow-[0px_6px_8px_rgba(0,0,0,0.5)]">
                         <img :src="item.img" class="w-full h-full" alt="">
                     </div>
                     <div class="my-[2vh] text-xl sm:text-lg font-bold">{{ item.name }}</div>
@@ -52,7 +53,8 @@ const handleSelect = (id: string) => {
                 </div>
             </div>
         </div>
-        <div class="w-full sm:flex lg:hidden flex-col justify-evenly items-center py-[4vh] bg-[rgba(187,241,249,0.5)]">
+        <div
+            class="w-full sm:flex lg:hidden flex-col justify-evenly items-center py-[4vh] bg-[rgba(187,241,249,0.5)] rounded-[35px]">
             <div class="text-3xl sm:text-xl font-bold">影視作品</div>
             <div class="w-full flex flex-wrap justify-center items-center my-[4vh]">
                 <Swipe class="w-[90vw] mx-auto relative" indicator-color="white">

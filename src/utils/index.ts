@@ -1,27 +1,27 @@
 export const groups=[
     {
         id:"1",
-        img:"https://fakeimg.pl/300/",
+        img:"/src/assets/img/market.png",
         name:"行銷組",
-        text:"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur tempora porro laboriosam perspiciatisnemo, provident possimus vel quisquam consequuntur magnam eum obcaecati odio autem odit minima solutasit, nobis cum?"        
+        text:"針對單一主題性的規劃行銷，以視覺設計及行銷概念作為展出內容。"        
     },
     {
         id:"2",
-        img:"https://fakeimg.pl/300/",
+        img:"/src/assets/img/animation.png",
         name:"影視組",
-        text:"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur tempora porro laboriosam perspiciatisnemo, provident possimus vel quisquam consequuntur magnam eum obcaecati odio autem odit minima solutasit, nobis cum?"        
+        text:"由動畫短片及劇情短片共同舉辦小型的影展輪播。"        
     },
     {
         id:"3",
-        img:"https://fakeimg.pl/300/",
+        img:"/src/assets/img/interact.png",
         name:"互動組",
-        text:"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur tempora porro laboriosam perspiciatisnemo, provident possimus vel quisquam consequuntur magnam eum obcaecati odio autem odit minima solutasit, nobis cum?"        
+        text:"結合程式設計開發互動裝置，使觀展人親身參與並體驗其中的樂趣。"        
     },
     {
         id:"4",
-        img:"https://fakeimg.pl/300/",
+        img:"/src/assets/img/game.png",
         name:"遊戲組",
-        text:"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur tempora porro laboriosam perspiciatisnemo, provident possimus vel quisquam consequuntur magnam eum obcaecati odio autem odit minima solutasit, nobis cum?"        
+        text:"除了傳統的 PC遊戲外，還會以2D、3D的呈現手法製作多元類型的遊戲。"        
     }
 ]
 
@@ -29,12 +29,12 @@ export const classes=[
     {
         id:"1",
         name:"設計組",
-        text:"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur tempora porro laboriosam perspiciatisnemo, provident possimus vel quisquam consequuntur magnam eum obcaecati odio autem odit minima solutasit, nobis cum?"
+        text:"著重於多媒體的設計與製作以及資訊傳媒的企劃與應用"
     },
     {
         id:"2",
         name:"科技組",
-        text:"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur tempora porro laboriosam perspiciatisnemo, provident possimus vel quisquam consequuntur magnam eum obcaecati odio autem odit minima solutasit, nobis cum?"
+        text:"著重於互動資訊科技之應用"
     }
 ]
 

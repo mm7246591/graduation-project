@@ -37,9 +37,9 @@ const routes = [
     component: () => import("@/views/work/Animation.vue"),
   },
   {
-    path: "/work/animations/1",
-    name: "animation1",
-    component: () => import("@/views/work/animations/1.vue"),
+    path: "/work/animations/:id",
+    name: "AnimationWork",
+    component: () => import("@/components/AnimationWork.vue"),
   },
   {
     path: "/work/market",

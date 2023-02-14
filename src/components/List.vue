@@ -22,7 +22,8 @@ onMounted(() => {
 <template>
     <div class="w-full flex flex-col text-[#58595B] bg-[rgba(216,250,255,.5)]">
         <div class="w-[90vw] mx-auto my-[2vh] px-[4vw] text-4xl sm:text-xl font-bold">獵人名單</div>
-        <div class="w-[90vw] flex flex-col justify-center items-center mx-auto py-[4vh] bg-[rgba(187,241,249,0.5)]">
+        <div
+            class="w-[90vw] flex flex-col justify-center items-center mx-auto py-[4vh] bg-[rgba(187,241,249,0.5)] rounded-[35px]">
             <div class="text-3xl sm:text-xl font-bold">
                 {{ route.params.name }}
             </div>
