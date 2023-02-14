@@ -3,13 +3,14 @@
 </script>
 
 <template>
-    <div class="bg-[rgba(216,250,255,.5)] p-5">
-        <div class="flex flex-col mb-6 md:rounded-3xl p-5 w-full bg-[rgba(255,255,255,.5)]">
-            <div class="self-end mr-1.5 mb-3 text-sm">o o 組</div>
-            <div class="mb-5 w-full h-52 bg-white"></div>
-            <div class="flex justify-between">
-                <div class="ml-3 text-[#58595B] text-xl font-semibold">作品標題</div>
-                <div class="ml-3 border border-black rounded px-7 py-1.5 text-sm">V i e w</div>
+    <div class="p-5 bg-[rgba(216,250,255,.5)]">
+        <div class="flex flex-col lg:flex-row lg:justify-between mb-6 rounded-3xl p-5 lg:p-20 w-full bg-[rgba(255,255,255,.5)]">
+            <div class="self-end lg:hidden mr-1.5 mb-3 text-sm">o o 組</div>
+            <img src="https://fakeimg.pl/300/" class="mb-5 rounded-3xl w-full lg:w-[360px] object-contain">
+            <div class="flex justify-between lg:flex-col lg:items-end lg:h-fit">
+                <div class="hidden lg:block text-end text-sm">畢展標題<br>o o 組</div>
+                <div class="ml-3 lg:ml-0 lg:my-20 lg:w-32 text-[#58595B] text-xl lg:text-6xl font-semibold">作品標題</div>
+                <router-link to="/work/animations/1" class="ml-3 border border-black rounded px-7 py-1.5 text-sm">V i e w</router-link>
             </div>
         </div>
     </div>
