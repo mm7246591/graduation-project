@@ -139,9 +139,9 @@ header .n-button {
 
 header .logo {
     position: absolute;
-    top: 30%;
+    bottom: 0%;
     left: 8%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -2200%);
     animation-name: beat;
     animation-duration: .5s;
     animation-timing-function: linear;

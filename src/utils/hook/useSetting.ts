@@ -3,10 +3,10 @@ import { computed } from "vue";
 
 export function useSettingState() {
   const settingStore = useSettingStoreState();
-  const getSettingLoding = computed(() => settingStore.loading);
-  const getSettingLodingSec = computed(() => settingStore.loadingSec);
+  const getSettingLoading = computed(() => settingStore.loading);
+  const getSettingLoadingSec = computed(() => settingStore.loadingSec);
   return {
-    getSettingLoding,
-    getSettingLodingSec,
+    getSettingLoading,
+    getSettingLoadingSec,
   };
 }

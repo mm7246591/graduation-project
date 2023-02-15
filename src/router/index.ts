@@ -24,27 +24,54 @@ const routes = [
   {
     path: "/work/game",
     name: "Game",
+    meta:{
+      group:"game"
+    },
     component: () => import("@/views/work/Game.vue"),
+  },
+  {
+    path: "/work/game/:id",
+    name: "GameWork",
+    component: () => import("@/components/GameWork.vue"),
   },
   {
     path: "/work/interact",
     name: "Interact",
+    meta:{
+      group:"interact"
+    },
     component: () => import("@/views/work/Interact.vue"),
+  },
+  {
+    path: "/work/interact/:id",
+    name: "InteractWork",
+    component: () => import("@/components/InteractWork.vue"),
   },
   {
     path: "/work/animation",
     name: "Animation",
+    meta:{
+      group:"animation"
+    },
     component: () => import("@/views/work/Animation.vue"),
   },
   {
-    path: "/work/animations/:id",
+    path: "/work/animation/:id",
     name: "AnimationWork",
     component: () => import("@/components/AnimationWork.vue"),
   },
   {
     path: "/work/market",
     name: "Market",
+    meta:{
+      group:"market"
+    },
     component: () => import("@/views/work/Market.vue"),
+  },
+  {
+    path: "/work/market/:id",
+    name: "MarketWork",
+    component: () => import("@/components/MarketWork.vue"),
   },
   {
     path: "/news",
