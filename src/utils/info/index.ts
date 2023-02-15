@@ -1,13 +1,13 @@
 export const warns=[
     {
         id:"1",
-        img:"/src/assets/img/smoke.png",
-        text:"禁止吸菸"        
+        img:"/src/assets/img/mask.png",
+        text:"配戴口罩"        
     },
     {
         id:"2",
-        img:"/src/assets/img/drink.png",
-        text:"禁止飲食"        
+        img:"/src/assets/img/smoke.png",
+        text:"禁止吸菸"        
     },
     {
         id:"3",
