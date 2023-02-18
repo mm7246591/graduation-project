@@ -2,8 +2,8 @@
 import { ArrowUpOutline } from '@vicons/ionicons5'
 import { NDropdown, NButton, NIcon } from 'naive-ui'
 import { useRouter } from 'vue-router';
-import { Popup } from 'vant';
-import { onMounted, onUnmounted, ref } from 'vue';
+import { Popup, BackTop } from 'vant';
+import { ref } from 'vue';
 
 const router = useRouter()
 
@@ -50,7 +50,6 @@ const announcement = [
     },
 ]
 const show = ref<boolean>(false)
-const showArrow = ref<boolean>(false)
 
 const handleToHome = () => {
     if (show.value) {
@@ -77,21 +76,6 @@ const handleMenu = () => {
     show.value = true
 }
 
-const handleToTop = () => {
-    window.scrollTo(0, 0);
-}
-
-const goToTop = () => {
-    show.value = window.scrollY > 100
-}
-
-onMounted(() => {
-    document.addEventListener("scroll", goToTop);
-
-})
-onUnmounted(() => {
-    document.removeEventListener('scroll', goToTop);
-})
 </script>
 
 <template>
@@ -99,13 +83,6 @@ onUnmounted(() => {
         <div class="w-[90vw] h-[10vh] flex justify-between items-center mx-auto">
             <div class="lg:w-[100px] sm:w-[64px] cursor-pointer" @click="handleToHome">
                 <img src="../assets/img/logo.png" class="object-cover" alt="">
-            </div>
-            <div v-if="showArrow"
-                class="back-to-top fixed bottom-5 right-5 flex justify-center items-center w-[48px] h-[48px] rounded-full bg-[#00E4FF] cursor-pointer"
-                @click="handleToTop">
-                <NIcon size="40" color="#fff">
-                    <ArrowUpOutline />
-                </NIcon>
             </div>
             <div class="lg:hidden md:flex">
                 <img src="@/assets/img/menu.png" class="object-cover cursor-pointer" @click="handleMenu">
@@ -141,6 +118,11 @@ onUnmounted(() => {
                 </div>
             </Popup>
         </div>
+        <BackTop>
+            <NIcon size="32" color="#fff">
+                <ArrowUpOutline />
+            </NIcon>
+        </BackTop>
     </header>
 </template>
 
@@ -159,6 +141,10 @@ header .n-button {
     --n-padding: 0 0 !important;
     margin: 0 1rem;
 
+}
+
+.van-back-top {
+    background-color: #00E4FF !important;
 }
 
 @media (min-width:1024px) {
@@ -182,6 +168,7 @@ header .n-button {
 }
 
 @media (max-width:480px) {
+
     header .logo {
         left: 15%;
     }
