@@ -22,7 +22,8 @@ onMounted(() => {
 <template>
     <div class="w-full text-[#58595B] bg-[#F5F5F5]">
         <div class="traffic w-[90vw] flex flex-col justify-center items-center mx-auto py-[2vh]">
-            <div class="my-7 rounded-full px-7 py-2 bg-[#00E4FF] text-[rgba(42,55,82,0.7)] text-3xl sm:text-xl font-bold">交通資訊</div>
+            <div class="my-7 rounded-full px-7 py-2 bg-[#00E4FF] text-[rgba(42,55,82,0.7)] text-3xl sm:text-xl font-bold">
+                交通資訊</div>
             <div class="section w-full flex sm:flex-col justify-evenly items-center mb-[4vh]">
                 <div class="map">
                     <iframe
@@ -32,33 +33,44 @@ onMounted(() => {
                 </div>
                 <div class="text text-base my-[2vh] mx-[3vw] px-8">
                     <div class="address mb-6">
-                        <div class="relative text-[#2A3752] font-bold text-base before:content-[''] before:absolute before:top-1.5 before:-left-5 before:w-3 before:h-3 before:rounded-full before:bg-[#00E4FF]">地址</div>
+                        <div
+                            class="relative text-[#2A3752] font-bold text-base before:content-[''] before:absolute before:top-1.5 before:-left-5 before:w-3 before:h-3 before:rounded-full before:bg-[#00E4FF]">
+                            地址</div>
                         <div class="my-[1vh] text-sm text-[rgba(42,55,82,0.7)]">台北市信義區光復南路133號</div>
                     </div>
                     <div class="train mb-6">
-                        <div class="relative text-[#2A3752] font-bold text-base before:content-[''] before:absolute before:top-1.5 before:-left-5 before:w-3 before:h-3 before:rounded-full before:bg-[#00E4FF]">自行前往</div>
+                        <div
+                            class="relative text-[#2A3752] font-bold text-base before:content-[''] before:absolute before:top-1.5 before:-left-5 before:w-3 before:h-3 before:rounded-full before:bg-[#00E4FF]">
+                            自行前往</div>
                         <div class="my-[1vh] text-sm text-[rgba(42,55,82,0.7)]">
                             於市民大道及光復南路口，從市民大道於光復南路匝道下，行駛方向由西往東往「菸廠路」駛入100公尺後，右側即可看見「松山文創園區」入口。(園內禁止行車)<br><br>
                             《停車資訊》：本園區最鄰近之停車場為臺北文創大樓地下收費停車場，可由菸廠路(市民大道、光復南路口)駛入。
                         </div>
                     </div>
                     <div class="bus">
-                        <div class="relative text-[#2A3752] font-bold text-base before:content-[''] before:absolute before:top-1.5 before:-left-5 before:w-3 before:h-3 before:rounded-full before:bg-[#00E4FF]">搭乘捷運</div>
-                        <div class="my-[1vh] text-sm text-[rgba(42,55,82,0.7)]">搭乘捷運板南線（藍）至國父紀念館站 → 五號出口出站 → 沿光復南路步行至菸廠路（市民大道、光復南路口）約550公尺。</div>
+                        <div
+                            class="relative text-[#2A3752] font-bold text-base before:content-[''] before:absolute before:top-1.5 before:-left-5 before:w-3 before:h-3 before:rounded-full before:bg-[#00E4FF]">
+                            搭乘捷運</div>
+                        <div class="my-[1vh] text-sm text-[rgba(42,55,82,0.7)]">搭乘捷運板南線（藍）至國父紀念館站 → 五號出口出站 →
+                            沿光復南路步行至菸廠路（市民大道、光復南路口）約550公尺。</div>
                     </div>
                 </div>
             </div>
         </div>
         <div class="map relative bg-white">
             <div class="w-[90vw] flex flex-col justify-center items-center mx-auto py-10">
-                <div class="absolute -top-5 rounded-full px-7 py-2 bg-[#00E4FF] text-[rgba(42,55,82,0.7)] text-3xl sm:text-xl font-bold">展區導覽圖</div>
+                <div
+                    class="absolute -top-5 rounded-full px-7 py-2 bg-[#00E4FF] text-[rgba(42,55,82,0.7)] text-3xl sm:text-xl font-bold">
+                    展區導覽圖</div>
                 <div class="w-full h-[50vh] my-[2vh]">
                     <img src="https://picsum.photos/500/400" class="w-full h-full" alt="">
                 </div>
             </div>
         </div>
         <div class="warn relative w-[90vw] flex flex-col justify-center items-center mx-auto py-[2vh]">
-            <div class="absolute -top-5 rounded-full px-7 py-2 bg-[#00E4FF] text-[rgba(42,55,82,0.7)] text-3xl sm:text-xl font-bold text-[#58595B]">注意事項</div>
+            <div
+                class="absolute -top-5 rounded-full px-7 py-2 bg-[#00E4FF] text-[rgba(42,55,82,0.7)] text-3xl sm:text-xl font-bold text-[#58595B]">
+                注意事項</div>
             <div class="section w-full flex sm:flex-col lg:flex-wrap justify-center items-center my-[8vh]">
                 <div v-for="item of items" :key="item.id" class="lg:w-[28vw] flex justify-evenly items-center my-[2vh]">
                     <div class="w-[10vw] sm:w-[20vw]">
@@ -67,14 +79,11 @@ onMounted(() => {
                     <div class="sm:w-[35vw] w-full  mx-[2vw]">
                         <div class="text-xl sm:text-lg font-bold">{{ item.text }}</div>
                     </div>
-                </div>
             </div>
         </div>
     </div>
-</template>
+</div></template>
 
 
 
-<style scoped>
-
-</style>
+<style scoped></style>

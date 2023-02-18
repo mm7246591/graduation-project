@@ -3,40 +3,46 @@ import { groups } from '@/utils/index'
 </script>
 
 <template>
-    <div class="w-full text-[#58595B] bg-[rgba(216,250,255,.5)]">
-        <div class="img flex justify-center items-center w-[90vw] mx-auto">
+    <div class="w-full">
+        <div class="flex justify-center items-center">
             <img src="@/assets/img/Kanban.png" class="w-full object-cover">
         </div>
-        <div class="intro w-[90vw] flex flex-col justify-center my-[4vh] mx-auto">
-            <div class="text-3xl sm:text-xl font-bold">
-                元智大學
-                <br>
-                資訊傳播學系第26屆
-                <br>
-                畢業展覽
-            </div>
-            <div class="mt-[2vh] text-2xl sm:text-lg">
-                成長TONE不僅代表每個人的步調不同，也是取「痛」的諧音。每個人都有自己的想法、目標。我們不能要求每個人都以相同的方法達到目的地，正是因為每個人的想法不同才能造就自己的獨特，也因為獨特而顯現魅力。每個人面對人生不同階段，都有各自的步調，找出自己的步調，過程中能夠欣賞周遭、享受每一份幸福，即使結果不如預期也能從中成長。
+        <div class="intro flex flex-col justify-center py-[4vh] mx-auto bg-[#F5F5F5]">
+            <div class="w-[90vw] mx-auto">
+                <div class="relative title px-[8vw] text-3xl sm:text-xl font-bold text-[rgba(42,55,82,0.84)]">
+                    元智大學
+                    <br>
+                    資訊傳播學系第26屆畢業展
+                    <br>
+                    — 成長TONE
+                </div>
+                <div class="my-[2vh] px-[6vw] text-2xl sm:text-sm text-[#2A3752]">
+                    成長TONE不僅代表每個人的步調不同，
+                    也是取「痛」的諧音。
+                    每個人都有自己的想法、目標。
+                    我們不能要求每個人
+                    都以相同的方法達到目的地，
+                    正是因為每個人的想法不同
+                    才能造就自己的獨特，
+                    也因為獨特而顯現魅力。
+                </div>
             </div>
         </div>
-        <div class="work bg-[rgba(187,241,249,0.5)] rounded-[30px]">
-            <div class="w-[90vw] flex flex-col justify-center items-center mx-auto py-[4vh]">
-                <div class="text-3xl sm:text-xl font-bold   ">
-                    展覽作品
-                </div>
-                <div class="my-[2vh] text-2xl sm:text-lg">
-                    今年共有22組作品共同 參與畢業展，其包含了4組影視短片、1組行銷企劃、11組互動裝置、 4組遊戲開發及2組專題研究組成。
+        <div class="work relative text-[#2A3752] bg-[#FFFFFF] rounded-[30px]">
+            <div class="w-[90vw] flex flex-col justify-center items-center py-[4vh] mx-auto">
+                <div class="my-[2vh] text-center text-2xl sm:text-sm">
+                    今年共有22組作品共同參與畢業展，<br>其包含了4組影視短片、1組行銷企劃、<br>11組互動裝置、4組遊戲開發及2組專題研究組成。
                 </div>
                 <div class="w-[90vw] flex sm:flex-col justify-evenly items-center">
                     <div v-for="group of groups" :key="group.id"
-                        class="w-[18vw] sm:w-[70vw] flex flex-col justify-center items-center lg:bg-[rgba(255,255,255,.5)] rounded-[16px] sm:my-[2vh] shadow-[0px_6px_8px_rgba(0,0,0,0.5)] cursor-pointer">
-                        <div class="w-[13vw] sm:w-full h-[20vh] lg:my-[2vh]">
+                        class="w-[18vw] sm:w-[70vw] flex flex-col justify-center items-center sm:my-[2vh] cursor-pointer">
+                        <div class="sm:w-full lg:my-[2vh]">
                             <img :src="group.img" class="w-full h-full object-contain" />
                         </div>
-                        <div class="text-xl font-bold mt-[1vh]">
+                        <div class="name relative text-xl font-bold my-[1vh] ">
                             {{ group.name }}
                         </div>
-                        <div class="h-[15vh] p-3 text-center text-base">
+                        <div class="h-[15vh] p-3 text-center text-sm whitespace-pre-line">
                             {{ group.text }}
                         </div>
                     </div>
@@ -47,5 +53,43 @@ import { groups } from '@/utils/index'
 </template>
 
 <style scoped>
+@media (max-width:480px) {
+    .title::before {
+        content: "";
+        position: absolute;
+        top: 40%;
+        left: -10%;
+        width: 100px;
+        height: 9px;
+        border-radius: 50px;
+        background-color: #00E4FF;
+        transform: rotate(90deg);
+    }
 
+    .work::before {
+        content: "展覽內容介紹";
+        position: absolute;
+        top: 0%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding: 1vh 6vw;
+        font-weight: 700;
+        font-size: 1rem;
+        line-height: 1.5rem;
+        color: #E3F4F7;
+        background-color: #2A3752;
+        border-radius: 31.5px;
+    }
+
+    .name::after {
+        content: "";
+        position: absolute;
+        bottom: -10%;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 20px;
+        height: 3px;
+        background-color: #00E4FF;
+    }
+}
 </style>

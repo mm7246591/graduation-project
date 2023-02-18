@@ -1,8 +1,9 @@
 <script setup lang="ts">
-import { NDropdown, NButton } from 'naive-ui'
+import { ArrowUpOutline } from '@vicons/ionicons5'
+import { NDropdown, NButton, NIcon } from 'naive-ui'
 import { useRouter } from 'vue-router';
 import { Popup } from 'vant';
-import { ref } from 'vue';
+import { onMounted, onUnmounted, ref } from 'vue';
 
 const router = useRouter()
 
@@ -49,6 +50,7 @@ const announcement = [
     },
 ]
 const show = ref<boolean>(false)
+const showArrow = ref<boolean>(false)
 
 const handleToHome = () => {
     if (show.value) {
@@ -74,15 +76,37 @@ const handleSelect = (key: string | number) => {
 const handleMenu = () => {
     show.value = true
 }
+
+const handleToTop = () => {
+    window.scrollTo(0, 0);
+}
+
+const goToTop = () => {
+    show.value = window.scrollY > 100
+}
+
+onMounted(() => {
+    document.addEventListener("scroll", goToTop);
+
+})
+onUnmounted(() => {
+    document.removeEventListener('scroll', goToTop);
+})
 </script>
 
 <template>
-    <header class="bg-[rgba(216,250,255,.5)]">
+    <header class="w-full sticky top-0 z-10 bg-[#00E4FF]">
         <div class="w-[90vw] h-[10vh] flex justify-between items-center mx-auto">
-            <div class="logo lg:text-2xl sm:text-xl font-bold text-[#181818] cursor-pointer" @click="handleToHome">
-                成長tone
+            <div class="lg:w-[100px] sm:w-[64px] cursor-pointer" @click="handleToHome">
+                <img src="../assets/img/logo.png" class="object-cover" alt="">
             </div>
-            <div></div>
+            <div v-if="showArrow"
+                class="back-to-top fixed bottom-5 right-5 flex justify-center items-center w-[48px] h-[48px] rounded-full bg-[#00E4FF] cursor-pointer"
+                @click="handleToTop">
+                <NIcon size="40" color="#fff">
+                    <ArrowUpOutline />
+                </NIcon>
+            </div>
             <div class="lg:hidden md:flex">
                 <img src="@/assets/img/menu.png" class="object-cover cursor-pointer" @click="handleMenu">
             </div>
@@ -122,42 +146,19 @@ const handleMenu = () => {
 
 <style>
 header .n-button {
-    --n-ripple-color: rgba(216, 250, 255, .5) !important;
+    --n-ripple-color: #00E4FF !important;
     --n-text-color-hover: black !important;
     --n-text-color-pressed: black !important;
     --n-text-color-focus: black !important;
-    --n-border: 1px solid rgba(216, 250, 255, .5) !important;
-    --n-border-hover: 1px solid rgba(216, 250, 255, .5) !important;
-    --n-border-pressed: 1px solid rgba(216, 250, 255, .5) !important;
-    --n-border-focus: 1px solid rgba(216, 250, 255, .5) !important;
+    --n-border: 1px solid #00E4FF !important;
+    --n-border-hover: 1px solid #00E4FF !important;
+    --n-border-pressed: 1px solid #00E4FF !important;
+    --n-border-focus: 1px solid #00E4FF !important;
     --n-font-size: 18px !important;
     font-weight: 500 !important;
     --n-padding: 0 0 !important;
     margin: 0 1rem;
 
-}
-
-header .logo {
-    position: absolute;
-    bottom: 0%;
-    left: 8%;
-    transform: translate(-50%, -2200%);
-    animation-name: beat;
-    animation-duration: .5s;
-    animation-timing-function: linear;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
-    animation-play-state: running;
-}
-
-@keyframes beat {
-    0% {
-        bottom: 15%;
-    }
-
-    100% {
-        bottom: 18%;
-    }
 }
 
 @media (min-width:1024px) {

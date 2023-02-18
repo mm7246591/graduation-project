@@ -8,8 +8,10 @@ import Footer from "@/layout/Footer.vue";
 <template>
   <Loading />
   <Header />
-  <RouterView />
-  <Footer />
+  <div class="h-[90vh] overflow-y-auto">
+    <RouterView />
+    <Footer />
+  </div>
 </template>
 
 <style scoped></style>
