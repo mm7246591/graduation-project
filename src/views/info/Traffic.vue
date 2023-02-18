@@ -22,8 +22,7 @@ onMounted(() => {
 <template>
     <div class="w-full text-[#58595B] bg-[#F5F5F5]">
         <div class="traffic w-[90vw] flex flex-col justify-center items-center mx-auto py-[2vh]">
-            <div class="my-7 rounded-full px-7 py-2 bg-[#00E4FF] text-[rgba(42,55,82,0.7)] text-3xl sm:text-xl font-bold">
-                交通資訊</div>
+            <div class="my-7 rounded-full px-7 py-2 bg-[#2A3752] text-[#E3F4F7] text-3xl sm:text-xl font-bold">交通資訊</div>
             <div class="section w-full flex sm:flex-col justify-evenly items-center mb-[4vh]">
                 <div class="map">
                     <iframe
@@ -59,18 +58,14 @@ onMounted(() => {
         </div>
         <div class="map relative bg-white">
             <div class="w-[90vw] flex flex-col justify-center items-center mx-auto py-10">
-                <div
-                    class="absolute -top-5 rounded-full px-7 py-2 bg-[#00E4FF] text-[rgba(42,55,82,0.7)] text-3xl sm:text-xl font-bold">
-                    展區導覽圖</div>
+                <div class="absolute -top-5 rounded-full px-7 py-2 bg-[#2A3752] text-[#E3F4F7] text-3xl sm:text-xl font-bold">展區導覽圖</div>
                 <div class="w-full h-[50vh] my-[2vh]">
                     <img src="https://picsum.photos/500/400" class="w-full h-full" alt="">
                 </div>
             </div>
         </div>
-        <div class="warn relative w-[90vw] flex flex-col justify-center items-center mx-auto py-[2vh]">
-            <div
-                class="absolute -top-5 rounded-full px-7 py-2 bg-[#00E4FF] text-[rgba(42,55,82,0.7)] text-3xl sm:text-xl font-bold text-[#58595B]">
-                注意事項</div>
+        <div class="warn mt-6 w-[90vw] flex flex-col justify-center items-center mx-auto py-[2vh]">
+            <div class="rounded-full px-7 py-2 bg-[#2A3752] text-[#E3F4F7] text-3xl sm:text-xl font-bold text-[#58595B]">注意事項</div>
             <div class="section w-full flex sm:flex-col lg:flex-wrap justify-center items-center my-[8vh]">
                 <div v-for="item of items" :key="item.id" class="lg:w-[28vw] flex justify-evenly items-center my-[2vh]">
                     <div class="w-[10vw] sm:w-[20vw]">

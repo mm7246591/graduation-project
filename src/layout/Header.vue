@@ -31,10 +31,6 @@ const works = [
         key: "Interact"
     },
     {
-        label: '動畫影視',
-        key: 'Animation'
-    },
-    {
         label: '行銷',
         key: 'Market'
     },
