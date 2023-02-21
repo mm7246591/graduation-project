@@ -72,7 +72,7 @@ import { groups } from '@/utils/index'
         top: 0%;
         left: 50%;
         transform: translate(-50%, -50%);
-        padding: 1vh 6vw;
+        padding: 1vh 10vw;
         font-weight: 700;
         font-size: 1rem;
         line-height: 1.5rem;

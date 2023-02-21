@@ -85,7 +85,6 @@
     height: 10px;
     border-radius: 100%;
     background-color: #00E4FF;
-    transform: rotate(90deg);
 }
 
 .location ::before {
@@ -97,6 +96,5 @@
     height: 10px;
     border-radius: 50px;
     background-color: #00E4FF;
-    transform: rotate(90deg);
 }
 </style>

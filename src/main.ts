@@ -3,6 +3,8 @@ import App from "./App.vue";
 import { setupRouter, router } from "./router";
 import { setupRouterGuard } from "@/router/guard/index";
 import { setupStore } from "@/stores";
+
+import "@/assets/css/style.css";
 import "@/assets/css/normalize.css";
 import "@/assets/css/tailwind.css";
 import "vant/lib/index.css";

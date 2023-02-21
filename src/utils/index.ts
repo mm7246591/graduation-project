@@ -29,11 +29,13 @@ export const classes=[
     {
         id:"1",
         name:"設計組",
-        text:"著重於多媒體的設計與製作以及資訊傳媒的企劃與應用"
+        group:"c2",
+        text:"著重於多媒體的設計與製作以及"+"\n"+"資訊傳媒的企劃與應用"
     },
     {
         id:"2",
         name:"科技組",
+        group:"c1",
         text:"著重於互動資訊科技之應用"
     }
 ]
@@ -66,12 +68,6 @@ export const sponsors=[
     },
     {
         id:"6",
-        img:"https://fakeimg.pl/300/",
-        name:"test",
-    }
-    ,
-    {
-        id:"7",
         img:"https://fakeimg.pl/300/",
         name:"test",
     }
