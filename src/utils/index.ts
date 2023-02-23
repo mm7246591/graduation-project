@@ -78,13 +78,11 @@ export const contacts=[
         id:"1",
         img:"./src/assets/img/ig.png",
         link:"https://www.instagram.com/hung_dodo0427/",
-        name:"test",
     },
     {
         id:"2",
         img:"./src/assets/img/fb.png",
         link:"https://www.instagram.com/hung_dodo0427/",
-        name:"test",
     },
 ]
 

@@ -125,9 +125,10 @@ const handleMenu = () => {
 <style>
 header .n-button {
     --n-ripple-color: #00E4FF !important;
-    --n-text-color-hover: black !important;
-    --n-text-color-pressed: black !important;
-    --n-text-color-focus: black !important;
+    --n-text-color: #FFFFFF !important;
+    --n-text-color-hover: #FFFFFF !important;
+    --n-text-color-pressed: #FFFFFF !important;
+    --n-text-color-focus: #FFFFFF !important;
     --n-border: 1px solid #00E4FF !important;
     --n-border-hover: 1px solid #00E4FF !important;
     --n-border-pressed: 1px solid #00E4FF !important;
@@ -144,22 +145,11 @@ header .n-button {
 }
 
 @media (min-width:1024px) {
-    header .n-button {
-        position: relative;
-    }
 
-    header .n-button::after {
-        content: "";
-        position: absolute;
-        bottom: 0;
-        width: 0;
-        height: 2px;
-        background-color: #181818;
-        transition: .3s;
-    }
-
-    header .n-button:hover::after {
-        width: 100%;
+    header .n-button:hover {
+        --n-text-color-hover: #2A3752 !important;
+        /* --n-text-color-pressed: #2A3752 !important;
+        --n-text-color-focus: #2A3752 !important; */
     }
 }
 
@@ -170,11 +160,11 @@ header .n-button {
     }
 
     header .n-button {
-        --n-font-size: 16px !important;
+        --n-font-size: 20px !important;
     }
 
     header .van-popup {
-        --van-popup-background: rgba(216, 250, 255);
+        --van-popup-background: #00E4FF;
     }
 }
 </style>

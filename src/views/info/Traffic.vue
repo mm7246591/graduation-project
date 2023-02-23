@@ -30,7 +30,7 @@ onMounted(() => {
                         style="border:0;" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
                         class="lg:w-[40vw] lg:h-[35vh] sm:w-[85vw] sm:h-[50vh]"></iframe>
                 </div>
-                <div class="text text-base my-[2vh] mx-[3vw] px-8">
+                <div class="text text-base my-[2vh] mx-[3vw] px-[3vw]">
                     <div class="address mb-6">
                         <div
                             class="relative text-[#2A3752] font-bold text-base before:content-[''] before:absolute before:top-1.5 before:-left-5 before:w-3 before:h-3 before:rounded-full before:bg-[#00E4FF]">
@@ -42,7 +42,9 @@ onMounted(() => {
                             class="relative text-[#2A3752] font-bold text-base before:content-[''] before:absolute before:top-1.5 before:-left-5 before:w-3 before:h-3 before:rounded-full before:bg-[#00E4FF]">
                             自行前往</div>
                         <div class="my-[1vh] text-sm text-[rgba(42,55,82,0.7)]">
-                            於市民大道及光復南路口，從市民大道於光復南路匝道下，行駛方向由西往東往「菸廠路」駛入100公尺後，右側即可看見「松山文創園區」入口。(園內禁止行車)<br><br>
+                            於市民大道及光復南路口，從市民大道於光復南路匝道下，行駛方向由西往東往「菸廠路」駛入100公尺後，右側即可看見「松山文創園區」入口。(園內禁止行車)
+                            <br>
+                            <br>
                             《停車資訊》：本園區最鄰近之停車場為臺北文創大樓地下收費停車場，可由菸廠路(市民大道、光復南路口)駛入。
                         </div>
                     </div>

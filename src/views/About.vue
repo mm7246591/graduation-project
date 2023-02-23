@@ -11,24 +11,25 @@ const handleToClass = (group: string) => {
 
 <template>
     <div class="w-full bg-[#F5F5F5] py-[2vh]">
-        <div class="img w-[90vw] h-[20vh] mx-auto py-[2vh]">
+        <div class="img w-[85vw] sm:w-[80vw] h-[70vh] sm:h-[20vh] mx-auto py-[2vh]">
             <img src="https://picsum.photos/200/300" class="w-full h-full" />
         </div>
         <div
-            class="list relative w-[90vw] flex flex-col justify-evenly items-center mx-auto my-[4vh] pt-[4vh] text-[#2A3752] bg-[#FFFFFF] rounded-[14px]">
-            <div class="px-[8vw] mt-[2vh] sm:text-base font-bold text-center">
-                本系是全國第一所
+            class="list relative w-[95vw] sm:w-[90vw] flex flex-col justify-evenly items-center mx-auto my-[4vh] lg:pb-[4vh] pt-[4vh] text-[#2A3752] bg-[#FFFFFF] rounded-[35px] sm:rounded-[14px]">
+            <div class="px-[8vw] my-[2vh] text-2xl sm:text-base font-bold text-center">
+                本系是全國第一所以感知設計、傳播媒體、資訊科技三位一體的整合性學系
                 <br>
-                以感知設計、傳播媒體、資訊科技
+                以「互動媒體技術之發展與應用」為主要研究發展方向，
                 <br>
-                三位一體的整合性學系。
+                輔以「數位媒體內容之設計與整合」
             </div>
             <div class="w-full flex sm:flex-col justify-evenly items-center my-[2vh]">
                 <div v-for="item of classes" :key="item.id"
-                    class="sm:w-[75vw] h-[20vh] flex flex-col justify-evenly p-5 mx-[1vw] sm:mb-[2vh] bg-[#E3F4F7] rounded-[8px]">
+                    class="w-[40vw] sm:w-[75vw] h-[20vh] flex flex-col justify-evenly lg:py-[4vh] px-[5vw] sm:px-[8vw] sm:mx-[1vw] sm:mb-[2vh] bg-[#E3F4F7] rounded-[18px] sm:rounded-[8px]">
                     <article class="relative text-2xl sm:text-lg font-bold">{{ item.name }}</article>
-                    <section class="text-lg sm:text-sm text-center whitespace-pre-line">{{ item.text }}</section>
-                    <button class="sm:w-[20vw] px-[5vw] self-end text-lg !text-[#58595B] bg-[white] rounded-[8px]"
+                    <section class="text-lg sm:text-sm whitespace-pre-line">{{ item.text }}</section>
+                    <button
+                        class="w-[6vw] sm:w-[20vw] sm:px-[5vw] self-end text-lg !text-[#58595B] bg-[white] rounded-[8px] !font-['Times_New_Roman']"
                         @click="handleToClass(item.group)">
                         view
                     </button>
@@ -40,10 +41,9 @@ const handleToClass = (group: string) => {
             <div class="w-full flex flex-wrap justify-evenly items-center">
                 <div v-for="sponsor of sponsors" :key="sponsor.id"
                     class="w-[25vw] flex flex-col justify-center items-center my-[2vh]">
-                    <div class="w-[58px]">
+                    <div class="w-[10vw] sm:w-[58px]">
                         <img :src="sponsor.img" class="w-full h-full rounded-full" />
                     </div>
-                    <!-- <div class="text-lg sm:text-base">{{ sponsor.name }}</div> -->
                 </div>
             </div>
         </div>
@@ -52,12 +52,11 @@ const handleToClass = (group: string) => {
             <div class="w-full flex justify-evenly my-[2vh]">
                 <div v-for="contact of contacts" :key="contact.id"
                     class="w-[20vw] flex flex-col justify-center items-center">
-                    <div class="sm:w-[58px]">
+                    <div class="w-[5vw] sm:w-[58px]">
                         <a :href="contact.link">
                             <img :src="contact.img" class="w-full h-full rounded-full" />
                         </a>
                     </div>
-                    <div class="text-lg sm:text-base">{{ contact.name }}</div>
                 </div>
             </div>
         </div>
@@ -71,11 +70,11 @@ const handleToClass = (group: string) => {
     top: 0%;
     left: 50%;
     transform: translate(-50%, -50%);
-    padding: 1vh 10vw;
+    padding: 1.5vh 4vw;
     font-weight: 700;
-    font-size: 1rem;
+    font-size: 1.3rem;
     line-height: 1.5rem;
-    color: #E3F4F7;
+    color: #FFFFFF;
     background-color: #2A3752;
     border-radius: 31.5px;
 }
@@ -84,7 +83,7 @@ const handleToClass = (group: string) => {
     content: "";
     position: absolute;
     top: 25%;
-    left: -5%;
+    left: -6%;
     width: 10px;
     height: 10px;
     border-radius: 50px;
@@ -97,11 +96,11 @@ const handleToClass = (group: string) => {
     top: 0%;
     left: 50%;
     transform: translate(-50%, -50%);
-    padding: 1vh 10vw;
+    padding: 1.5vh 4vw;
     font-weight: 700;
-    font-size: 1rem;
+    font-size: 1.3rem;
     line-height: 1.5rem;
-    color: #E3F4F7;
+    color: #FFFFFF;
     background-color: #2A3752;
     border-radius: 31.5px;
 }
@@ -112,12 +111,27 @@ const handleToClass = (group: string) => {
     top: 0%;
     left: 50%;
     transform: translate(-50%, -50%);
-    padding: 1vh 10vw;
+    padding: 1.5vh 4vw;
     font-weight: 700;
-    font-size: 1rem;
+    font-size: 1.3rem;
     line-height: 1.5rem;
-    color: #E3F4F7;
+    color: #FFFFFF;
     background-color: #2A3752;
     border-radius: 31.5px;
+}
+
+@media (max-width:480px) {
+
+    .list::before,
+    .sponsor::before,
+    .contact::before {
+        padding: 1vh 10vw;
+        font-size: 1rem;
+    }
+
+    .list article::before {
+        left: -8%;
+    }
+
 }
 </style>
