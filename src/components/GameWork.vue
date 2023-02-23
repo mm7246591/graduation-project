@@ -1,4 +1,31 @@
 <script setup lang="ts">
+import { games } from "@/utils/work/index";
+import { onMounted, ref } from "vue";
+import { useRoute } from "vue-router";
+
+const route = useRoute();
+
+interface Item {
+  id: string;
+  group: string;
+  img: string;
+  title: string;
+  studio: string;
+  intro: string;
+  member: string;
+  job: string;
+}
+
+const item = ref<Item | null>(null);
+
+const getData = () => {
+    const id = parseInt(route.params.id[0]) - 1;
+    item.value = games[id];
+};
+
+onMounted(() => {
+    getData();
+});
 </script>
 
 <template>
