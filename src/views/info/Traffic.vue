@@ -28,9 +28,9 @@ onMounted(() => {
                     <iframe
                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1808.4382330023996!2d121.26234785872192!3d24.9703173!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x34681f5490d43fcd%3A0x186eb5a7e52b332b!2z5YWD5pm65aSn5a24!5e0!3m2!1szh-TW!2stw!4v1676200970601!5m2!1szh-TW!2stw"
                         style="border:0;" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
-                        class="lg:w-[40vw] lg:h-[35vh] sm:w-[85vw] sm:h-[50vh]"></iframe>
+                        class="lg:w-[45vw] lg:h-[45vh] sm:w-[85vw] sm:h-[50vh]"></iframe>
                 </div>
-                <div class="text text-base my-[2vh] mx-[3vw] px-[3vw]">
+                <div class="text text-base my-[2vh] mx-[3vw] px-[3vw] lg:mr-0 lg:pr-0">
                     <div class="address mb-6">
                         <div
                             class="relative text-[#2A3752] font-bold text-base before:content-[''] before:absolute before:top-1.5 before:-left-5 before:w-3 before:h-3 before:rounded-full before:bg-[#00E4FF]">
@@ -63,7 +63,7 @@ onMounted(() => {
                 <div
                     class="absolute -top-5 rounded-full px-7 py-2 bg-[#2A3752] text-[#E3F4F7] text-3xl sm:text-xl font-bold">
                     展區導覽圖</div>
-                <div class="w-full h-[50vh] my-[2vh]">
+                <div class="w-full h-[50vh] lg:h-[65vh] my-[2vh]">
                     <img src="https://picsum.photos/500/400" class="w-full h-full" alt="">
                 </div>
             </div>

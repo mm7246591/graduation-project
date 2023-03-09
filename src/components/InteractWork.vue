@@ -1,31 +1,86 @@
 <script setup lang="ts">
+import { interacts } from "@/utils/work/index";
+import { onMounted, ref } from "vue";
+import { useRoute } from "vue-router";
+
+const route = useRoute();
+
+interface Item {
+    id: string;
+    group: string;
+    img: string;
+    title: string;
+    studio: string;
+    intro: string;
+    member: string;
+    job: string;
+}
+
+const items = ref<Item[] | null>(null);
+
+const getData = () => {
+    items.value = interacts.filter(interact => {
+        if (interact.id === route.params.id) {
+            return interact
+        }
+    })
+    console.log(items.value)
+};
+
+onMounted(() => {
+    getData();
+});
 </script>
 
 <template>
-    <div class="p-5 lg:p-10 bg-[rgba(216,250,255,.5)]">
+    <div class="px-6 lg:px-[10vw] py-10 min-h-[90vh] bg-[#F5F5F5]">
         <RouterLink to="/work/interact">&lt&lt 回上一頁</RouterLink>
-        <img src="https://fakeimg.pl/350x200/?text=Fake" class="mt-4 lg:mt-9 mb-9 lg:mb-24 w-full object-contain">
-        <div class="lg:relative mx-5 lg:mx-24 text-[#58595B]">
-            <div class="mb-3 lg:mb-10 font-bold text-2xl lg:text-6xl">作品標題</div>
-            <div class="mb-3 lg:mb-10 text-base">ＯＯＯ工作室</div>
-            <div class="lg:absolute lg:right-0 lg:top-0 mb-3 lg:w-3/5 text-sm">
-                介紹內文介紹內文介紹內文介紹內文介紹內文介紹內文介紹內文
-                介紹內文介紹內文介紹內文介紹內文介紹內文介紹內文介紹內文
-                介紹內文介紹內文介紹內文介紹內文介紹內文介紹內文介紹內文
-                介紹內文介紹內文介紹內文介紹內文介紹內文介紹內文介紹內文
-                介紹內文介紹內文介紹內文介紹內文介紹內文介紹
-            </div>
-            <div class="mb-3 text-xs">
-                團隊成員：<br>
-                <span class="lg:hidden">ＯＯＯ、ＯＯＯ、ＯＯＯ、ＯＯＯ、ＯＯＯ、ＯＯＯ</span>
-                <span class="hidden lg:block">ＯＯＯ、ＯＯＯ、ＯＯＯ<br>ＯＯＯ、ＯＯＯ、ＯＯＯ</span>
+        <div v-for="group of items" :key="group.id">
+            <img :src="group.img" class="mt-4 lg:mt-9 mb-9 lg:mb-24 w-full object-contain">
+            <div class="lg:flex">
+                <div class="mx-5 lg:w-1/3 lg:mx-24 text-[#2A3752]">
+                    <div
+                        class="relative mb-8 lg:flex lg:items-end lg:mb-10 lg:h-28 font-bold text-2xl lg:text-6xl before:content-[''] before:absolute before:bottom-0 before:-left-4 lg:before:-left-8 before:w-1.5 lg:before:w-3.5 before:h-full before:rounded-full before:bg-[#00E4FF]">
+                        {{ group.title }}</div>
+                    <div class="text-sm lg:text-base">
+                        <div
+                            class="relative lg:hidden mb-2.5 text-[#2A3752] font-bold before:content-[''] before:absolute before:top-1.5 before:-left-5 before:w-3 before:h-3 before:rounded-full before:bg-[#00E4FF]">
+                            工作室名</div>
+                        <div class="mb-8 lg:mb-10 lg:text-2xl">{{ group.studio }}</div>
+                        <div
+                            class="relative lg:hidden mb-2.5 text-[#2A3752] font-bold before:content-[''] before:absolute before:top-1.5 before:-left-5 before:w-3 before:h-3 before:rounded-full before:bg-[#00E4FF]">
+                            作品介紹</div>
+                        <div class="lg:hidden mb-8 lg:mb-10">
+                            {{ group.intro }}</div>
+                        <div
+                            class="relative lg:hidden mb-2.5 text-[#2A3752] font-bold before:content-[''] before:absolute before:top-1.5 before:-left-5 before:w-3 before:h-3 before:rounded-full before:bg-[#00E4FF]">
+                            團隊成員</div>
+                        <div class="hidden lg:inline-flex">團隊成員:<br><br></div>
+                        <div class="mb-8 lg:mb-10 lg:w-[12rem]">{{ group.member }}</div>
+                        <div
+                            class="relative lg:hidden mb-2.5 text-[#2A3752] font-bold before:content-[''] before:absolute before:top-1.5 before:-left-5 before:w-3 before:h-3 before:rounded-full before:bg-[#00E4FF]">
+                            組內分工</div>
+                        <div class="lg:hidden">
+                            {{ group.job }}
+                        </div>
+                    </div>
+                </div>
+                <div class="hidden lg:flex flex-col w-2/3 text-base">
+                    <div
+                        class="relative mb-2.5 text-[#2A3752] font-bold before:content-[''] before:absolute before:top-1.5 before:-left-5 before:w-3 before:h-3 before:rounded-full before:bg-[#00E4FF]">
+                        作品介紹</div>
+                    <div class="mb-8 lg:mb-10">
+                        {{ group.intro }}</div>
+                    <div
+                        class="relative mb-2.5 text-[#2A3752] font-bold before:content-[''] before:absolute before:top-1.5 before:-left-5 before:w-3 before:h-3 before:rounded-full before:bg-[#00E4FF]">
+                        組內分工</div>
+                    <div>
+                        {{ group.job }}
+                    </div>
+                </div>
             </div>
         </div>
     </div>
 </template>
 
-
-
-<style scoped>
-
-</style>
+<style scoped></style>

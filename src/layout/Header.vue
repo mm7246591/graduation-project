@@ -78,7 +78,7 @@ const handleMenu = () => {
     <header class="w-full sticky top-0 z-10 bg-[#00E4FF]">
         <div class="w-[90vw] h-[10vh] flex justify-between items-center mx-auto">
             <div class="lg:w-[100px] sm:w-[64px] cursor-pointer" @click="handleToHome">
-                <img src="../assets/img/logo.png" class="object-cover" alt="">
+                <img src="../assets/img/logo.png" class="h-[9vh] object-cover" alt="">
             </div>
             <div class="lg:hidden md:flex">
                 <img src="@/assets/img/menu.png" class="object-cover cursor-pointer" @click="handleMenu">

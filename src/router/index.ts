@@ -17,6 +17,11 @@ const routes = [
     component: () => import("@/views/info/Film.vue"),
   },
   {
+    path: "/intro/film/:id",
+    name: "FilmWork",
+    component: () => import("@/components/FilmWork.vue"),
+  },
+  {
     path: "/intro/point",
     name: "Point",
     component: () => import("@/views/info/Point.vue"),
