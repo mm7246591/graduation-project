@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { games } from "@/utils/work/index";
+import { videos } from "@/utils/info/index";
 import { onMounted, ref } from "vue";
 import { useRoute } from "vue-router";
 
@@ -19,9 +19,9 @@ interface Item {
 const items = ref<Item[] | null>(null);
 
 const getData = () => {
-    items.value = games.filter(game => {
-        if (game.id === route.params.id) {
-            return game
+    items.value = videos.filter(video => {
+        if (video.id === route.params.id) {
+            return video
         }
     })
     console.log(items.value)
@@ -34,7 +34,7 @@ onMounted(() => {
 
 <template>
     <div class="px-6 lg:px-[10vw] py-10 min-h-[90vh] bg-[#F5F5F5]">
-        <RouterLink to="/work/game">&lt&lt 回上一頁</RouterLink>
+        <RouterLink to="/intro/film">&lt&lt 回上一頁</RouterLink>
         <div v-for="group of items" :key="group.id">
             <img :src="group.img" class="mt-4 lg:mt-9 mb-9 lg:mb-24 w-full object-contain">
             <div class="lg:flex">
