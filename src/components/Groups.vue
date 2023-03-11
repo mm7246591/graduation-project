@@ -17,7 +17,7 @@ const handleToWork = (id: string) => {
 interface Item {
   id: string;
   group: string
-  img: string;
+  poster: string;
   title: string;
 }
 
@@ -39,7 +39,7 @@ onMounted(() => {
   <div class="px-10 lg:px-[10vw] pt-8 lg:pt-28 min-h-[90vh] bg-[#F5F5F5]">
     <div v-for="item of items" :key="item.id" class="flex flex-col lg:flex-row lg:justify-between pb-8 lg:pb-20 w-full">
       <div class="self-end lg:hidden text-[#2A3752] text-sm font-bold">{{ item.group }}</div>
-      <img :src="item.img" class="w-full lg:w-[56vw] object-contain">
+      <img :src="item.poster" class="w-full lg:w-[56vw] object-contain">
       <div class="flex justify-between lg:flex-col lg:items-end">
         <div class="hidden lg:block text-end text-xl">{{ item.group }}</div>
         <div class="flex lg:flex-col lg:grow justify-between lg:justify-end lg:items-end w-full">

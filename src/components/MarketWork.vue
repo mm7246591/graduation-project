@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { markets } from "@/utils/work/index";
+import { Swipe, SwipeItem } from 'vant';
 import { onMounted, ref } from "vue";
 import { useRoute } from "vue-router";
 
@@ -8,7 +9,8 @@ const route = useRoute();
 interface Item {
     id: string;
     group: string;
-    img: string;
+    poster: string;
+    imgs: string[],
     title: string;
     studio: string;
     intro: string;
@@ -36,7 +38,11 @@ onMounted(() => {
     <div class="px-6 lg:px-[10vw] py-10 min-h-[90vh] bg-[#F5F5F5]">
         <RouterLink to="/work/market">&lt&lt 回上一頁</RouterLink>
         <div v-for="group of items" :key="group.id">
-            <img :src="group.img" class="mt-4 lg:mt-9 mb-9 lg:mb-24 w-full object-contain">
+            <Swipe class="mt-4 lg:mt-9 mb-9 lg:mb-24 w-full" indicator-color="white" :autoplay="3000">
+                <SwipeItem v-for="image in group.imgs">
+                    <img :src="image" class="w-full object-contain">
+                </SwipeItem>
+            </Swipe>
             <div class="lg:flex">
                 <div class="mx-5 lg:w-1/3 lg:mx-24 text-[#2A3752]">
                     <div
