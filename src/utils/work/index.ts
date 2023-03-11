@@ -2,7 +2,13 @@ export const games = [
   {
     id: "1",
     group: "遊戲組",
-    img: "/src/assets/img/poster-sample.png",
+    poster: "/src/assets/img/poster-sample.png",
+    imgs: [
+      "https://fakeimg.pl/350x200/?text=1",
+      "https://fakeimg.pl/350x200/?text=2",
+      "https://fakeimg.pl/350x200/?text=3",
+      "https://fakeimg.pl/350x200/?text=4"
+    ],
     title: "遊戲1",
     studio: "xx工作室",
     intro:
@@ -24,7 +30,13 @@ export const games = [
   {
     id: "2",
     group: "遊戲組",
-    img: "/src/assets/img/poster-sample.png",
+    poster: "/src/assets/img/poster-sample.png",
+    imgs: [
+      "https://fakeimg.pl/350x200/?text=1",
+      "https://fakeimg.pl/350x200/?text=2",
+      "https://fakeimg.pl/350x200/?text=3",
+      "https://fakeimg.pl/350x200/?text=4"
+    ],
     title: "遊戲2",
     studio: "xx工作室",
     intro:
@@ -46,7 +58,13 @@ export const games = [
   {
     id: "3",
     group: "遊戲組",
-    img: "/src/assets/img/poster-sample.png",
+    poster: "/src/assets/img/poster-sample.png",
+    imgs: [
+      "https://fakeimg.pl/350x200/?text=1",
+      "https://fakeimg.pl/350x200/?text=2",
+      "https://fakeimg.pl/350x200/?text=3",
+      "https://fakeimg.pl/350x200/?text=4"
+    ],
     title: "遊戲3",
     studio: "xx工作室",
     intro:
@@ -71,7 +89,13 @@ export const interacts = [
   {
     id: "1",
     group: "互動組",
-    img: "/src/assets/img/poster-sample.png",
+    poster: "/src/assets/img/poster-sample.png",
+    imgs: [
+      "https://fakeimg.pl/350x200/?text=1",
+      "https://fakeimg.pl/350x200/?text=2",
+      "https://fakeimg.pl/350x200/?text=3",
+      "https://fakeimg.pl/350x200/?text=4"
+    ],
     title: "互動1",
     studio: "xx工作室",
     intro:
@@ -93,7 +117,13 @@ export const interacts = [
   {
     id: "2",
     group: "互動組",
-    img: "/src/assets/img/poster-sample.png",
+    poster: "/src/assets/img/poster-sample.png",
+    imgs: [
+      "https://fakeimg.pl/350x200/?text=1",
+      "https://fakeimg.pl/350x200/?text=2",
+      "https://fakeimg.pl/350x200/?text=3",
+      "https://fakeimg.pl/350x200/?text=4"
+    ],
     title: "互動2",
     studio: "xx工作室",
     intro:
@@ -115,7 +145,13 @@ export const interacts = [
   {
     id: "3",
     group: "互動組",
-    img: "/src/assets/img/poster-sample.png",
+    poster: "/src/assets/img/poster-sample.png",
+    imgs: [
+      "https://fakeimg.pl/350x200/?text=1",
+      "https://fakeimg.pl/350x200/?text=2",
+      "https://fakeimg.pl/350x200/?text=3",
+      "https://fakeimg.pl/350x200/?text=4"
+    ],
     title: "互動3",
     studio: "xx工作室",
     intro:
@@ -140,7 +176,13 @@ export const markets = [
   {
     id: "1",
     group: "行銷組",
-    img: "/src/assets/img/poster-sample.png",
+    poster: "/src/assets/img/poster-sample.png",
+    imgs: [
+      "https://fakeimg.pl/350x200/?text=1",
+      "https://fakeimg.pl/350x200/?text=2",
+      "https://fakeimg.pl/350x200/?text=3",
+      "https://fakeimg.pl/350x200/?text=4"
+    ],
     title: "行銷1",
     studio: "xx工作室",
     intro:
@@ -162,7 +204,13 @@ export const markets = [
   {
     id: "2",
     group: "行銷組",
-    img: "/src/assets/img/poster-sample.png",
+    poster: "/src/assets/img/poster-sample.png",
+    imgs: [
+      "https://fakeimg.pl/350x200/?text=1",
+      "https://fakeimg.pl/350x200/?text=2",
+      "https://fakeimg.pl/350x200/?text=3",
+      "https://fakeimg.pl/350x200/?text=4"
+    ],
     title: "行銷2",
     studio: "xx工作室",
     intro:
@@ -184,7 +232,13 @@ export const markets = [
   {
     id: "3",
     group: "行銷組",
-    img: "/src/assets/img/poster-sample.png",
+    poster: "/src/assets/img/poster-sample.png",
+    imgs: [
+      "https://fakeimg.pl/350x200/?text=1",
+      "https://fakeimg.pl/350x200/?text=2",
+      "https://fakeimg.pl/350x200/?text=3",
+      "https://fakeimg.pl/350x200/?text=4"
+    ],
     title: "行銷3",
     studio: "xx工作室",
     intro:

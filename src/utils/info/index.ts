@@ -30,8 +30,14 @@ export const videos=[
     {
         id: "1",
         group: "影視組",
-        img: "/src/assets/img/poster-sample.png",
-        img_mobile:"/src/assets/img/film-sample.png",
+        poster: "/src/assets/img/poster-sample.png",
+        poster_mobile:"/src/assets/img/film-sample.png",
+        imgs: [
+        "https://fakeimg.pl/350x200/?text=1",
+        "https://fakeimg.pl/350x200/?text=2",
+        "https://fakeimg.pl/350x200/?text=3",
+        "https://fakeimg.pl/350x200/?text=4"
+        ],
         title: "影視1",
         studio: "xx工作室",
         intro:
@@ -53,8 +59,14 @@ export const videos=[
     {
         id: "2",
         group: "影視組",
-        img: "/src/assets/img/poster-sample.png",
-        img_mobile:"/src/assets/img/film-sample.png",
+        poster: "/src/assets/img/poster-sample.png",
+        poster_mobile:"/src/assets/img/film-sample.png",
+        imgs: [
+        "https://fakeimg.pl/350x200/?text=1",
+        "https://fakeimg.pl/350x200/?text=2",
+        "https://fakeimg.pl/350x200/?text=3",
+        "https://fakeimg.pl/350x200/?text=4"
+        ],
         title: "影視2",
         studio: "xx工作室",
         intro:
@@ -76,8 +88,14 @@ export const videos=[
     {
         id: "3",
         group: "影視組",
-        img: "/src/assets/img/poster-sample.png",
-        img_mobile:"/src/assets/img/film-sample.png",
+        poster: "/src/assets/img/poster-sample.png",
+        poster_mobile:"/src/assets/img/film-sample.png",
+        imgs: [
+        "https://fakeimg.pl/350x200/?text=1",
+        "https://fakeimg.pl/350x200/?text=2",
+        "https://fakeimg.pl/350x200/?text=3",
+        "https://fakeimg.pl/350x200/?text=4"
+        ],
         title: "影視3",
         studio: "xx工作室",
         intro:
@@ -99,8 +117,14 @@ export const videos=[
     {
         id: "4",
         group: "影視組",
-        img: "/src/assets/img/poster-sample.png",
-        img_mobile:"/src/assets/img/film-sample.png",
+        poster: "/src/assets/img/poster-sample.png",
+        poster_mobile:"/src/assets/img/film-sample.png",
+        imgs: [
+        "https://fakeimg.pl/350x200/?text=1",
+        "https://fakeimg.pl/350x200/?text=2",
+        "https://fakeimg.pl/350x200/?text=3",
+        "https://fakeimg.pl/350x200/?text=4"
+        ],
         title: "影視4",
         studio: "xx工作室",
         intro:
