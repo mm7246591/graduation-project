@@ -5,7 +5,7 @@ import { groups } from '@/utils/index'
 <template>
     <div class="w-full bg-[#F5F5F5] text-[#2A3752]">
         <div class="flex justify-center items-center">
-            <img src="@/assets/img/Kanban.png" class="w-full object-cover">
+            <img src="/img/Kanban.png" class="w-full object-cover">
         </div>
         <div class="intro flex flex-col justify-center py-[4vh] mx-auto">
             <div class="w-[90vw] mx-auto">

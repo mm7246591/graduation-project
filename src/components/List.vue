@@ -71,11 +71,11 @@ onMounted(() => {
                         </div>
                         <div class="flex flex-col mt-[1vh]">
                             <div class="flex">
-                                <div class="w-[23px] object-cover"><img src="../assets/img/email.png" alt=""></div>
+                                <div class="w-[23px] object-cover"><img src="/img/email.png" alt=""></div>
                                 <div class="w-[20vw] text-sm ml-[1vw]">{{ select.mail }}</div>
                             </div>
                             <div class="flex">
-                                <div class="w-[23px] object-cover"><img src="../assets/img/portfolio.png" alt=""></div>
+                                <div class="w-[23px] object-cover"><img src="/img/portfolio.png" alt=""></div>
                                 <div class="w-[20vw] text-sm mx-[1vw]">{{ select.profile }}</div>
                             </div>
                         </div>

@@ -2,9 +2,9 @@ export const games = [
   {
     id: "1",
     group: "遊戲組",
-    poster: "/src/assets/img/works/game/1.jpg",
+    poster: "/works/game/1.jpg",
     imgs: [
-      "/src/assets/img/works/game/1.jpg",
+      "/works/game/1.jpg",
       "https://fakeimg.pl/350x200/?text=1",
       "https://fakeimg.pl/350x200/?text=2",
       "https://fakeimg.pl/350x200/?text=3",
@@ -31,9 +31,9 @@ export const games = [
   {
     id: "2",
     group: "遊戲組",
-    poster: "/src/assets/img/works/game/2.png",
+    poster: "/works/game/2.png",
     imgs: [
-      "/src/assets/img/works/game/2.png",
+      "/works/game/2.png",
       "https://fakeimg.pl/350x200",
       "https://fakeimg.pl/350x200/?text=1",
       "https://fakeimg.pl/350x200/?text=2",
@@ -57,9 +57,9 @@ export const games = [
   {
     id: "3",
     group: "遊戲組",
-    poster: "/src/assets/img/works/game/3.jpg",
+    poster: "/works/game/3.jpg",
     imgs: [
-      "/src/assets/img/works/game/3.jpg",
+      "/works/game/3.jpg",
       "https://fakeimg.pl/350x200/?text=1",
       "https://fakeimg.pl/350x200/?text=2",
       "https://fakeimg.pl/350x200/?text=3",
@@ -84,9 +84,9 @@ export const games = [
   {
     id: "4",
     group: "遊戲組",
-    poster: "/src/assets/img/works/game/4.jpg",
+    poster: "/works/game/4.jpg",
     imgs: [
-      "/src/assets/img/works/game/4.jpg",
+      "/works/game/4.jpg",
       "https://fakeimg.pl/350x200/?text=1",
       "https://fakeimg.pl/350x200/?text=2",
       "https://fakeimg.pl/350x200/?text=3",
@@ -110,9 +110,9 @@ export const interacts = [
   {
     id: "1",
     group: "互動組",
-    poster: "/src/assets/img/works/interact/1.jpg",
+    poster: "/works/interact/1.jpg",
     imgs: [
-      "/src/assets/img/works/interact/1.jpg",
+      "/works/interact/1.jpg",
       "https://fakeimg.pl/350x200/?text=1",
       "https://fakeimg.pl/350x200/?text=2",
       "https://fakeimg.pl/350x200/?text=3",
@@ -137,9 +137,9 @@ export const interacts = [
   {
     id: "2",
     group: "互動組",
-    poster: "/src/assets/img/works/interact/2.jpg",
+    poster: "/works/interact/2.jpg",
     imgs: [
-      "/src/assets/img/works/interact/2.jpg",
+      "/works/interact/2.jpg",
       "https://fakeimg.pl/350x200/?text=1",
       "https://fakeimg.pl/350x200/?text=2",
       "https://fakeimg.pl/350x200/?text=3",
@@ -166,9 +166,9 @@ export const interacts = [
   {
     id: "3",
     group: "互動組",
-    poster: "/src/assets/img/works/interact/3.jpg",
+    poster: "/works/interact/3.jpg",
     imgs: [
-      "/src/assets/img/works/interact/3.jpg",
+      "/works/interact/3.jpg",
       "https://fakeimg.pl/350x200/?text=1",
       "https://fakeimg.pl/350x200/?text=2",
       "https://fakeimg.pl/350x200/?text=3",
@@ -195,9 +195,9 @@ export const interacts = [
   {
     id: "4",
     group: "互動組",
-    poster: "/src/assets/img/works/interact/4.jpg",
+    poster: "/works/interact/4.jpg",
     imgs: [
-      "/src/assets/img/works/interact/4.jpg",
+      "/works/interact/4.jpg",
       "https://fakeimg.pl/350x200/?text=1",
       "https://fakeimg.pl/350x200/?text=2",
       "https://fakeimg.pl/350x200/?text=3",
@@ -224,9 +224,9 @@ export const interacts = [
   {
     id: "5",
     group: "互動組",
-    poster: "/src/assets/img/works/interact/5.jpg",
+    poster: "/works/interact/5.jpg",
     imgs: [
-      "/src/assets/img/works/interact/5.jpg",
+      "/works/interact/5.jpg",
       "https://fakeimg.pl/350x200/?text=1",
       "https://fakeimg.pl/350x200/?text=2",
       "https://fakeimg.pl/350x200/?text=3",
@@ -253,9 +253,9 @@ export const interacts = [
   {
     id: "6",
     group: "互動組",
-    poster: "/src/assets/img/works/interact/6.jpg",
+    poster: "/works/interact/6.jpg",
     imgs: [
-      "/src/assets/img/works/interact/6.jpg",
+      "/works/interact/6.jpg",
       "https://fakeimg.pl/350x200/?text=1",
       "https://fakeimg.pl/350x200/?text=2",
       "https://fakeimg.pl/350x200/?text=3",
@@ -282,9 +282,9 @@ export const interacts = [
   {
     id: "7",
     group: "互動組",
-    poster: "/src/assets/img/works/interact/7.jpeg",
+    poster: "/works/interact/7.jpeg",
     imgs: [
-      "/src/assets/img/works/interact/7.jpeg",
+      "/works/interact/7.jpeg",
       "https://fakeimg.pl/350x200/?text=1",
       "https://fakeimg.pl/350x200/?text=2",
       "https://fakeimg.pl/350x200/?text=3",
@@ -311,9 +311,9 @@ export const interacts = [
   {
     id: "8",
     group: "互動組",
-    poster: "/src/assets/img/works/interact/8.jpg",
+    poster: "/works/interact/8.jpg",
     imgs: [
-      "/src/assets/img/works/interact/8.jpg",
+      "/works/interact/8.jpg",
       "https://fakeimg.pl/350x200/?text=1",
       "https://fakeimg.pl/350x200/?text=2",
       "https://fakeimg.pl/350x200/?text=3",
@@ -338,9 +338,9 @@ export const interacts = [
   {
     id: "9",
     group: "互動組",
-    poster: "/src/assets/img/works/interact/9.jpg",
+    poster: "/works/interact/9.jpg",
     imgs: [
-      "/src/assets/img/works/interact/9.jpg",
+      "/works/interact/9.jpg",
       "https://fakeimg.pl/350x200/?text=1",
       "https://fakeimg.pl/350x200/?text=2",
       "https://fakeimg.pl/350x200/?text=3",
@@ -367,9 +367,9 @@ export const interacts = [
   {
     id: "10",
     group: "互動組",
-    poster: "/src/assets/img/works/interact/10.png",
+    poster: "/works/interact/10.png",
     imgs: [
-      "/src/assets/img/works/interact/10.png",
+      "/works/interact/10.png",
       "https://fakeimg.pl/350x200/?text=1",
       "https://fakeimg.pl/350x200/?text=2",
       "https://fakeimg.pl/350x200/?text=3",
@@ -396,9 +396,9 @@ export const interacts = [
   {
     id: "11",
     group: "互動組",
-    poster: "/src/assets/img/works/interact/11.jpg",
+    poster: "/works/interact/11.jpg",
     imgs: [
-      "/src/assets/img/works/interact/11.jpg",
+      "/works/interact/11.jpg",
       "https://fakeimg.pl/350x200/?text=1",
       "https://fakeimg.pl/350x200/?text=2",
       "https://fakeimg.pl/350x200/?text=3",
@@ -426,9 +426,9 @@ export const markets = [
   {
     id: "1",
     group: "行銷組",
-    poster: "/src/assets/img/works/market/1.jpg",
+    poster: "/works/market/1.jpg",
     imgs: [
-      "/src/assets/img/works/market/1.jpg",
+      "/works/market/1.jpg",
       "https://fakeimg.pl/350x200/?text=1",
       "https://fakeimg.pl/350x200/?text=2",
       "https://fakeimg.pl/350x200/?text=3",
@@ -458,7 +458,7 @@ export const researches = [
   {
     id: "1",
     group: "大專生研究計畫",
-    poster: "/src/assets/img/works/research/1.png",
+    poster: "/works/research/1.png",
     imgs: [
       "https://fakeimg.pl/350x200/?text=1",
       "https://fakeimg.pl/350x200/?text=2",
@@ -476,7 +476,7 @@ export const researches = [
   {
     id: "2",
     group: "大專生研究計畫",
-    poster: "/src/assets/img/works/research/2.jpg",
+    poster: "/works/research/2.jpg",
     imgs: [
       "https://fakeimg.pl/350x200/?text=1",
       "https://fakeimg.pl/350x200/?text=2",

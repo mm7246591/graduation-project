@@ -1,27 +1,27 @@
 export const warns=[
     {
         id:"1",
-        img:"/src/assets/img/mask.png",
+        img:"/img/mask.png",
         text:"配戴口罩"        
     },
     {
         id:"2",
-        img:"/src/assets/img/smoke.png",
+        img:"/img/smoke.png",
         text:"禁止吸菸"        
     },
     {
         id:"3",
-        img:"/src/assets/img/dangerous.png",
+        img:"/img/dangerous.png",
         text:"禁止危險物品"        
     },
     {
         id:"4",
-        img:"/src/assets/img/trash.png",
+        img:"/img/trash.png",
         text:"請勿亂丟垃圾"        
     },
     {
         id:"5",
-        img:"/src/assets/img/running.png",
+        img:"/img/running.png",
         text:"請勿奔跑、喧嘩"        
     }
 ]
@@ -30,10 +30,10 @@ export const videos=[
     {
         id: "1",
         group: "影視組",
-        poster: "/src/assets/img/works/film/1.jpg",
-        poster_mobile:"/src/assets/img/works/film/1-mobile.jpg",
+        poster: "/img/works/film/1.jpg",
+        poster_mobile:"/img/works/film/1-mobile.jpg",
         imgs: [
-            "/src/assets/img/works/film/1.jpg",
+            "/img/works/film/1.jpg",
             "https://fakeimg.pl/350x200/?text=1",
             "https://fakeimg.pl/350x200/?text=2",
             "https://fakeimg.pl/350x200/?text=3",
@@ -58,10 +58,10 @@ export const videos=[
     {
         id: "2",
         group: "影視組",
-        poster: "/src/assets/img/works/film/2.jpeg",
-        poster_mobile:"/src/assets/img/works/film/2-mobile.jpg",
+        poster: "/img/works/film/2.jpeg",
+        poster_mobile:"/img/works/film/2-mobile.jpg",
         imgs: [
-            "/src/assets/img/works/film/2.jpeg",
+            "/img/works/film/2.jpeg",
             "https://fakeimg.pl/350x200/?text=1",
             "https://fakeimg.pl/350x200/?text=2",
             "https://fakeimg.pl/350x200/?text=3",
@@ -88,10 +88,10 @@ export const videos=[
     {
         id: "3",
         group: "影視組",
-        poster: "/src/assets/img/works/film/3.png",
-        poster_mobile:"/src/assets/img/works/film/3-mobile.jpg",
+        poster: "/img/works/film/3.png",
+        poster_mobile:"/img/works/film/3-mobile.jpg",
         imgs: [
-            "/src/assets/img/works/film/3.png",
+            "/img/works/film/3.png",
             "https://fakeimg.pl/350x200/?text=1",
             "https://fakeimg.pl/350x200/?text=2",
             "https://fakeimg.pl/350x200/?text=3",
@@ -118,10 +118,10 @@ export const videos=[
     {
         id: "4",
         group: "影視組",
-        poster: "/src/assets/img/works/film/4.jpg",
-        poster_mobile:"/src/assets/img/works/film/4-mobile.jpg",
+        poster: "/img/works/film/4.jpg",
+        poster_mobile:"/img/works/film/4-mobile.jpg",
         imgs: [
-            "/src/assets/img/works/film/4.jpg",
+            "/img/works/film/4.jpg",
             "https://fakeimg.pl/350x200/?text=1",
             "https://fakeimg.pl/350x200/?text=2",
             "https://fakeimg.pl/350x200/?text=3",
