@@ -53,19 +53,6 @@ const routes = [
     component: () => import("@/components/InteractWork.vue"),
   },
   {
-    path: "/work/animation",
-    name: "Animation",
-    meta:{
-      group:"animation"
-    },
-    component: () => import("@/views/work/Animation.vue"),
-  },
-  {
-    path: "/work/animation/:id",
-    name: "AnimationWork",
-    component: () => import("@/components/AnimationWork.vue"),
-  },
-  {
     path: "/work/market",
     name: "Market",
     meta:{
