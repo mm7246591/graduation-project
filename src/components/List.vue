@@ -5,18 +5,27 @@ import { useRoute } from 'vue-router';
 import { NModal, NCard } from 'naive-ui';
 
 interface Item {
-    id: string,
-    img: string,
+    id: string
+    img: string
     name: string
+    mail: string
+    profile: string
+    experience: string[]
+    skill: string[]
 }
 
 const route = useRoute()
 const items = ref<Item[] | null>(null)
+const selectItem = ref<Item[]>()
 const routeName = ref<any>("")
 const show = ref<boolean>(false)
 
+const handleSelect = (id: string) => {
+    show.value = !show.value
+    selectItem.value = items.value?.filter(item => item.id === id)
+}
+
 onMounted(() => {
-    console.log(route.params.name)
     if (route.params.name === 'c1') {
         items.value = C1
         routeName.value = '科技組'
@@ -38,35 +47,36 @@ onMounted(() => {
                 <div v-for="item of items" :key="item.id"
                     class="w-[10vw] sm:w-[25vw] flex flex-col justify-center items-center mx-[1vw] my-[2vh] bg-[#E3F4F7]">
                     <div class="w-[5vw] sm:w-[20vw] mx-auto my-[2vh]">
-                        <img :src="item.img" class="w-full h-full rounded-full" />
+                        <img :src="item.img" class="w-full h-full rounded-full object-contain" />
                     </div>
                     <div class="text-lg font-bold">
                         {{ item.name }}
                     </div>
-                    <button class="w-[5vw] sm:w-[15vw] text-base my-[2vh] bg-[white]" @click="show = true">view</button>
+                    <button class="w-[5vw] sm:w-[15vw] text-base my-[2vh] bg-[white] !font-['Times_New_Roman']"
+                        @click="handleSelect(item.id)">view</button>
                 </div>
             </div>
         </div>
         <NModal v-model:show="show">
             <NCard class="lg:w-[50vw] sm:w-[90vw]" :bordered="false" size="huge" role="card" aria-modal="true">
-                <div class="flex justify-center">
+                <div v-for="select of selectItem" :key="select.id" class="flex justify-center">
                     <div class="w-full flex flex-col justify-around items-center mx-[2vw]">
                         <div class="flex flex-col items-center">
-                            <div class="w-[8vw] sm:w-[20vw]">
-                                <img src="https://fakeimg.pl/300/" class="w-full h-full rounded-full">
+                            <div class="w-[10vw] sm:w-[20vw]">
+                                <img :src="select.img" class="w-full h-full rounded-full object-contain">
                             </div>
                             <div class="flex flex-col justify-center items-center mt-[1vh]">
-                                <div class="text-lg sm:text-lg font-bold">李油伯</div>
+                                <div class="text-lg sm:text-lg font-bold">{{ select.name }}</div>
                             </div>
                         </div>
                         <div class="flex flex-col mt-[1vh]">
                             <div class="flex">
                                 <div class="w-[23px] object-cover"><img src="../assets/img/email.png" alt=""></div>
-                                <div class="text-sm ml-[1vw]">s108xxxx@mail.yzu.edu.tw</div>
+                                <div class="w-[20vw] text-sm ml-[1vw]">{{ select.mail }}</div>
                             </div>
                             <div class="flex">
                                 <div class="w-[23px] object-cover"><img src="../assets/img/portfolio.png" alt=""></div>
-                                <div class="text-sm mx-[1vw]">http://www.wwwww.www.w.w</div>
+                                <div class="w-[20vw] text-sm mx-[1vw]">{{ select.profile }}</div>
                             </div>
                         </div>
                     </div>
@@ -76,10 +86,9 @@ onMounted(() => {
                             經歷
                         </div>
                         <div class="sm:w-[32vw] sm:self-center">
-                            <ul class="list-disc text-base sm:text-sm">
-                                <li>xxx公司 塗裝實習生</li>
-                                <li>xxx大專生競賽 佳作</li>
-                                <li>xxx公司 社群小編</li>
+                            <ul v-for="experience of select.experience" :key="experience"
+                                class="list-disc text-base sm:text-sm">
+                                <li>{{ experience }}</li>
                             </ul>
                         </div>
                         <div
@@ -87,10 +96,8 @@ onMounted(() => {
                             專長
                         </div>
                         <div class="sm:w-[32vw] sm:self-center">
-                            <ul class="list-disc text-base sm:text-sm">
-                                <li>前端網頁程式設計</li>
-                                <li>平面設計</li>
-                                <li>Unity</li>
+                            <ul v-for="skill of select.skill" :key="skill" class="list-disc text-base sm:text-sm">
+                                <li>{{ skill }}</li>
                             </ul>
                         </div>
                     </div>
