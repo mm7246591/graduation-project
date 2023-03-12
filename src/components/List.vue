@@ -16,7 +16,6 @@ const routeName = ref<any>("")
 const show = ref<boolean>(false)
 
 onMounted(() => {
-    console.log(route.params.name)
     if (route.params.name === 'c1') {
         items.value = C1
         routeName.value = '科技組'

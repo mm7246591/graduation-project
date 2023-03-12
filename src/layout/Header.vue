@@ -31,7 +31,7 @@ const works = [
         key: "Interact"
     },
     {
-        label: '行銷',
+        label: '行銷&大專生',
         key: 'Market'
     },
 ]
