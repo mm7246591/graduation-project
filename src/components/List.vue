@@ -34,7 +34,7 @@ onMounted(() => {
         </div>
         <div class="relative w-[90vw] flex flex-col justify-center items-center mx-auto mb-[2vh] py-[4vh] bg-[#FFFFFF] rounded-[35px]"
             :class="[routeName === '科技組' ? 'c1' : 'c2']">
-            <div class="w-[60vw] sm:w-[90vw] flex flex-wrap justify-center items-center">
+            <div class="sm:w-[90vw] flex flex-wrap justify-center items-center">
                 <div v-for="item of items" :key="item.id"
                     class="w-[10vw] sm:w-[25vw] flex flex-col justify-center items-center mx-[1vw] my-[2vh] bg-[#E3F4F7]">
                     <div class="w-[5vw] sm:w-[20vw] mx-auto my-[2vh]">
@@ -48,9 +48,9 @@ onMounted(() => {
             </div>
         </div>
         <NModal v-model:show="show">
-            <NCard class="sm:w-[90vw]" :bordered="false" size="huge" role="card" aria-modal="true">
-                <div class="flex">
-                    <div class="w-1/2 flex flex-col justify-around items-center mx-[2vw]">
+            <NCard class="lg:w-[50vw] sm:w-[90vw]" :bordered="false" size="huge" role="card" aria-modal="true">
+                <div class="flex justify-center">
+                    <div class="w-full flex flex-col justify-around items-center mx-[2vw]">
                         <div class="flex flex-col items-center">
                             <div class="w-[8vw] sm:w-[20vw]">
                                 <img src="https://fakeimg.pl/300/" class="w-full h-full rounded-full">
@@ -62,7 +62,7 @@ onMounted(() => {
                         <div class="flex flex-col mt-[1vh]">
                             <div class="flex">
                                 <div class="w-[23px] object-cover"><img src="../assets/img/email.png" alt=""></div>
-                                <div class="text-sm mx-[1vw]">s108xxxx@mail.yzu.edu.tw</div>
+                                <div class="text-sm ml-[1vw]">s108xxxx@mail.yzu.edu.tw</div>
                             </div>
                             <div class="flex">
                                 <div class="w-[23px] object-cover"><img src="../assets/img/portfolio.png" alt=""></div>
@@ -70,12 +70,12 @@ onMounted(() => {
                             </div>
                         </div>
                     </div>
-                    <div class="w-1/2 flex flex-col">
+                    <div class="w-full flex flex-col">
                         <div
-                            class="w-[20vw] sm:text-sm text-center font-bold py-[.5vh] my-[1vh] text-[#E3F4F7] bg-[#2A3752] rounded-[31.5px]">
+                            class="w-[84px] sm:text-sm text-center font-bold py-[.5vh] my-[1vh] text-[#E3F4F7] bg-[#2A3752] rounded-[31.5px]">
                             經歷
                         </div>
-                        <div class="self-center">
+                        <div class="sm:w-[32vw] sm:self-center">
                             <ul class="list-disc text-base sm:text-sm">
                                 <li>xxx公司 塗裝實習生</li>
                                 <li>xxx大專生競賽 佳作</li>
@@ -83,10 +83,10 @@ onMounted(() => {
                             </ul>
                         </div>
                         <div
-                            class="w-[20vw] sm:text-sm text-center font-bold py-[.5vh] my-[1vh] text-[#E3F4F7] bg-[#2A3752] rounded-[31.5px]">
+                            class="w-[84px] sm:text-sm text-center font-bold py-[.5vh] my-[1vh] text-[#E3F4F7] bg-[#2A3752] rounded-[31.5px]">
                             專長
                         </div>
-                        <div class="self-center">
+                        <div class="sm:w-[32vw] sm:self-center">
                             <ul class="list-disc text-base sm:text-sm">
                                 <li>前端網頁程式設計</li>
                                 <li>平面設計</li>
@@ -138,5 +138,15 @@ onMounted(() => {
     color: #E3F4F7;
     background-color: #2A3752;
     border-radius: 31.5px;
+}
+
+@media (min-width:1024px) {
+    .c1::before {
+        padding: 1vh 3vw;
+    }
+
+    .c2::before {
+        padding: 1vh 3vw;
+    }
 }
 </style>
