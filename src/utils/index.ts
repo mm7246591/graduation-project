@@ -3,25 +3,29 @@ export const groups=[
         id:"1",
         img:"/img/market.png",
         name:"行銷組",
-        text:"針對單一主題性的規劃行銷，"+"\n"+"以視覺設計及行銷概念作為展出內容。"
+        text:"針對單一主題性的規劃行銷，"+"\n"+"以視覺設計及行銷概念作為展出內容。",
+        route:"/work/market"
     },
     {
         id:"2",
         img:"/img/animation.png",
         name:"影視組",
-        text:"由動畫短片及劇情短片"+"\n"+"共同舉辦小型的影展輪播。"
+        text:"由動畫短片及劇情短片"+"\n"+"共同舉辦小型的影展輪播。",
+        route:"/intro/film"
     },
     {
         id:"3",
         img:"/img/interact.png",
         name:"互動組",
-        text:"結合程式設計開發互動裝置，"+"\n"+"使觀展人親身參與並體驗其中的樂趣。"        
+        text:"結合程式設計開發互動裝置，"+"\n"+"使觀展人親身參與並體驗其中的樂趣。" ,
+        route:"/work/interact"       
     },
     {
         id:"4",
         img:"/img/game.png",
         name:"遊戲組",
-        text:"除了傳統的 PC遊戲外，"+"\n"+"還會以2D、3D的呈現手法"+"\n"+"製作多元類型的遊戲。"        
+        text:"除了傳統的 PC遊戲外，"+"\n"+"還會以2D、3D的呈現手法"+"\n"+"製作多元類型的遊戲。"  ,
+        route:"/work/game"      
     }
 ]
 
