@@ -32,7 +32,7 @@ const handleToWork = (id: string) => {
             </div>
         </div>
         <div class="relative w-full lg:flex hidden flex-col justify-evenly items-center bg-white rounded-[35px]">
-            <div class="absolute -top-5 rounded-full px-7 py-2 bg-[#2A3752] text-[#E3F4F7] text-3xl sm:text-xl font-bold">
+            <div class="absolute -top-5 rounded-full px-7 py-2 bg-[#2A3752] text-[#fff] text-3xl sm:text-xl font-bold">
                 影視作品</div>
             <div class="w-full flex flex-wrap justify-between items-center px-[5vw] pt-20 pb-16">
                 <div v-for="item of videos" :key="item.id" class="flex flex-col justify-center items-center my-8 w-[40vw]">
@@ -50,7 +50,7 @@ const handleToWork = (id: string) => {
         </div>
         <div
             class="relative rounded-t-[35px] pt-[12vh] flex lg:hidden flex-col justify-evenly items-center w-full bg-white">
-            <div class="absolute -top-5 rounded-full px-7 py-2 bg-[#2A3752] text-[#E3F4F7] text-3xl sm:text-xl font-bold">
+            <div class="absolute -top-5 rounded-full px-7 py-2 bg-[#2A3752] text-[#fff] text-3xl sm:text-xl font-bold">
                 影視作品</div>
             <div v-for="item of videos" :key="item.id" class="flex flex-col lg:flex-row mb-8 w-[55vw]">
                 <img :src="item.poster_mobile" class="w-full object-contain">

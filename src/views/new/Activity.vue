@@ -70,7 +70,7 @@
     transform: translate(-50%, -50%);
     padding: 1.5vh 4vw;
     font-weight: 700;
-    font-size: 1rem;
+    font-size: 1.3rem;
     line-height: 1.5rem;
     color: #FFFFFF;
     background-color: #2A3752;
@@ -86,7 +86,7 @@
     transform: translate(-50%, -50%);
     padding: 1.5vh 4vw;
     font-weight: 700;
-    font-size: 1rem;
+    font-size: 1.3rem;
     line-height: 1.5rem;
     color: #FFFFFF;
     background-color: #2A3752;
