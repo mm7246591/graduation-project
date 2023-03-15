@@ -17,15 +17,15 @@ export const groups=[
         id:"3",
         img:"/img/interact.png",
         name:"互動組",
-        text:"結合程式設計開發互動裝置，"+"\n"+"使觀展人親身參與並體驗其中的樂趣。",
+        text:"結合程式設計開發互動裝置，"+"\n"+"使觀展人親身參與並體驗其中的樂趣。" ,
         route:"/work/interact"       
     },
     {
         id:"4",
         img:"/img/game.png",
         name:"遊戲組",
-        text:"除了傳統的 PC遊戲外，"+"\n"+"還會以2D、3D的呈現手法"+"\n"+"製作多元類型的遊戲。",
-        route:"/work/game"
+        text:"除了傳統的 PC遊戲外，"+"\n"+"還會以2D、3D的呈現手法"+"\n"+"製作多元類型的遊戲。"  ,
+        route:"/work/game
     }
 ]
 
