@@ -23,7 +23,7 @@ const handleToWork = (route: string) => {
                     <br>
                     ——成長TONE
                 </div>
-                <div class="my-[6vh] sm:my-[2vh] px-[2vw] text-2xl sm:text-sm font-medium text-center">
+                <div class="my-[8vh] sm:my-[4vh] px-[2vw] text-2xl sm:text-sm font-medium text-center !leading-7">
                     成長TONE不僅代表每個人的步調不同，
                     <br>
                     也是取「痛」的諧音。

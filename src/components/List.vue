@@ -82,7 +82,7 @@ onMounted(() => {
                     </div>
                     <div class="w-full flex flex-col">
                         <div
-                            class="w-[84px] sm:text-sm text-center font-bold py-[.5vh] my-[1vh] text-[#E3F4F7] bg-[#2A3752] rounded-[31.5px]">
+                            class="w-[84px] sm:text-sm text-center font-bold py-[.5vh] my-[1vh] text-[#fff] bg-[#2A3752] rounded-[31.5px]">
                             經歷
                         </div>
                         <div class="sm:w-[32vw] sm:self-center">
@@ -92,7 +92,7 @@ onMounted(() => {
                             </ul>
                         </div>
                         <div
-                            class="w-[84px] sm:text-sm text-center font-bold py-[.5vh] my-[1vh] text-[#E3F4F7] bg-[#2A3752] rounded-[31.5px]">
+                            class="w-[84px] sm:text-sm text-center font-bold py-[.5vh] my-[1vh] text-[#fff] bg-[#2A3752] rounded-[31.5px]">
                             專長
                         </div>
                         <div class="sm:w-[32vw] sm:self-center">
@@ -127,7 +127,7 @@ onMounted(() => {
     font-weight: 700;
     font-size: 1rem;
     line-height: 1.5rem;
-    color: #E3F4F7;
+    color: white;
     background-color: #2A3752;
     border-radius: 31.5px;
 }
@@ -142,7 +142,7 @@ onMounted(() => {
     font-weight: 700;
     font-size: 1rem;
     line-height: 1.5rem;
-    color: #E3F4F7;
+    color: white;
     background-color: #2A3752;
     border-radius: 31.5px;
 }

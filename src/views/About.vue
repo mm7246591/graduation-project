@@ -16,8 +16,15 @@ const handleToClass = (group: string) => {
         </div>
         <div
             class="list relative w-[95vw] sm:w-[90vw] flex flex-col justify-evenly items-center mx-auto my-[4vh] lg:pb-[4vh] pt-[4vh] text-[#2A3752] bg-[#FFFFFF] rounded-[35px] sm:rounded-[14px]">
-            <div class="px-[8vw] my-[2vh] text-2xl sm:text-base font-bold text-center">
+            <div class="lg:flex sm:hidden px-[8vw] my-[2vh] text-2xl sm:text-base font-bold text-center">
                 本系是全國第一所以感知設計、傳播媒體、資訊科技三位一體的整合性學系
+                <br>
+                以「互動媒體技術之發展與應用」為主要研究發展方向，輔以「數位媒體內容之設計與整合」
+            </div>
+            <div class="lg:hidden sm:flex px-[8vw] my-[2vh] text-base font-bold text-center">
+                本系是全國第一所
+                <br>
+                以感知設計、傳播媒體、資訊科技三位一體的整合性學系，
                 <br>
                 以「互動媒體技術之發展與應用」為主要研究發展方向，
                 <br>
