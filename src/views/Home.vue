@@ -1,5 +1,11 @@
 <script setup lang="ts">
 import { groups } from '@/utils/index'
+import { useRouter } from 'vue-router';
+
+const router = useRouter()
+const handleToWork = (route: string) => {
+    router.push(route)
+}
 </script>
 
 <template>
@@ -45,9 +51,10 @@ import { groups } from '@/utils/index'
                 </div>
                 <div class="w-[90vw] flex sm:flex-col justify-evenly items-center">
                     <div v-for="group of groups" :key="group.id"
-                        class="w-full sm:w-[70vw] flex flex-col justify-center items-center my-[2vh] cursor-pointer">
+                        class="w-full sm:w-[70vw] flex flex-col justify-center items-center my-[2vh] cursor-pointer"
+                        @click="handleToWork(group.route)">
                         <div class="w-[15vw] sm:w-[50vw] lg:my-[2vh] bg-[#FFFFFF] rounded-full">
-                            <img :src="group.img" class="w-full h-full object-contain" />
+                            <img :src="group.img" class="w-full h-full" />
                         </div>
                         <div class="name relative text-xl font-bold my-[1vh] ">
                             {{ group.name }}

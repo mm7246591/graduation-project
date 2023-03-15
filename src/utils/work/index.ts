@@ -460,6 +460,7 @@ export const researches = [
     group: "大專生研究計畫",
     poster: "/works/research/1.png",
     imgs: [
+      "/works/research/1.png",
       "https://fakeimg.pl/350x200/?text=1",
       "https://fakeimg.pl/350x200/?text=2",
       "https://fakeimg.pl/350x200/?text=3",
@@ -478,6 +479,7 @@ export const researches = [
     group: "大專生研究計畫",
     poster: "/works/research/2.jpg",
     imgs: [
+      "/works/research/2.jpg",
       "https://fakeimg.pl/350x200/?text=1",
       "https://fakeimg.pl/350x200/?text=2",
       "https://fakeimg.pl/350x200/?text=3",

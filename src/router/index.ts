@@ -66,6 +66,11 @@ const routes = [
     component: () => import("@/components/MarketWork.vue"),
   },
   {
+    path: "/work/research/:id",
+    name: "ResearchWork",
+    component: () => import("@/components/ResearchWork.vue"),
+  },
+  {
     path: "/news",
     name: "New",
     component: () => import("@/views/new/New.vue"),
