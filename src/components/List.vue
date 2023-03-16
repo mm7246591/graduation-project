@@ -2,7 +2,7 @@
 import { C1, C2 } from '@/utils/index'
 import { onMounted, ref } from 'vue';
 import { useRoute } from 'vue-router';
-import { NModal, NCard } from 'naive-ui';
+import { NModal, NCard, NImage } from 'naive-ui';
 
 interface Item {
     id: string
@@ -47,7 +47,7 @@ onMounted(() => {
                 <div v-for="item of items" :key="item.id"
                     class="w-[10vw] sm:w-[25vw] flex flex-col justify-center items-center mx-[1vw] my-[2vh] bg-[#E3F4F7]">
                     <div class="w-[5vw] sm:w-[20vw] mx-auto my-[2vh]">
-                        <img :src="item.img" class="w-full h-full rounded-full object-contain" />
+                        <NImage :src="item.img" :lazy="true" class="w-full h-full rounded-full object-contain" />
                     </div>
                     <div class="text-lg font-bold">
                         {{ item.name }}
@@ -63,7 +63,7 @@ onMounted(() => {
                     <div class="w-full flex flex-col justify-around items-center mx-[2vw]">
                         <div class="flex flex-col items-center">
                             <div class="w-[10vw] sm:w-[20vw]">
-                                <img :src="select.img" class="w-full h-full rounded-full object-contain">
+                                <NImage :src="select.img" :lazy="true" class="w-full h-full rounded-full object-contain" />
                             </div>
                             <div class="flex flex-col justify-center items-center mt-[1vh]">
                                 <div class="text-lg sm:text-lg font-bold">{{ select.name }}</div>
