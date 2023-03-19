@@ -21,12 +21,16 @@ const handleToClass = (group: string) => {
                 <br>
                 以「互動媒體技術之發展與應用」為主要研究發展方向，輔以「數位媒體內容之設計與整合」
             </div>
-            <div class="lg:hidden sm:flex px-[8vw] my-[2vh] text-base font-bold text-center">
+            <div class="lg:hidden sm:flex px-[8vw] my-8 text-sm text-center">
                 本系是全國第一所
                 <br>
-                以感知設計、傳播媒體、資訊科技三位一體的整合性學系，
+                以感知設計、傳播媒體、資訊科技
                 <br>
-                以「互動媒體技術之發展與應用」為主要研究發展方向，
+                三位一體的整合性學系，
+                <br>
+                以「互動媒體技術之發展與應用」
+                <br>
+                為主要研究發展方向，
                 <br>
                 輔以「數位媒體內容之設計與整合」
             </div>

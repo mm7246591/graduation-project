@@ -118,7 +118,7 @@ export const interacts = [
       "https://fakeimg.pl/350x200/?text=3",
       "https://fakeimg.pl/350x200/?text=4"
     ],
-    title: "5.40E +07",
+    title: "5.4E+7",
     studio: "TA工作室",
     intro:
       "你有想過火星移民計畫時，過程中會發生什麼事呢？  因此我們利用沉浸式互動投影，讓體驗者在我們創造的環境，根據劇情探索火星的旅程，並且利用獵奇的心理和打破第四面牆的模式讓體驗者有新奇的體驗。",

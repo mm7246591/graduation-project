@@ -77,7 +77,7 @@ onMounted(() => {
                                     class="w-[23px] object-cover cursor-pointer mx-[1vw]"><img src="/img/portfolio.png"
                                         alt="">
                                 </a>
-                                <a v-else :href="'' + select.profile"
+                                <a v-else :href="'' + select.profile" target="_blank"
                                     class="w-[23px] object-cover cursor-pointer mx-[1vw]"><img src="/img/portfolio.png"
                                         alt="">
                                 </a>

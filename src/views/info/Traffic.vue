@@ -26,7 +26,7 @@ onMounted(() => {
             <div class="section w-full flex sm:flex-col justify-evenly items-center mb-[4vh]">
                 <div class="map">
                     <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1808.4382330023996!2d121.26234785872192!3d24.9703173!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x34681f5490d43fcd%3A0x186eb5a7e52b332b!2z5YWD5pm65aSn5a24!5e0!3m2!1szh-TW!2stw!4v1676200970601!5m2!1szh-TW!2stw"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3614.712134646466!2d121.55844961475155!3d25.04384144405137!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442abbf23ce4b3b%3A0xc82b0f87ff7df9dc!2z5p2-5bGx5paH5Ym15ZyS5Y2A!5e0!3m2!1szh-TW!2stw!4v1679239063416!5m2!1szh-TW!2stw"
                         style="border:0;" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
                         class="lg:w-[45vw] lg:h-[45vh] sm:w-[85vw] sm:h-[50vh]"></iframe>
                 </div>

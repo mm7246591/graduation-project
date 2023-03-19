@@ -53,13 +53,13 @@ const handleToWork = (id: string) => {
             class="relative rounded-t-[35px] pt-[12vh] flex lg:hidden flex-col justify-evenly items-center w-full bg-white">
             <div class="absolute -top-5 rounded-full px-7 py-2 bg-[#2A3752] text-[#fff] text-3xl sm:text-xl font-bold">
                 影視作品</div>
-            <div v-for="item of videos" :key="item.id" class="flex flex-col lg:flex-row mb-8 w-[55vw]">
+            <div v-for="item of videos" :key="item.id" class="flex flex-col lg:flex-row mb-8 w-[64vw]">
                 <NImage :src="item.poster_mobile" :lazy="true" class="w-full object-contain" />
                 <div class="flex justify-between w-full">
                     <div
                         class="relative mt-3 ml-4 h-fit text-[#2A3752] text-base font-semibold before:content-[''] before:absolute before:bottom-0 before:-left-4 before:w-1.5 before:h-full before:rounded-full before:bg-[#00E4FF]">
                         {{ item.title }}</div>
-                    <div class="cursor-pointer w-24" @click="handleToWork(item.id)">
+                    <div class="cursor-pointer w-20" @click="handleToWork(item.id)">
                         <img src="/img/band-aid.png" alt="">
                     </div>
                 </div>
