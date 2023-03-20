@@ -1,44 +1,48 @@
 <script setup lang="ts"></script>
 
 <template>
-    <div class="w-full bg-[#F5F5F5] text-[#2A3752] lg:pt-[8vh] lg:pb-[4vh] sm:py-[4vh]">
+    <div class="w-full bg-[#F5F5F5] text-[#2A3752] lg:pt-20 lg:pb-12 sm:py-12">
         <div
-            class="QR-Code relative w-[95vw] flex flex-col items-center mx-auto bg-[#FFFFFF] mb-[4vh] rounded-[45px] sm:rounded-[17px]">
-            <div class="sm:w-[85vw] sm:h-[20vh] w-[85vw] h-[70vh] mt-[6vh]">
-                <img src="https://picsum.photos/200/300" class="w-full h-full" />
+            class="QR-Code relative w-[95vw] flex flex-col items-center mx-auto bg-[#FFFFFF] mb-16 lg:mb-20 rounded-[45px] sm:rounded-[17px]">
+            <div class="w-[85vw] mt-12 lg:mt-16">
+                <iframe
+                    src="https://www.youtube.com/embed/GCVCTLVRG8Y"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen
+                    class="w-full aspect-video"
+                ></iframe>
             </div>
-            <div class="w-[75vw] sm:w-[85vw] flex flex-col justify-center mx-auto pt-[2vh]">
+            <div class="w-[75vw] sm:w-[85vw] flex flex-col justify-center mx-auto pt-4 lg:mt-8">
                 <div class="desc relative text-2xl lg:font-bold sm:text-sm">
                     訪談系上同學，影片內容為大學四年學習過程的成長痛以及對出社會的期許。
                 </div>
             </div>
-            <div class="w-[70vw] sm:w-[70vw] flex flex-col justify-center text-xl mx-auto pb-[4vh]">
-                <div class="time relative lg:flex my-[4vh] sm:text-sm">
+            <div class="w-[70vw] sm:w-[70vw] flex flex-col justify-center text-xl mx-auto pb-8 lg:pb-12">
+                <div class="time relative lg:flex my-4 lg:my-8 sm:text-sm">
                     <div class="font-bold">活動時間 :</div>
                     <div class="lg:mx-[1vw]">3/13~ 4/8</div>
                 </div>
-                <div class="location relative lg:flex mt-[1vh] sm:text-sm">
+                <div class="location relative lg:flex sm:text-sm">
                     <div class="font-bold">活動地點 :</div>
                     <div class="lg:mx-[1vw]">五館一樓</div>
                 </div>
             </div>
         </div>
         <div
-            class="leader-board relative w-[95vw] flex flex-col items-center mx-auto bg-[#FFFFFF] lg:mt-[8vh] mt-[4vh] rounded-[45px] sm:rounded-[17px]">
-            <div class="sm:w-[85vw] sm:h-[20vh] w-[85vw] h-[70vh] mt-[6vh]">
+            class="leader-board relative w-[95vw] flex flex-col items-center mx-auto bg-[#FFFFFF] rounded-[45px] sm:rounded-[17px]">
+            <div class="sm:w-[85vw] sm:h-[20vh] w-[85vw] h-[70vh] mt-12 lg:mt-20">
                 <img src="https://picsum.photos/200/300" class="w-full h-full" />
             </div>
-            <div class="w-[75vw] sm:w-[85vw] flex flex-col justify-center mx-auto pt-[2vh]">
-                <div class="desc relative text-2xl lg:font-bold  sm:text-sm">
+            <div class="w-[75vw] sm:w-[85vw] flex flex-col justify-center mx-auto pt-4 lg:pt-8">
+                <div class="desc relative text-2xl lg:font-bold sm:text-sm">
                     各組的代表物作為投票之標記物，觀展人獲得OK 蹦便條紙後，可將便條貼在自己喜歡組別的代表物上，於展覽期間， 票選出三組最佳人氣王。
                 </div>
             </div>
             <div class="w-[70vw] sm:w-[70vw] flex flex-col justify-center text-xl mx-auto pb-[4vh]">
-                <div class="time relative lg:flex my-[4vh] sm:text-sm">
+                <div class="time relative lg:flex my-4 lg:my-8 sm:text-sm">
                     <div class="font-bold">活動時間 :</div>
                     <div class="lg:mx-[1vw]">5/11~ 5/15</div>
                 </div>
-                <div class="location relative lg:flex mt-[1vh] sm:text-sm">
+                <div class="location relative lg:flex sm:text-sm">
                     <div class="font-bold">活動地點 :</div>
                     <div class="lg:mx-[1vw]">松菸南向製菸廠</div>
                 </div>

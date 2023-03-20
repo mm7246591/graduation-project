@@ -74,7 +74,7 @@ onMounted(() => {
           <div
             class="relative flex items-end ml-4 mt-2 lg:mb-8 lg:w-32 h-fit min-h-[32px] lg:min-h-[176px] text-[#2A3752] text-base lg:text-2xl font-semibold lg:whitespace-pre-line before:content-[''] before:absolute before:bottom-0 before:-left-4 lg:before:-left-8 before:w-1.5 lg:before:w-3.5 before:h-full before:rounded-full before:bg-[#00E4FF]">
             {{ item.title }}</div>
-          <div class="cursor-pointer flex items-end w-24 lg:w-40" @click="handleToResearchWork(item.id)">
+          <div class="cursor-pointer flex items-end shrink-0 w-24 lg:w-40" @click="handleToResearchWork(item.id)">
             <img src="/img/band-aid.png" alt="" class="lg:hidden">
             <img src="/img/band-aid-pc.png" alt="" class="hidden lg:block">
           </div>
