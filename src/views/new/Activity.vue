@@ -5,11 +5,9 @@
         <div
             class="QR-Code relative w-[95vw] flex flex-col items-center mx-auto bg-[#FFFFFF] mb-16 lg:mb-20 rounded-[45px] sm:rounded-[17px]">
             <div class="w-[85vw] mt-12 lg:mt-16">
-                <iframe
-                    src="https://www.youtube.com/embed/GCVCTLVRG8Y"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen
-                    class="w-full aspect-video"
-                ></iframe>
+                <iframe src="https://www.youtube.com/embed/GCVCTLVRG8Y"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen class="w-full aspect-video"></iframe>
             </div>
             <div class="w-[75vw] sm:w-[85vw] flex flex-col justify-center mx-auto pt-4 lg:mt-8">
                 <div class="desc relative text-2xl lg:font-bold sm:text-sm">
@@ -114,6 +112,7 @@
     .QR-Code::before,
     .leader-board::before {
         padding: 1vh 10vw;
+        font-size: 1rem;
     }
 
     .time::before,
