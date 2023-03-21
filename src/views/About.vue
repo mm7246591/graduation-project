@@ -15,7 +15,7 @@ const handleToClass = (group: string) => {
             <img src="https://picsum.photos/200/300" class="w-full h-full" />
         </div>
         <div
-            class="list relative w-[95vw] sm:w-[90vw] flex flex-col justify-evenly items-center mx-auto my-[4vh] lg:py-[8vh] pt-[4vh] text-[#2A3752] bg-[#FFFFFF] rounded-[35px] sm:rounded-[14px]">
+            class="list relative w-[95vw] sm:w-[90vw] flex flex-col justify-evenly items-center mx-auto my-12 lg:my-20 lg:pt-12 pb-10 text-[#2A3752] bg-[#FFFFFF] rounded-[35px] sm:rounded-[14px]">
             <div class="lg:flex sm:hidden px-[8vw] my-[2vh] text-2xl sm:text-base font-bold text-center">
                 本系是全國第一所以感知設計、傳播媒體、資訊科技三位一體的整合性學系
                 <br>
@@ -48,7 +48,7 @@ const handleToClass = (group: string) => {
             </div>
         </div>
         <div
-            class="sponsor relative w-[90vw] flex flex-col justify-evenly items-center mx-auto my-[6vh] pt-[4vh] bg-[#FFFFFF] rounded-[14px]">
+            class="sponsor relative w-[90vw] flex flex-col justify-evenly items-center mx-auto my-12 lg:my-20 pt-12 pb-8 bg-[#FFFFFF] rounded-[14px]">
             <div class="w-full flex flex-wrap justify-evenly items-center">
                 <div v-for="sponsor of sponsors" :key="sponsor.id"
                     class="w-[25vw] flex flex-col justify-center items-center my-[2vh]">
@@ -59,7 +59,7 @@ const handleToClass = (group: string) => {
             </div>
         </div>
         <div
-            class="contact relative w-[90vw] flex flex-col justify-evenly items-center mx-auto mb-[2vh] pt-[4vh] bg-[#FFFFFF] rounded-[14px]">
+            class="contact relative w-[90vw] flex flex-col justify-evenly items-center mx-auto mb-10 pt-12 pb-8 bg-[#FFFFFF] rounded-[14px]">
             <div class="w-full flex justify-evenly my-[2vh]">
                 <div v-for="contact of contacts" :key="contact.id"
                     class="w-[20vw] flex flex-col justify-center items-center">
