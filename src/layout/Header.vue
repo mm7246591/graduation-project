@@ -114,7 +114,7 @@ const handleMenu = () => {
             </div>
             <Popup v-model:show="show" position="right" class="w-[45vw] h-full">
                 <div class="sm:flex lg:hidden flex-col justify-evenly py-[2vh]">
-                    <Collapse v-model="activeNames" accordion>
+                    <Collapse v-model="activeNames" accordion :border="false">
                         <CollapseItem title="展覽資訊" name="1" :border="false">
                             <div @click="handleCollpaseItem('Traffic')">實體展覽</div>
                             <div class="my-[1.5vh]" @click="handleCollpaseItem('Film')">影展</div>
@@ -186,7 +186,7 @@ header .n-button {
     header .van-collapse-item__content {
         color: white;
         background-color: #00E4FF !important;
-        font-size: 1.3rem;
+        font-size: 1.1rem;
         margin: 0.5vh 0;
     }
 
