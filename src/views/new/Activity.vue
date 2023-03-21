@@ -3,14 +3,14 @@
 <template>
     <div class="w-full bg-[#F5F5F5] text-[#2A3752] lg:pt-20 lg:pb-12 sm:py-12">
         <div
-            class="QR-Code relative w-[95vw] flex flex-col items-center mx-auto bg-[#FFFFFF] mb-16 lg:mb-20 rounded-[45px] sm:rounded-[17px]">
+            class="video relative w-[95vw] flex flex-col items-center mx-auto bg-[#FFFFFF] mb-16 lg:mb-20 rounded-[45px] sm:rounded-[17px]">
             <div class="w-[85vw] mt-12 lg:mt-16">
                 <iframe src="https://www.youtube.com/embed/GCVCTLVRG8Y"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                     allowfullscreen class="w-full aspect-video"></iframe>
             </div>
             <div class="w-[75vw] sm:w-[85vw] flex flex-col justify-center mx-auto pt-4 lg:mt-8">
-                <div class="desc relative text-2xl lg:font-bold sm:text-sm">
+                <div class="video-desc relative text-2xl lg:font-bold sm:text-sm">
                     訪談系上同學，影片內容為大學四年學習過程的成長痛以及對出社會的期許。
                 </div>
             </div>
@@ -31,7 +31,7 @@
                 <img src="https://picsum.photos/200/300" class="w-full h-full" />
             </div>
             <div class="w-[75vw] sm:w-[85vw] flex flex-col justify-center mx-auto pt-4 lg:pt-8">
-                <div class="desc relative text-2xl lg:font-bold sm:text-sm">
+                <div class="leader-board-desc relative text-2xl lg:font-bold sm:text-sm">
                     各組的代表物作為投票之標記物，觀展人獲得OK 蹦便條紙後，可將便條貼在自己喜歡組別的代表物上，於展覽期間， 票選出三組最佳人氣王。
                 </div>
             </div>
@@ -51,7 +51,7 @@
 
 <style scoped>
 @media (min-width:1024px) {
-    .desc::before {
+    .video-desc::before {
         content: "";
         position: absolute;
         top: 10%;
@@ -62,9 +62,21 @@
         background-color: #00E4FF;
         transform: rotate(90deg);
     }
+
+    .leader-board-desc::before {
+        content: "";
+        position: absolute;
+        top: 50%;
+        left: -5%;
+        width: 50px;
+        height: 9px;
+        border-radius: 14px;
+        background-color: #00E4FF;
+        transform: rotate(90deg);
+    }
 }
 
-.QR-Code::before {
+.video::before {
     content: "宣傳片";
     position: absolute;
     top: 0%;
@@ -109,7 +121,7 @@
 
 @media (max-width:480px) {
 
-    .QR-Code::before,
+    .video::before,
     .leader-board::before {
         padding: 1vh 10vw;
         font-size: 1rem;

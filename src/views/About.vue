@@ -36,9 +36,9 @@ const handleToClass = (group: string) => {
             </div>
             <div class="w-full flex sm:flex-col justify-evenly items-center my-[2vh]">
                 <div v-for="item of classes" :key="item.id"
-                    class="w-[40vw] sm:w-[75vw] flex flex-col justify-evenly lg:py-[4vh] px-[5vw] sm:px-[8vw] sm:mx-[1vw] sm:mb-[2vh] bg-[#E3F4F7] rounded-[18px] sm:rounded-[8px]">
+                    class="w-[40vw] sm:w-[75vw] flex flex-col justify-evenly py-[4vh] px-[5vw] sm:px-[8vw] sm:mx-[1vw] sm:mb-[2vh] bg-[#E3F4F7] rounded-[18px] sm:rounded-[8px]">
                     <article class="relative text-2xl sm:text-lg font-bold">{{ item.name }}</article>
-                    <section class="text-lg sm:text-sm whitespace-pre-line h-[8vh] ">{{ item.text }}</section>
+                    <section class="text-lg sm:text-sm whitespace-pre-line lg:h-[8vh] my-[1vh]">{{ item.text }}</section>
                     <button
                         class="w-[6vw] sm:w-[20vw] sm:px-[5vw] self-end text-lg !text-[#58595B] bg-[white] rounded-[8px] "
                         @click="handleToClass(item.group)">
