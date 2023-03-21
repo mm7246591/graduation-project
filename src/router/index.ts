@@ -22,15 +22,10 @@ const routes = [
     component: () => import("@/components/FilmWork.vue"),
   },
   {
-    path: "/intro/point",
-    name: "Point",
-    component: () => import("@/views/info/Point.vue"),
-  },
-  {
     path: "/work/game",
     name: "Game",
-    meta:{
-      group:"game"
+    meta: {
+      group: "game",
     },
     component: () => import("@/views/work/Game.vue"),
   },
@@ -42,8 +37,8 @@ const routes = [
   {
     path: "/work/interact",
     name: "Interact",
-    meta:{
-      group:"interact"
+    meta: {
+      group: "interact",
     },
     component: () => import("@/views/work/Interact.vue"),
   },
@@ -55,8 +50,8 @@ const routes = [
   {
     path: "/work/market",
     name: "Market",
-    meta:{
-      group:"market"
+    meta: {
+      group: "market",
     },
     component: () => import("@/views/work/Market.vue"),
   },
