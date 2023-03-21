@@ -40,7 +40,7 @@ const handleToClass = (group: string) => {
                     <article class="relative text-2xl sm:text-lg font-bold">{{ item.name }}</article>
                     <section class="text-lg sm:text-sm whitespace-pre-line">{{ item.text }}</section>
                     <button
-                        class="w-[6vw] sm:w-[20vw] sm:px-[5vw] self-end text-lg !text-[#58595B] bg-[white] rounded-[8px] !font-['Times_New_Roman']"
+                        class="w-[6vw] sm:w-[20vw] sm:px-[5vw] self-end text-lg !text-[#58595B] bg-[white] rounded-[8px] "
                         @click="handleToClass(item.group)">
                         view
                     </button>

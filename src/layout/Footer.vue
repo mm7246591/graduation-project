@@ -20,13 +20,13 @@
         </div>
         <div>
             元智大學資訊傳播學系畢業展
-            <span class="!font-['Times_New_Roman']">2023</span>
+            <span>2023</span>
         </div>
     </footer>
 </template>
 
 <style scoped>
-.footer-icon{
+.footer-icon {
     filter: drop-shadow(40px 0 white);
 }
 </style>
