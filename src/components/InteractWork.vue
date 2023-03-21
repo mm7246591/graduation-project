@@ -38,7 +38,7 @@ onMounted(() => {
     <div class="px-6 lg:px-[10vw] py-10 min-h-[90vh] bg-[#F5F5F5]">
         <RouterLink to="/work/interact">&lt&lt 回上一頁</RouterLink>
         <div v-for="group of items" :key="group.id">
-            <NCarousel class="hidden lg:block mt-9 mb-24 w-full" draggable autoplay>
+            <NCarousel class="hidden lg:block mt-9 mb-24 w-full" draggable autoplay show-arrow>
                 <div v-for="image in group.imgs">
                     <img :src="image" class="w-full h-full object-contain">
                 </div>
