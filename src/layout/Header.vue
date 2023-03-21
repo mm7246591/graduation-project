@@ -16,10 +16,6 @@ const infos = [
         label: '影展',
         key: "Film"
     },
-    {
-        label: '線上集章',
-        key: 'Point'
-    },
 ]
 const works = [
     {
