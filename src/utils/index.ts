@@ -80,12 +80,12 @@ export const sponsors=[
 export const contacts=[
     {
         id:"1",
-        img:"/img/ig.png",
+        img:"/img/ig.jpg",
         link:"https://www.instagram.com/hung_dodo0427/",
     },
     {
         id:"2",
-        img:"/img/fb.png",
+        img:"/img/fb.jpg",
         link:"https://www.instagram.com/hung_dodo0427/",
     },
 ]

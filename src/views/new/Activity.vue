@@ -54,7 +54,7 @@
     .desc::before {
         content: "";
         position: absolute;
-        top: 40%;
+        top: 10%;
         left: -5%;
         width: 50px;
         height: 9px;

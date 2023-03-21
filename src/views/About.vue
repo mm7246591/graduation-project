@@ -15,7 +15,7 @@ const handleToClass = (group: string) => {
             <img src="https://picsum.photos/200/300" class="w-full h-full" />
         </div>
         <div
-            class="list relative w-[95vw] sm:w-[90vw] flex flex-col justify-evenly items-center mx-auto my-[4vh] lg:pb-[4vh] pt-[4vh] text-[#2A3752] bg-[#FFFFFF] rounded-[35px] sm:rounded-[14px]">
+            class="list relative w-[95vw] sm:w-[90vw] flex flex-col justify-evenly items-center mx-auto my-[4vh] lg:py-[8vh] pt-[4vh] text-[#2A3752] bg-[#FFFFFF] rounded-[35px] sm:rounded-[14px]">
             <div class="lg:flex sm:hidden px-[8vw] my-[2vh] text-2xl sm:text-base font-bold text-center">
                 本系是全國第一所以感知設計、傳播媒體、資訊科技三位一體的整合性學系
                 <br>
@@ -36,11 +36,11 @@ const handleToClass = (group: string) => {
             </div>
             <div class="w-full flex sm:flex-col justify-evenly items-center my-[2vh]">
                 <div v-for="item of classes" :key="item.id"
-                    class="w-[40vw] sm:w-[75vw] h-[20vh] flex flex-col justify-evenly lg:py-[4vh] px-[5vw] sm:px-[8vw] sm:mx-[1vw] sm:mb-[2vh] bg-[#E3F4F7] rounded-[18px] sm:rounded-[8px]">
+                    class="w-[40vw] sm:w-[75vw] flex flex-col justify-evenly lg:py-[4vh] px-[5vw] sm:px-[8vw] sm:mx-[1vw] sm:mb-[2vh] bg-[#E3F4F7] rounded-[18px] sm:rounded-[8px]">
                     <article class="relative text-2xl sm:text-lg font-bold">{{ item.name }}</article>
-                    <section class="text-lg sm:text-sm whitespace-pre-line">{{ item.text }}</section>
+                    <section class="text-lg sm:text-sm whitespace-pre-line h-[8vh] ">{{ item.text }}</section>
                     <button
-                        class="w-[6vw] sm:w-[20vw] sm:px-[5vw] self-end text-lg !text-[#58595B] bg-[white] rounded-[8px] !font-['Times_New_Roman']"
+                        class="w-[6vw] sm:w-[20vw] sm:px-[5vw] self-end text-lg !text-[#58595B] bg-[white] rounded-[8px] "
                         @click="handleToClass(item.group)">
                         view
                     </button>

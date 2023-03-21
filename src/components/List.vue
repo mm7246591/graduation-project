@@ -45,15 +45,15 @@ onMounted(() => {
             :class="[routeName === '科技組' ? 'c1' : 'c2']">
             <div class="sm:w-[90vw] flex flex-wrap justify-center items-center">
                 <div v-for="item of items" :key="item.id"
-                    class="w-[10vw] sm:w-[25vw] flex flex-col justify-center items-center mx-[1vw] my-[2vh] bg-[#E3F4F7]">
+                    class="w-[10vw] sm:w-[25vw] flex flex-col justify-center items-center mx-[1vw] my-[2vh] bg-[#E3F4F7] cursor-pointer"
+                    @click="handleSelect(item.id)">
                     <div class="w-[5vw] sm:w-[20vw] mx-auto my-[2vh]">
-                        <NImage :src="item.img" :lazy="true" class="w-full h-full rounded-full object-contain" />
+                        <NImage :src="item.img" :lazy="true" preview-disabled
+                            class="w-full h-full rounded-full object-contain" />
                     </div>
-                    <div class="text-lg font-bold">
+                    <div class="text-lg font-bold pb-[1.5vh]">
                         {{ item.name }}
                     </div>
-                    <button class="w-[5vw] sm:w-[15vw] text-base my-[2vh] bg-[white] !font-['Times_New_Roman']"
-                        @click="handleSelect(item.id)">view</button>
                 </div>
             </div>
         </div>
@@ -63,7 +63,8 @@ onMounted(() => {
                     <div class="w-full flex flex-col justify-around items-center mx-[2vw]">
                         <div class="flex flex-col items-center">
                             <div class="w-[10vw] sm:w-[20vw]">
-                                <NImage :src="select.img" :lazy="true" class="w-full h-full rounded-full object-contain" />
+                                <NImage :src="select.img" :lazy="true" preview-disabled
+                                    class="w-full h-full rounded-full object-contain" />
                             </div>
                             <div class="flex flex-col justify-center items-center mt-[1vh]">
                                 <div class="text-lg sm:text-lg font-bold">{{ select.name }}</div>
