@@ -1,6 +1,5 @@
 <script setup lang="ts">
 import { videos } from '@/utils/info';
-import { NImage } from 'naive-ui';
 import { useRouter } from 'vue-router';
 
 const router = useRouter()
@@ -38,7 +37,7 @@ const handleToWork = (id: string) => {
                 影視作品</div>
             <div class="w-full flex flex-wrap justify-between items-center px-[5vw] pt-20 pb-16">
                 <div v-for="item of videos" :key="item.id" class="flex flex-col justify-center items-center my-8 w-[40vw]">
-                    <NImage :src="item.poster" :lazy="true" preview-disabled class="w-full object-contain" />
+                    <img v-lazy="item.poster" class="w-full object-contain" />
                     <div class="flex justify-between mt-2 w-full">
                         <div
                             class="relative flex items-end ml-4 mt-2 h-10 text-[#2A3752] text-base font-semibold before:content-[''] before:absolute before:bottom-0 before:-left-4 before:w-1.5 lg:before:w-2 before:h-full before:rounded-full before:bg-[#00E4FF]">
@@ -56,7 +55,7 @@ const handleToWork = (id: string) => {
                 class="absolute -top-5 rounded-full px-[4vw] sm:px-[10vw] py-[1.5vh] sm:py-[1vh] bg-[#2A3752] text-[#fff] text-xl sm:text-base font-bold">
                 影視作品</div>
             <div v-for="item of videos" :key="item.id" class="flex flex-col lg:flex-row mb-8 w-[64vw]">
-                <NImage :src="item.poster_mobile" :lazy="true" preview-disabled class="w-full object-contain" />
+                <img v-lazy="item.poster_mobile" class="w-full object-contain" />
                 <div class="flex justify-between w-full">
                     <div
                         class="relative mt-3 ml-4 h-fit text-[#2A3752] text-base font-semibold before:content-[''] before:absolute before:bottom-0 before:-left-4 before:w-1.5 before:h-full before:rounded-full before:bg-[#00E4FF]">
