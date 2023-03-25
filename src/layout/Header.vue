@@ -112,18 +112,24 @@ const handleMenu = () => {
                 <div class="sm:flex lg:hidden flex-col justify-evenly py-[2vh]">
                     <Collapse v-model="activeNames" accordion :border="false">
                         <CollapseItem title="展覽資訊" name="1" :border="false">
-                            <div @click="handleCollpaseItem('Traffic')">實體展覽</div>
-                            <div class="my-[1.5vh]" @click="handleCollpaseItem('Film')">影展</div>
-                            <a href="https://yzuiccollectchaters.web.app/">線上集章</a>
+                            <div class="mx-[4vw] !text-base">
+                                <div @click="handleCollpaseItem('Traffic')">實體展覽</div>
+                                <div class="my-[1.5vh]" @click="handleCollpaseItem('Film')">影展</div>
+                                <a href="https://yzuiccollectchaters.web.app/">線上集章</a>
+                            </div>
                         </CollapseItem>
                         <CollapseItem title="展覽作品" name="2" :border="false">
-                            <div @click="handleCollpaseItem('Game')">遊戲</div>
-                            <div class="my-[1.5vh]" @click="handleCollpaseItem('Interact')">互動</div>
-                            <div @click="handleCollpaseItem('Market')">行銷&大專生</div>
+                            <div class="mx-[4vw] !text-base">
+                                <div @click="handleCollpaseItem('Game')">遊戲</div>
+                                <div class="my-[1.5vh]" @click="handleCollpaseItem('Interact')">互動</div>
+                                <div @click="handleCollpaseItem('Market')">行銷&大專生</div>
+                            </div>
                         </CollapseItem>
                         <CollapseItem title="公告" name="3" :border="false">
-                            <div class="mb-[1.5vh]" @click="handleCollpaseItem('New')">一般消息</div>
-                            <div @click="handleCollpaseItem('Activity')">活動快訊</div>
+                            <div class="mx-[4vw] !text-base">
+                                <div class="mb-[1.5vh]" @click="handleCollpaseItem('New')">一般消息</div>
+                                <div @click="handleCollpaseItem('Activity')">活動快訊</div>
+                            </div>
                         </CollapseItem>
                         <CollapseItem title="關於我們" :readonly="true" :border="false" @click="handleCollpaseItem('About')">
                         </CollapseItem>

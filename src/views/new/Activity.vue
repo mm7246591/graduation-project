@@ -28,7 +28,7 @@
         <div
             class="leader-board relative w-[95vw] flex flex-col items-center mx-auto bg-[#FFFFFF] rounded-[45px] sm:rounded-[17px]">
             <div class="sm:w-[85vw] sm:h-[20vh] w-[85vw] h-[70vh] mt-12 lg:mt-20">
-                <img src="https://picsum.photos/200/300" class="w-full h-full" />
+                <img v-lazy="'/img/leader-board.jpg'" class="w-full h-full" />
             </div>
             <div class="w-[75vw] sm:w-[85vw] flex flex-col justify-center mx-auto pt-4 lg:pt-8">
                 <div class="leader-board-desc relative text-2xl lg:font-bold sm:text-sm">
