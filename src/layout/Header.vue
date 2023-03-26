@@ -192,6 +192,7 @@ header .n-button {
         color: white;
         background-color: #00E4FF !important;
         font-size: 1.1rem;
+        --van-cell-vertical-padding: 2vh;
     }
 
     header .van-collapse {
