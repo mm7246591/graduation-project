@@ -4,11 +4,13 @@ export const games = [
     group: "遊戲組",
     poster: "/works/game/1.jpg",
     imgs: [
-      "/works/game/1.jpg",
-      "https://fakeimg.pl/350x200/?text=1",
-      "https://fakeimg.pl/350x200/?text=2",
-      "https://fakeimg.pl/350x200/?text=3",
-      "https://fakeimg.pl/350x200/?text=4"
+      "/works/game/1/古嶺奇譚-主視覺 - 菜.png",
+      "/works/game/1/古嶺奇譚作品圖1 - 菜.png",
+      "/works/game/1/古嶺奇譚作品圖2 - 菜.png",
+      "/works/game/1/古嶺奇譚作品圖3 - 菜.png",
+      "/works/game/1/古嶺奇譚作品圖4 - 菜.png",
+      "/works/game/1/古嶺奇譚作品圖5 - 菜.png",
+      "/works/game/1/古嶺奇譚作品圖6 - 菜.png"
     ],
     title: "古嶺奇譚",
     studio: "無為工作室",
@@ -33,12 +35,12 @@ export const games = [
     group: "遊戲組",
     poster: "/works/game/2.png",
     imgs: [
-      "/works/game/2.png",
-      "https://fakeimg.pl/350x200",
-      "https://fakeimg.pl/350x200/?text=1",
-      "https://fakeimg.pl/350x200/?text=2",
-      "https://fakeimg.pl/350x200/?text=3",
-      "https://fakeimg.pl/350x200/?text=4"
+      "/works/game/2/主視覺 - 摩摩西.png",
+      "/works/game/2/人物設定01_RGB - 摩摩西.png",
+      "/works/game/2/人物設定02 - 摩摩西.png",
+      "/works/game/2/Castle_RGB - 摩摩西.png",
+      "/works/game/2/Forest_RGB - 摩摩西.png",
+      "/works/game/2/Title_RGB - 摩摩西.png"
     ],
     title: "血墨契約",
     studio: "Project Ink",
@@ -59,11 +61,11 @@ export const games = [
     group: "遊戲組",
     poster: "/works/game/3.jpg",
     imgs: [
-      "/works/game/3.jpg",
-      "https://fakeimg.pl/350x200/?text=1",
-      "https://fakeimg.pl/350x200/?text=2",
-      "https://fakeimg.pl/350x200/?text=3",
-      "https://fakeimg.pl/350x200/?text=4"
+      "/works/game/3/主視覺CMYK - 歐嵐.png",
+      "/works/game/3/1 - 歐嵐.png",
+      "/works/game/3/2 - 歐嵐.jpg",
+      "/works/game/3/3 - 歐嵐.png",
+      "/works/game/3/4 - 歐嵐.png"
     ],
     title: "電謝之暝",
     studio: "作息不良工作室",
@@ -86,11 +88,11 @@ export const games = [
     group: "遊戲組",
     poster: "/works/game/4.jpg",
     imgs: [
-      "/works/game/4.jpg",
-      "https://fakeimg.pl/350x200/?text=1",
-      "https://fakeimg.pl/350x200/?text=2",
-      "https://fakeimg.pl/350x200/?text=3",
-      "https://fakeimg.pl/350x200/?text=4"
+      "/works/game/4/Raise-橫(修改後) - phaoo Chen.jpg",
+      "/works/game/4/作品內容1.png",
+      "/works/game/4/作品內容2.png",
+      "/works/game/4/作品內容3.png",
+      "/works/game/4/作品內容4.png"
     ],
     title: "Raise",
     studio: "追影工作室",
@@ -112,11 +114,13 @@ export const interacts = [
     group: "互動組",
     poster: "/works/interact/1.jpg",
     imgs: [
-      "/works/interact/1.jpg",
-      "https://fakeimg.pl/350x200/?text=1",
-      "https://fakeimg.pl/350x200/?text=2",
-      "https://fakeimg.pl/350x200/?text=3",
-      "https://fakeimg.pl/350x200/?text=4"
+      "/works/interact/1/5.4E+7主視覺_CMYK02.png",
+      "/works/interact/1/5.4E+7_01-RGB - Julia Hsieh.png",
+      "/works/interact/1/5.4E+7_02-RGB - Julia Hsieh.png",
+      "/works/interact/1/5.4E+7_03-RGB - Julia Hsieh.png",
+      "/works/interact/1/5.4E+7_04羽毛_RGB - Julia Hsieh.png",
+      "/works/interact/1/5.4E+7_05鼻子_RGB - Julia Hsieh.png",
+      "/works/interact/1/5.4E+7_06太空垃圾_RGB.png"
     ],
     title: "5.4E+7",
     studio: "TA工作室",
@@ -139,11 +143,11 @@ export const interacts = [
     group: "互動組",
     poster: "/works/interact/2.jpg",
     imgs: [
-      "/works/interact/2.jpg",
-      "https://fakeimg.pl/350x200/?text=1",
-      "https://fakeimg.pl/350x200/?text=2",
-      "https://fakeimg.pl/350x200/?text=3",
-      "https://fakeimg.pl/350x200/?text=4"
+      "/works/interact/2/橫式主視覺rgb - Ya Xin Pan.jpg",
+      "/works/interact/2/作品照1.jpg",
+      "/works/interact/2/作品照2.jpg",
+      "/works/interact/2/作品照3.jpg",
+      "/works/interact/2/作品照4.jpg"
     ],
     title: "零魂伴侶",
     studio: "白工作室",
@@ -168,11 +172,13 @@ export const interacts = [
     group: "互動組",
     poster: "/works/interact/3.jpg",
     imgs: [
-      "/works/interact/3.jpg",
-      "https://fakeimg.pl/350x200/?text=1",
-      "https://fakeimg.pl/350x200/?text=2",
-      "https://fakeimg.pl/350x200/?text=3",
-      "https://fakeimg.pl/350x200/?text=4"
+      "/works/interact/3/海報CMYK_主視覺 - 吳冠緯.png",
+      "/works/interact/3/實體_1 - 吳冠緯.png",
+      "/works/interact/3/實體_2 - 吳冠緯.png",
+      "/works/interact/3/實體_3 - 吳冠緯.png",
+      "/works/interact/3/展場建模1_RGB - 吳冠緯.png",
+      "/works/interact/3/社群照1_RGB - 吳冠緯.png",
+      "/works/interact/3/社群照2_RGB - 吳冠緯.png"
     ],
     title: "噪域",
     studio: "噪音爆破小組",
@@ -197,11 +203,9 @@ export const interacts = [
     group: "互動組",
     poster: "/works/interact/4.jpg",
     imgs: [
-      "/works/interact/4.jpg",
-      "https://fakeimg.pl/350x200/?text=1",
-      "https://fakeimg.pl/350x200/?text=2",
-      "https://fakeimg.pl/350x200/?text=3",
-      "https://fakeimg.pl/350x200/?text=4"
+      "/works/interact/4/ARK_ME橫式海報.png",
+      "/works/interact/4/場地樣貌.png",
+      "/works/interact/4/美人魚的畫.png"
     ],
     title: "ARK _ME",
     studio: "Again studio",
@@ -227,10 +231,11 @@ export const interacts = [
     poster: "/works/interact/5.jpg",
     imgs: [
       "/works/interact/5.jpg",
-      "https://fakeimg.pl/350x200/?text=1",
-      "https://fakeimg.pl/350x200/?text=2",
-      "https://fakeimg.pl/350x200/?text=3",
-      "https://fakeimg.pl/350x200/?text=4"
+      "/works/interact/5/IMG_1138 - Mike Chou.png",
+      "/works/interact/5/IMG_1139 - Mike Chou.png",
+      "/works/interact/5/IMG_9602 2 - Mike Chou.png",
+      "/works/interact/5/IMG_9605 2 - Mike Chou.png",
+      "/works/interact/5/IMG_1137 2 - Mike Chou.png"
     ],
     title: "The Echo of Lodestar",
     studio: "Chip Studio",
@@ -255,11 +260,12 @@ export const interacts = [
     group: "互動組",
     poster: "/works/interact/6.jpg",
     imgs: [
-      "/works/interact/6.jpg",
-      "https://fakeimg.pl/350x200/?text=1",
-      "https://fakeimg.pl/350x200/?text=2",
-      "https://fakeimg.pl/350x200/?text=3",
-      "https://fakeimg.pl/350x200/?text=4"
+      "/works/interact/6/主視覺橫式 - 陳郁臻.png",
+      "/works/interact/6/1920X1080_1_工作區域 1 - 陳郁臻.jpg",
+      "/works/interact/6/1920X1080_2_工作區域 1 - 陳郁臻.jpg",
+      "/works/interact/6/1920X1080_3_工作區域 1 - 陳郁臻.jpg",
+      "/works/interact/6/1920X1080_工作區域 1 - 陳郁臻.jpg",
+      "/works/interact/6/1920X1080_工作區域 1 複本 - 陳郁臻.jpg"
     ],
     title: "繫念",
     studio: "角刀牛工作室",
@@ -284,11 +290,11 @@ export const interacts = [
     group: "互動組",
     poster: "/works/interact/7.jpeg",
     imgs: [
-      "/works/interact/7.jpeg",
-      "https://fakeimg.pl/350x200/?text=1",
-      "https://fakeimg.pl/350x200/?text=2",
-      "https://fakeimg.pl/350x200/?text=3",
-      "https://fakeimg.pl/350x200/?text=4"
+      "/works/interact/7/1E4A345B-2688-4780-81D1-4E5D2B5F9460 - 邱郁琳.png",
+      "/works/interact/7/IMG_0615 - 邱郁琳.png",
+      "/works/interact/7/IMG_2900.jpg",
+      "/works/interact/7/IMG_2908 - 邱郁琳.png",
+      "/works/interact/7/IMG_9427.jpg"
     ],
     title: "Jazz Box",
     studio: "2205 studio",
@@ -313,11 +319,11 @@ export const interacts = [
     group: "互動組",
     poster: "/works/interact/8.jpg",
     imgs: [
-      "/works/interact/8.jpg",
-      "https://fakeimg.pl/350x200/?text=1",
-      "https://fakeimg.pl/350x200/?text=2",
-      "https://fakeimg.pl/350x200/?text=3",
-      "https://fakeimg.pl/350x200/?text=4"
+      "/works/interact/8/RGB_橫式 - 途中工作室.png",
+      "/works/interact/8/Copy of 作品內容示意圖7.jpg",
+      "/works/interact/8/Copy of 作品內容示意圖8.jpg",
+      "/works/interact/8/Copy of 作品內容示意圖9.jpg",
+      "/works/interact/8/作品內容示意圖2 - 途中工作室.jpg"
     ],
     title: "用心眼視",
     studio: "途中工作室",
@@ -340,11 +346,11 @@ export const interacts = [
     group: "互動組",
     poster: "/works/interact/9.jpg",
     imgs: [
-      "/works/interact/9.jpg",
-      "https://fakeimg.pl/350x200/?text=1",
-      "https://fakeimg.pl/350x200/?text=2",
-      "https://fakeimg.pl/350x200/?text=3",
-      "https://fakeimg.pl/350x200/?text=4"
+      "/works/interact/9/主 - 陳慧心.png",
+      "/works/interact/9/1 - 陳慧心.png",
+      "/works/interact/9/2 - 陳慧心.png",
+      "/works/interact/9/3 - 陳慧心.png",
+      "/works/interact/9/4 - 陳慧心.png"
     ],
     title: "不存在的歷史1963",
     studio: "週休二四工作室",
@@ -369,11 +375,12 @@ export const interacts = [
     group: "互動組",
     poster: "/works/interact/10.png",
     imgs: [
-      "/works/interact/10.png",
-      "https://fakeimg.pl/350x200/?text=1",
-      "https://fakeimg.pl/350x200/?text=2",
-      "https://fakeimg.pl/350x200/?text=3",
-      "https://fakeimg.pl/350x200/?text=4"
+      "/works/interact/10/主視覺_cmyk - 家儀.png",
+      "/works/interact/10/作品內容-1 - 家儀.png",
+      "/works/interact/10/作品內容-2 - 家儀.png",
+      "/works/interact/10/作品內容-3 - 家儀.jpg",
+      "/works/interact/10/作品內容-4 - 家儀.jpg",
+      "/works/interact/10/作品內容-5 - 家儀.png"
     ],
     title: "蒔夢",
     studio: "遲到寶工作室",
@@ -398,11 +405,11 @@ export const interacts = [
     group: "互動組",
     poster: "/works/interact/11.jpg",
     imgs: [
-      "/works/interact/11.jpg",
-      "https://fakeimg.pl/350x200/?text=1",
-      "https://fakeimg.pl/350x200/?text=2",
-      "https://fakeimg.pl/350x200/?text=3",
-      "https://fakeimg.pl/350x200/?text=4"
+      "/works/interact/11/混鏡主視覺 - Mina.png",
+      "/works/interact/11/混鏡-1 - Mina.jpg",
+      "/works/interact/11/混鏡-2 - Mina.jpg",
+      "/works/interact/11/混鏡-3 - Mina.jpg",
+      "/works/interact/11/混鏡-4 - Mina.jpg"
     ],
     title: "混鏡",
     studio: "小熊軟糖工作室",
@@ -428,11 +435,12 @@ export const markets = [
     group: "行銷組",
     poster: "/works/market/1.jpg",
     imgs: [
-      "/works/market/1.jpg",
-      "https://fakeimg.pl/350x200/?text=1",
-      "https://fakeimg.pl/350x200/?text=2",
-      "https://fakeimg.pl/350x200/?text=3",
-      "https://fakeimg.pl/350x200/?text=4"
+      "/works/market/毛起來＿主視覺立牌（CMYK） - 遠東山口組.png",
+      "/works/market/毛起來＿作品＿1 - 遠東山口組.png",
+      "/works/market/毛起來＿作品＿2 - 遠東山口組.png",
+      "/works/market/毛起來＿作品＿4 - 遠東山口組.JPG",
+      "/works/market/毛起來＿作品＿6 - 遠東山口組.jpg",
+      "/works/market/志工.png"
     ],
     title: "毛起來",
     studio: "遠東山口工作室",
@@ -460,11 +468,9 @@ export const researches = [
     group: "大專生研究計畫",
     poster: "/works/research/1.png",
     imgs: [
-      "/works/research/1.png",
-      "https://fakeimg.pl/350x200/?text=1",
-      "https://fakeimg.pl/350x200/?text=2",
-      "https://fakeimg.pl/350x200/?text=3",
-      "https://fakeimg.pl/350x200/?text=4"
+      "/works/research/1/橫式主視覺_CMYK元宇宙平台對使用者自創內容設計與實踐之分析  - 孫睦桓.png",
+      "/works/research/1/作品內容 - 孫睦桓.png",
+      "/works/research/1/My Sandbox on 23-3-28 at 凌晨1212.png"
     ],
     title: "元宇宙平台對使用者自創內容設計與實踐之分析",
     studio: "無",
@@ -479,11 +485,9 @@ export const researches = [
     group: "大專生研究計畫",
     poster: "/works/research/2.jpg",
     imgs: [
-      "/works/research/2.jpg",
-      "https://fakeimg.pl/350x200/?text=1",
-      "https://fakeimg.pl/350x200/?text=2",
-      "https://fakeimg.pl/350x200/?text=3",
-      "https://fakeimg.pl/350x200/?text=4"
+      "/works/research/2/330887913_959134555468467_4028990915777812729_n - 魏承恩.jpg",
+      "/works/research/2/mock1.png",
+      "/works/research/2/mock2.png"
     ],
     title: "湖口老街AR指標系統",
     studio: "無",

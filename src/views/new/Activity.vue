@@ -4,10 +4,10 @@
     <div class="w-full bg-[#F5F5F5] text-[#2A3752] lg:pt-20 lg:pb-12 sm:py-12">
         <div
             class="video relative w-[95vw] flex flex-col items-center mx-auto bg-[#FFFFFF] mb-16 lg:mb-20 rounded-[45px] sm:rounded-[17px]">
-            <div class="w-[85vw] mt-12 lg:mt-16">
-                <iframe src="https://www.youtube.com/embed/GCVCTLVRG8Y"
+            <div class="w-[85vw] lg:h-[80vh] mt-12 lg:mt-16">
+                <iframe src="https://www.youtube.com/embed/LTadWD2rvhY"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    allowfullscreen class="w-full aspect-video"></iframe>
+                    allowfullscreen class="w-full h-full aspect-video"></iframe>
             </div>
             <div class="w-[75vw] sm:w-[85vw] flex flex-col justify-center mx-auto pt-4 lg:mt-8">
                 <div class="video-desc relative text-2xl lg:font-bold sm:text-sm">
@@ -27,8 +27,8 @@
         </div>
         <div
             class="leader-board relative w-[95vw] flex flex-col items-center mx-auto bg-[#FFFFFF] rounded-[45px] sm:rounded-[17px]">
-            <div class="sm:w-[85vw] sm:h-[20vh] w-[85vw] h-[70vh] mt-12 lg:mt-20">
-                <img v-lazy="'/img/leader-board.jpg'" class="w-full h-full" />
+            <div class="w-[85vw] lg:h-[80vh] mt-12 lg:mt-20">
+                <img v-lazy="'/img/leader-board.jpg'" class="w-full h-full object-contain" />
             </div>
             <div class="w-[75vw] sm:w-[85vw] flex flex-col justify-center mx-auto pt-4 lg:pt-8">
                 <div class="leader-board-desc relative text-2xl lg:font-bold sm:text-sm">

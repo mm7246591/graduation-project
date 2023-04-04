@@ -11,12 +11,12 @@ const handleToClass = (group: string) => {
 
 <template>
     <div class="w-full bg-[#F5F5F5] py-[2vh]">
-        <div class="img w-[85vw] sm:w-[80vw] h-[70vh] sm:h-[20vh] mx-auto py-[2vh]">
-            <img src="https://picsum.photos/200/300" class="w-full h-full" />
+        <div class="img w-[85vw] sm:w-[80vw] mx-auto py-[2vh]">
+            <img src="/img/Kanban.png" class="w-full object-cover">
         </div>
         <div
             class="list relative w-[95vw] sm:w-[90vw] flex flex-col justify-evenly items-center mx-auto my-12 lg:my-20 lg:pt-12 pb-10 text-[#2A3752] bg-[#FFFFFF] rounded-[35px] sm:rounded-[14px]">
-            <div class="lg:flex sm:hidden px-[8vw] my-[2vh] text-2xl sm:text-base font-bold text-center">
+            <div class="lg:flex sm:hidden px-[8vw] my-10 text-2xl sm:text-base font-bold text-center">
                 本系是全國第一所以感知設計、傳播媒體、資訊科技三位一體的整合性學系
                 <br>
                 以「互動媒體技術之發展與應用」為主要研究發展方向，輔以「數位媒體內容之設計與整合」
@@ -102,7 +102,7 @@ const handleToClass = (group: string) => {
 }
 
 .sponsor::before {
-    content: "贊助夥伴";
+    content: "贊助名單";
     position: absolute;
     top: 0%;
     left: 50%;

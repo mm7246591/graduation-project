@@ -33,11 +33,13 @@ export const videos=[
         poster: "/works/film/1.jpg",
         poster_mobile:"/works/film/1-mobile.jpg",
         imgs: [
-            "/works/film/1.jpg",
-            "https://fakeimg.pl/350x200/?text=1",
-            "https://fakeimg.pl/350x200/?text=2",
-            "https://fakeimg.pl/350x200/?text=3",
-            "https://fakeimg.pl/350x200/?text=4"
+            "/works/film/1/那夜星空下的流星.jpg",
+            "/works/film/1/那夜星空下的流星 001.png",
+            "/works/film/1/那夜星空下的流星 002.png",
+            "/works/film/1/那夜星空下的流星 003.png",
+            "/works/film/1/那夜星空下的流星 004.png",
+            "/works/film/1/那夜星空下的流星 005.png",
+            "/works/film/1/那夜星空下的流星 006.png"
         ],
         title: "那夜星空下的流星",
         studio: "晨光工作室",
@@ -61,11 +63,12 @@ export const videos=[
         poster: "/works/film/2.jpeg",
         poster_mobile:"/works/film/2-mobile.jpg",
         imgs: [
-            "/works/film/2.jpeg",
-            "https://fakeimg.pl/350x200/?text=1",
-            "https://fakeimg.pl/350x200/?text=2",
-            "https://fakeimg.pl/350x200/?text=3",
-            "https://fakeimg.pl/350x200/?text=4"
+            "/works/film/2/主視覺 - bizi.png",
+            "/works/film/2/1 - bizi.png",
+            "/works/film/2/2 - bizi.png",
+            "/works/film/2/3 - bizi.png",
+            "/works/film/2/4 - bizi.png",
+            "/works/film/2/5 - bizi.png"
         ],
         title: "消失的女兒",
         studio: "MADADAYO STUDIO",
@@ -91,11 +94,12 @@ export const videos=[
         poster: "/works/film/3.png",
         poster_mobile:"/works/film/3-mobile.jpg",
         imgs: [
-            "/works/film/3.png",
-            "https://fakeimg.pl/350x200/?text=1",
-            "https://fakeimg.pl/350x200/?text=2",
-            "https://fakeimg.pl/350x200/?text=3",
-            "https://fakeimg.pl/350x200/?text=4"
+            "/works/film/3/主視覺_cmyk - Cathy Peng.png",
+            "/works/film/3/a_rgb - Cathy Peng.png",
+            "/works/film/3/b_rgb - Cathy Peng.png",
+            "/works/film/3/c_rgb - Cathy Peng.png",
+            "/works/film/3/d_rgb - Cathy Peng.png",
+            "/works/film/3/e_rgb - Cathy Peng.png"
         ],
         title: "Titta&Me",
         studio: "玩具工坊",
@@ -121,11 +125,13 @@ export const videos=[
         poster: "/works/film/4.jpg",
         poster_mobile:"/works/film/4-mobile.jpg",
         imgs: [
-            "/works/film/4.jpg",
-            "https://fakeimg.pl/350x200/?text=1",
-            "https://fakeimg.pl/350x200/?text=2",
-            "https://fakeimg.pl/350x200/?text=3",
-            "https://fakeimg.pl/350x200/?text=4"
+            "/works/film/4/畢制海報橫式.jpg",
+            "/works/film/4/R1 - 張畢制.png",
+            "/works/film/4/R2 - 張畢制.png",
+            "/works/film/4/R4 - 張畢制.png",
+            "/works/film/4/R7 - 張畢制.png",
+            "/works/film/4/R8 - 張畢制.png",
+            "/works/film/4/R9 - 張畢制.png",
         ],
         title: "噬",
         studio: "有沒有可能工作室",
