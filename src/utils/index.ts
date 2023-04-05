@@ -104,7 +104,7 @@ export const contacts = [
 export const C1 = [
   {
     id: "1",
-    img: "/19/IMG_7929.JPG",
+    img: "/19/IMG_7929.jpg",
     name: "吳子郇",
     mail: "Ezra40907@gmail.com",
     profile: "無",
@@ -113,7 +113,7 @@ export const C1 = [
   },
   {
     id: "2",
-    img: "/19/IMG_7928.JPG",
+    img: "/19/IMG_7928.jpg",
     name: "呂晉丞",
     mail: "aaa710140505@gmail.com",
     profile: "https://medium.com/@kenken880929",
@@ -122,7 +122,7 @@ export const C1 = [
   },
   {
     id: "3",
-    img: "/17/IMG_7938.JPG",
+    img: "/17/IMG_7938.jpg",
     name: "陳俞蓁",
     mail: "chochenohc@gmail.com",
     profile:
@@ -135,7 +135,7 @@ export const C1 = [
   },
   {
     id: "4",
-    img: "/5/IMG_7950.JPG",
+    img: "/5/IMG_7950.jpg",
     name: "張耘嘉",
     mail: "sarahchang0119@gmail.com",
     profile: "無",
@@ -148,7 +148,7 @@ export const C1 = [
   },
   {
     id: "5",
-    img: "/15/IMG_7828.JPG",
+    img: "/15/IMG_7828.jpg",
     name: "余博洋",
     mail: "1qaz987@gmail.com",
     profile:
@@ -158,7 +158,7 @@ export const C1 = [
   },
   {
     id: "6",
-    img: "/13/IMG_7608.JPG",
+    img: "/13/IMG_7608.jpg",
     name: "蔡易辰",
     mail: "bobolina0910@gmail.com",
     profile:
@@ -172,7 +172,7 @@ export const C1 = [
   },
   {
     id: "7",
-    img: "/12/IMG_7908.JPG",
+    img: "/12/IMG_7908.jpg",
     name: "許靜玟",
     mail: "chrissyhsu.i@gmail.com",
     profile: "無",
@@ -181,7 +181,7 @@ export const C1 = [
   },
   {
     id: "8",
-    img: "/12/IMG_7912.JPG",
+    img: "/12/IMG_7912.jpg",
     name: "莊文惠",
     mail: "vina900407@gmail.com",
     profile: "https://vina900407.wixsite.com/website",
@@ -190,7 +190,7 @@ export const C1 = [
   },
   {
     id: "9",
-    img: "/12/IMG_7911.JPG",
+    img: "/12/IMG_7911.jpg",
     name: "鄭淳云",
     mail: "b891023502@gmail.com",
     profile: "無",
@@ -199,7 +199,7 @@ export const C1 = [
   },
   {
     id: "10",
-    img: "/13/IMG_7610.JPG",
+    img: "/13/IMG_7610.jpg",
     name: "張舒涵",
     mail: "chang910407@gmail.com",
     profile:
@@ -209,7 +209,7 @@ export const C1 = [
   },
   {
     id: "11",
-    img: "/16/IMG_7997.JPG",
+    img: "/16/IMG_7997.jpg",
     name: "詹采融",
     mail: "maffy0426@gmail.com",
     profile: "無",
@@ -218,7 +218,7 @@ export const C1 = [
   },
   {
     id: "12",
-    img: "/5/IMG_7953.JPG",
+    img: "/5/IMG_7953.jpg",
     name: "謝昕倢",
     mail: "selina900125@gmail.com",
     profile: "無",
@@ -227,7 +227,7 @@ export const C1 = [
   },
   {
     id: "13",
-    img: "/6/IMG_7706.JPG",
+    img: "/6/IMG_7706.jpg",
     name: "鄭兆晉",
     mail: "mogaco666@gmail.com",
     profile: "無",
@@ -240,7 +240,7 @@ export const C1 = [
   },
   {
     id: "14",
-    img: "/13/IMG_7614.JPG",
+    img: "/13/IMG_7614.jpg",
     name: "江若仙",
     mail: "qquuie0424@gmail.com",
     profile:
@@ -250,7 +250,7 @@ export const C1 = [
   },
   {
     id: "15",
-    img: "/12/IMG_7907.JPG",
+    img: "/12/IMG_7907.jpg",
     name: "黃郁淇",
     mail: "joyce890926@gmail.com",
     profile: "無",
@@ -259,7 +259,7 @@ export const C1 = [
   },
   {
     id: "16",
-    img: "/5/IMG_7951.JPG",
+    img: "/5/IMG_7951.jpg",
     name: "林劭謙",
     mail: "boy19790710@gmail.com",
     profile: "無",
@@ -273,7 +273,7 @@ export const C1 = [
   },
   {
     id: "17",
-    img: "/15/IMG_7826.JPG",
+    img: "/15/IMG_7826.jpg",
     name: "王　晨",
     mail: "mark02160216@gmail.com",
     profile: "無",
@@ -282,7 +282,7 @@ export const C1 = [
   },
   {
     id: "18",
-    img: "/4/IMG_7919.JPG",
+    img: "/4/IMG_7919.jpg",
     name: "李家儀",
     mail: "ja971212@gmail.com",
     profile:
@@ -295,7 +295,7 @@ export const C1 = [
   },
   {
     id: "19",
-    img: "/8/IMG_7670.JPG",
+    img: "/8/IMG_7670.jpg",
     name: "蔡容安",
     mail: "yhjhs92929.2016@gmail.com",
     profile: "無",
@@ -308,7 +308,7 @@ export const C1 = [
   },
   {
     id: "20",
-    img: "/2/IMG_7404.JPG",
+    img: "/2/IMG_7404.jpg",
     name: "溫存正",
     mail: "hanklovemrs30@gmail.com",
     profile: "無",
@@ -317,7 +317,7 @@ export const C1 = [
   },
   {
     id: "21",
-    img: "/10/IMG_8490.JPG",
+    img: "/10/IMG_8490.jpg",
     name: "魏承恩",
     mail: "sam90315@gmail.com",
     profile: "無",
@@ -326,7 +326,7 @@ export const C1 = [
   },
   {
     id: "22",
-    img: "/16/IMG_7996.JPG",
+    img: "/16/IMG_7996.jpg",
     name: "陳栗芩",
     mail: "bolly422466@gmail.com",
     profile: "https://issuu.com/clc2777/docs/",
@@ -335,7 +335,7 @@ export const C1 = [
   },
   {
     id: "23",
-    img: "/2/IMG_7403.JPG",
+    img: "/2/IMG_7403.jpg",
     name: "涂紜瑄",
     mail: "tuuuyhsuan@gmail.com",
     profile: "無",
@@ -344,7 +344,7 @@ export const C1 = [
   },
   {
     id: "24",
-    img: "/8/IMG_7669.JPG",
+    img: "/8/IMG_7669.jpg",
     name: "陳堂宇",
     mail: "sam.sam.chen123@gmail.com",
     profile: "https://reurl.cc/EG779R",
@@ -353,7 +353,7 @@ export const C1 = [
   },
   {
     id: "25",
-    img: "/18/IMG_7592.JPG",
+    img: "/18/IMG_7592.jpg",
     name: "洪立恒",
     mail: "hungwork510031@gmail.com",
     profile: "https://reurl.cc/jldpOZ",
@@ -362,7 +362,7 @@ export const C1 = [
   },
   {
     id: "26",
-    img: "/7/IMG_8371.JPG",
+    img: "/7/IMG_8371.jpg",
     name: "蔡坤霖",
     mail: "deathknight285@gmail.com",
     profile: "https://deathknight285.wixsite.com/my-site",
@@ -375,7 +375,7 @@ export const C1 = [
   },
   {
     id: "27",
-    img: "/18/IMG_7591.JPG",
+    img: "/18/IMG_7591.jpg",
     name: "方子樽",
     mail: "jmjmjim1101@gmail.com",
     profile: "https://github.com/ZJimFang",
@@ -384,7 +384,7 @@ export const C1 = [
   },
   {
     id: "28",
-    img: "/6/IMG_7708.JPG",
+    img: "/6/IMG_7708.jpg",
     name: "宋柏勳",
     mail: "b2001900814@gmail.com",
     profile: "無",
@@ -393,7 +393,7 @@ export const C1 = [
   },
   {
     id: "29",
-    img: "/18/IMG_7589.JPG",
+    img: "/18/IMG_7589.jpg",
     name: "陳柏諺",
     mail: ":z7246590@gmail.com",
     profile: "https://github.com/mm7246591",
@@ -402,7 +402,7 @@ export const C1 = [
   },
   {
     id: "30",
-    img: "/14/IMG_8504.JPG",
+    img: "/14/IMG_8504.jpg",
     name: "簡文勝",
     mail: "fpswesan@gmail.com",
     profile:
@@ -416,7 +416,7 @@ export const C1 = [
   },
   {
     id: "31",
-    img: "/11/IMG_7598.JPG",
+    img: "/11/IMG_7598.jpg",
     name: "郭岱旻",
     mail: "daiming1108@gmail.com",
     profile: "無",
@@ -429,7 +429,7 @@ export const C1 = [
   },
   {
     id: "32",
-    img: "/8/IMG_7671.JPG",
+    img: "/8/IMG_7671.jpg",
     name: "李汶儒",
     mail: "maylee900116@gmail.com",
     profile: "無",
@@ -441,7 +441,7 @@ export const C1 = [
   },
   {
     id: "33",
-    img: "/4/IMG_7921.JPG",
+    img: "/4/IMG_7921.jpg",
     name: "張亞芸",
     mail: "407boo@gmail.com",
     profile:
@@ -451,7 +451,7 @@ export const C1 = [
   },
   {
     id: "34",
-    img: "/15/IMG_7830.JPG",
+    img: "/15/IMG_7830.jpg",
     name: "陳修業",
     mail: "kevin.bobo2001@gmail.com",
     profile:
@@ -461,7 +461,7 @@ export const C1 = [
   },
   {
     id: "35",
-    img: "/6/IMG_7704.JPG",
+    img: "/6/IMG_7704.jpg",
     name: "張鈺玟",
     mail: "a0933768506@gmail.com",
     profile: "無",
@@ -470,7 +470,7 @@ export const C1 = [
   },
   {
     id: "36",
-    img: "/6/IMG_7709.JPG",
+    img: "/6/IMG_7709.jpg",
     name: "李宜庭",
     mail: "teresa900816@gmail.com",
     profile: "無",
@@ -479,7 +479,7 @@ export const C1 = [
   },
   {
     id: "37",
-    img: "/9/IMG_8418.JPG",
+    img: "/9/IMG_8418.jpg",
     name: "汪承緒",
     mail: "sh15871114@gmail.com",
     profile: "無",
@@ -488,7 +488,7 @@ export const C1 = [
   },
   {
     id: "38",
-    img: "/6/IMG_7707.JPG",
+    img: "/6/IMG_7707.jpg",
     name: "蘇于翔",
     mail: "suyuhsiang891013@gmail.com",
     profile: "無",
@@ -500,7 +500,7 @@ export const C1 = [
   },
   {
     id: "39",
-    img: "/14/IMG_8500.JPG",
+    img: "/14/IMG_8500.jpg",
     name: "邱翊柏",
     mail: "bertcso1104@gmail.com",
     profile:
@@ -510,7 +510,7 @@ export const C1 = [
   },
   {
     id: "40",
-    img: "/1/IMG_8392.JPG",
+    img: "/1/IMG_8392.jpg",
     name: "郭心柔",
     mail: "h4207289@gmail.com",
     profile: "無",
@@ -519,7 +519,7 @@ export const C1 = [
   },
   {
     id: "41",
-    img: "/10/IMG_8484.JPG",
+    img: "/10/IMG_8484.jpg",
     name: "呂柏龍",
     mail: "peterlu900203@gmail.com",
     profile:
@@ -533,7 +533,7 @@ export const C1 = [
   },
   {
     id: "42",
-    img: "/5/IMG_7954.JPG",
+    img: "/5/IMG_7954.jpg",
     name: "徐振瑄",
     mail: "a0926020372@gmail.com",
     profile: "無",
@@ -542,7 +542,7 @@ export const C1 = [
   },
   {
     id: "43",
-    img: "/16/IMG_7999.JPG",
+    img: "/16/IMG_7999.jpg",
     name: "郭璦菁",
     mail: "royee13028@gmail.com",
     profile: "https://reurl.cc/d7rKa6",
@@ -551,7 +551,7 @@ export const C1 = [
   },
   {
     id: "44",
-    img: "/20/IMG_8401.JPG",
+    img: "/20/IMG_8401.jpg",
     name: "許其彬",
     mail: " jeff808328@gmail.com",
     profile: "https://github.com/jeff808328",
@@ -560,7 +560,7 @@ export const C1 = [
   },
   {
     id: "45",
-    img: "/9/IMG_8419.JPG",
+    img: "/9/IMG_8419.jpg",
     name: "杜孟洋",
     mail: "daniel509401@gmail.com",
     profile:
@@ -570,7 +570,7 @@ export const C1 = [
   },
   {
     id: "46",
-    img: "/7/IMG_8370.JPG",
+    img: "/7/IMG_8370.jpg",
     name: "李　曜",
     mail: "leoleekiom@gmail.com",
     profile: "https://reurl.cc/lvLq3A",
@@ -583,7 +583,7 @@ export const C1 = [
   },
   {
     id: "47",
-    img: "/13/IMG_7613.JPG",
+    img: "/13/IMG_7613.jpg",
     name: "裴氏瓊如",
     mail: "candybui61@gmail.com",
     profile:
@@ -593,7 +593,7 @@ export const C1 = [
   },
   {
     id: "48",
-    img: "/8/IMG_7667.JPG",
+    img: "/8/IMG_7667.jpg",
     name: "劉文業",
     mail: "havekiez01@gmail.com",
     profile: "無",
@@ -602,7 +602,7 @@ export const C1 = [
   },
   {
     id: "49",
-    img: "/17/IMG_7940.JPG",
+    img: "/17/IMG_7940.jpg",
     name: "王維亭",
     mail: "weitingmm@gmail.com",
     profile:
@@ -612,7 +612,7 @@ export const C1 = [
   },
   {
     id: "50",
-    img: "/14/IMG_8503.JPG",
+    img: "/14/IMG_8503.jpg",
     name: "陳柏旭",
     mail: "mark249028@gmail.com",
     profile: "無",
@@ -621,7 +621,7 @@ export const C1 = [
   },
   {
     id: "51",
-    img: "/22/IMG_8492.JPG",
+    img: "/22/IMG_8492.jpg",
     name: "雷子誼",
     mail: "angelina.093890@gmail.com",
     profile: "無",
@@ -630,7 +630,7 @@ export const C1 = [
   },
   {
     id: "52",
-    img: "/21/IMG_8380.JPG",
+    img: "/21/IMG_8380.jpg",
     name: "孫睦桓",
     mail: "milessun0507@gmail.com",
     profile: "https://sites.google.com/view/milesportfolio/home",
@@ -646,7 +646,7 @@ export const C1 = [
 export const C2 = [
   {
     id: "1",
-    img: "/10/IMG_8486.JPG",
+    img: "/10/IMG_8486.jpg",
     name: "陳慧心",
     mail: "catpaw0218@gmail.com",
     profile:
@@ -656,7 +656,7 @@ export const C2 = [
   },
   {
     id: "2",
-    img: "/2/IMG_7406.JPG",
+    img: "/2/IMG_7406.jpg",
     name: "蒲芳榆",
     mail: "puangela02@gmail.com",
     profile: "無",
@@ -665,7 +665,7 @@ export const C2 = [
   },
   {
     id: "3",
-    img: "/3/IMG_7807.JPG",
+    img: "/3/IMG_7807.jpg",
     name: "王鈞杭",
     mail: "world90829@gmail.com",
     profile: "無",
@@ -674,7 +674,7 @@ export const C2 = [
   },
   {
     id: "4",
-    img: "/10/IMG_8485.JPG",
+    img: "/10/IMG_8485.jpg",
     name: "陳怡安",
     mail: "Judychen864@yahoo.com.tw",
     profile: "無",
@@ -683,7 +683,7 @@ export const C2 = [
   },
   {
     id: "5",
-    img: "/13/IMG_7609.JPG",
+    img: "/13/IMG_7609.jpg",
     name: "白紀葳",
     mail: "dona1599877@gmail.com",
     profile: "無",
@@ -695,7 +695,7 @@ export const C2 = [
   },
   {
     id: "6",
-    img: "/1/IMG_8388.JPG",
+    img: "/1/IMG_8388.jpg",
     name: "范皓凌",
     mail: "bonnie20001107@gmail.com",
     profile:
@@ -705,7 +705,7 @@ export const C2 = [
   },
   {
     id: "7",
-    img: "/11/IMG_7601.JPG",
+    img: "/11/IMG_7601.jpg",
     name: "許雨雯",
     mail: "yuwenhsu0515@gmail.com",
     profile:
@@ -719,7 +719,7 @@ export const C2 = [
   },
   {
     id: "8",
-    img: "/18/IMG_7593.JPG",
+    img: "/18/IMG_7593.jpg",
     name: "謝昀軒",
     mail: "yunxuan9025@gmail.com",
     profile: "https://www.behance.net/juliahsieh",
@@ -728,7 +728,7 @@ export const C2 = [
   },
   {
     id: "9",
-    img: "/16/IMG_7995.JPG",
+    img: "/16/IMG_7995.jpg",
     name: "李建暐",
     mail: "steven10022000@gmail.com",
     profile: "https://issuu.com/weybabe/docs/_",
@@ -737,7 +737,7 @@ export const C2 = [
   },
   {
     id: "10",
-    img: "/3/IMG_7806.JPG",
+    img: "/3/IMG_7806.jpg",
     name: "劉俊廷",
     mail: "steambread2001@gmail.com",
     profile: "無",
@@ -749,7 +749,7 @@ export const C2 = [
   },
   {
     id: "11",
-    img: "/2/IMG_7401.JPG",
+    img: "/2/IMG_7401.jpg",
     name: "周貝貝",
     mail: "zxcasdf50421@gmail.com",
     profile: "https://zxcasdf50421.wixsite.com/my-site",
@@ -758,7 +758,7 @@ export const C2 = [
   },
   {
     id: "12",
-    img: "/14/IMG_8502.JPG",
+    img: "/14/IMG_8502.jpg",
     name: "黃昱軒",
     mail: "polk3395@gmail.com",
     profile: "無",
@@ -767,7 +767,7 @@ export const C2 = [
   },
   {
     id: "13",
-    img: "/12/IMG_7910.JPG",
+    img: "/12/IMG_7910.jpg",
     name: "陳郁臻",
     mail: "j90227555@gmail.com",
     profile: "https://issuu.com/chenyuchendesign/docs/portfolio",
@@ -776,7 +776,7 @@ export const C2 = [
   },
   {
     id: "14",
-    img: "/17/IMG_7939.JPG",
+    img: "/17/IMG_7939.jpg",
     name: "蘇煒筑",
     mail: "sue90529@gmail.com",
     profile: "https://judysu66.wixsite.com/my-site-4",
@@ -790,7 +790,7 @@ export const C2 = [
   },
   {
     id: "15",
-    img: "/11/IMG_7597.JPG",
+    img: "/11/IMG_7597.jpg",
     name: "曾佳容",
     mail: "qsdfg7350456@gmail.com",
     profile:
@@ -804,7 +804,7 @@ export const C2 = [
   },
   {
     id: "16",
-    img: "/17/IMG_7941.JPG",
+    img: "/17/IMG_7941.jpg",
     name: "邱靖文",
     mail: "carrie159357@gmail.com",
     profile: "https://reurl.cc/V8aANZ",
@@ -818,7 +818,7 @@ export const C2 = [
   },
   {
     id: "17",
-    img: "/15/IMG_7829.JPG",
+    img: "/15/IMG_7829.jpg",
     name: "陳忻妤",
     mail: "reita1859201@gmail.com",
     profile:
@@ -828,7 +828,7 @@ export const C2 = [
   },
   {
     id: "18",
-    img: "/7/IMG_7816.JPG",
+    img: "/7/IMG_7816.jpg",
     name: "施佩妤",
     mail: "racy91689@gmail.com",
     profile: "https://racy91689.wixsite.com/my-site",
@@ -837,7 +837,7 @@ export const C2 = [
   },
   {
     id: "19",
-    img: "/6/IMG_7705.JPG",
+    img: "/6/IMG_7705.jpg",
     name: "葉沛宣",
     mail: "無",
     profile: "無",
@@ -846,7 +846,7 @@ export const C2 = [
   },
   {
     id: "20",
-    img: "/7/IMG_8368.JPG",
+    img: "/7/IMG_8368.jpg",
     name: "薛　涵",
     mail: "hannah891007@gmail.com",
     profile: "https://hannah0794.wixsite.com/my-site",
@@ -859,7 +859,7 @@ export const C2 = [
   },
   {
     id: "21",
-    img: "/1/IMG_8391.JPG",
+    img: "/1/IMG_8391.jpg",
     name: "彭欣慧",
     mail: "cathy172425@gmail.com",
     profile: "https://issuu.com/cathy_portfolio/docs/portfolio",
@@ -872,7 +872,7 @@ export const C2 = [
   },
   {
     id: "22",
-    img: "/12/IMG_7909.JPG",
+    img: "/12/IMG_7909.jpg",
     name: "羅珮瑄",
     mail: "a0970203382@gmail.com",
     profile: "https://a0970203382.wixsite.com/my-site-2",
@@ -881,7 +881,7 @@ export const C2 = [
   },
   {
     id: "23",
-    img: "/16/IMG_7998.JPG",
+    img: "/16/IMG_7998.jpg",
     name: "蔡昀芬",
     mail: "20001027sharontsai@gmail.com",
     profile: "無",
@@ -903,7 +903,7 @@ export const C2 = [
   },
   {
     id: "25",
-    img: "/13/IMG_7611.JPG",
+    img: "/13/IMG_7611.jpg",
     name: "彭奕綾",
     mail: "66pauline@gmail.com",
     profile:
@@ -916,7 +916,7 @@ export const C2 = [
   },
   {
     id: "26",
-    img: "/14/IMG_8501.JPG",
+    img: "/14/IMG_8501.jpg",
     name: "王怡潔",
     mail: "gigiw129@gmail.com",
     profile: "https://gigiw129.wixsite.com/wyc-portfolio",
@@ -925,7 +925,7 @@ export const C2 = [
   },
   {
     id: "27",
-    img: "/9/IMG_8421.JPG",
+    img: "/9/IMG_8421.jpg",
     name: "游又潔",
     mail: "yoyoyu6888@gmail.com",
     profile:
@@ -935,7 +935,7 @@ export const C2 = [
   },
   {
     id: "28",
-    img: "/1/IMG_8394.JPG",
+    img: "/1/IMG_8394.jpg",
     name: "陳逸欣",
     mail: "23445122a@gmail.com",
     profile:
@@ -945,7 +945,7 @@ export const C2 = [
   },
   {
     id: "29",
-    img: "/7/IMG_8367.JPG",
+    img: "/7/IMG_8367.jpg",
     name: "潘雅歆",
     mail: "yaxin.plan@gmail.com",
     profile: " https://yaxin-portfolio.webflow.io/",
@@ -957,7 +957,7 @@ export const C2 = [
   },
   {
     id: "30",
-    img: "/9/IMG_8422.JPG",
+    img: "/9/IMG_8422.jpg",
     name: "吳采芊",
     mail: "ninawoot510mh@gmail.com",
     profile: "無",
@@ -966,7 +966,7 @@ export const C2 = [
   },
   {
     id: "31",
-    img: "/10/IMG_8487.JPG",
+    img: "/10/IMG_8487.jpg",
     name: "陳主祥",
     mail: "seanchen110300@gmail.com",
     profile: "無",
@@ -979,7 +979,7 @@ export const C2 = [
   },
   {
     id: "32",
-    img: "/7/IMG_8369.JPG",
+    img: "/7/IMG_8369.jpg",
     name: "陳　涓",
     mail: "nicole0501chen@gmail.com",
     profile: "https://nicole0501chen.wixsite.com/my-site",
@@ -988,7 +988,7 @@ export const C2 = [
   },
   {
     id: "33",
-    img: "/17/IMG_7942.JPG",
+    img: "/17/IMG_7942.jpg",
     name: "周方浩",
     mail: "mike111chou@gmail.com",
     profile: "shorturl.at/axFJ6",
@@ -997,7 +997,7 @@ export const C2 = [
   },
   {
     id: "34",
-    img: "/4/IMG_7924.JPG",
+    img: "/4/IMG_7924.jpg",
     name: "洪幸宇",
     mail: "uijkmuijk@gmail.com",
     profile:
@@ -1007,7 +1007,7 @@ export const C2 = [
   },
   {
     id: "35",
-    img: "/8/IMG_7668.JPG",
+    img: "/8/IMG_7668.jpg",
     name: "蔡尚恩",
     mail: "saenwoody@gmail.com",
     profile: "https://reurl.cc/mln97M",
@@ -1020,7 +1020,7 @@ export const C2 = [
   },
   {
     id: "36",
-    img: "/4/IMG_7923.JPG",
+    img: "/4/IMG_7923.jpg",
     name: "宋翊彰",
     mail: "a29302587@gmail.com",
     profile:
@@ -1030,7 +1030,7 @@ export const C2 = [
   },
   {
     id: "37",
-    img: "/9/IMG_8420.JPG",
+    img: "/9/IMG_8420.jpg",
     name: "都芊如",
     mail: "halove880915@gmail.com",
     profile: "無",
@@ -1039,7 +1039,7 @@ export const C2 = [
   },
   {
     id: "38",
-    img: "/2/IMG_7405.JPG",
+    img: "/2/IMG_7405.jpg",
     name: "吳冠緯",
     mail: "g0972968086@gmail.com",
     profile: "無",
@@ -1048,7 +1048,7 @@ export const C2 = [
   },
   {
     id: "39",
-    img: "/4/IMG_7922.JPG",
+    img: "/4/IMG_7922.jpg",
     name: "廖子硯",
     mail: "boss71888@gmail.com",
     profile:
@@ -1058,7 +1058,7 @@ export const C2 = [
   },
   {
     id: "40",
-    img: "/4/IMG_7920.JPG",
+    img: "/4/IMG_7920.jpg",
     name: "洪佳妤",
     mail: "catmail900403@gmail.com",
     profile:
@@ -1068,7 +1068,7 @@ export const C2 = [
   },
   {
     id: "41",
-    img: "/20/IMG_8403.JPG",
+    img: "/20/IMG_8403.jpg",
     name: "洪順祥",
     mail: "aa900424718@gmail.com",
     profile: "無",
@@ -1077,7 +1077,7 @@ export const C2 = [
   },
   {
     id: "42",
-    img: "/18/IMG_7590.JPG",
+    img: "/18/IMG_7590.jpg",
     name: "吳宜樺",
     mail: "rebecca90052626@gmail.com",
     profile: "無",
@@ -1086,7 +1086,7 @@ export const C2 = [
   },
   {
     id: "43",
-    img: "/20/IMG_8402.JPG",
+    img: "/20/IMG_8402.jpg",
     name: "鄭　暘",
     mail: "ttiimmoo2020@gmail.com",
     profile: "無",
@@ -1105,7 +1105,7 @@ export const C2 = [
   },
   {
     id: "44",
-    img: "/16/IMG_7994.JPG",
+    img: "/16/IMG_7994.jpg",
     name: "張佳明",
     mail: "max121489@gmail.com",
     profile: "https://reurl.cc/d705YD",
@@ -1114,7 +1114,7 @@ export const C2 = [
   },
   {
     id: "45",
-    img: "/2/IMG_7402.JPG",
+    img: "/2/IMG_7402.jpg",
     name: "任力加",
     mail: "jxx19990917@gmail.com",
     profile: "無",
@@ -1123,7 +1123,7 @@ export const C2 = [
   },
   {
     id: "46",
-    img: "/3/IMG_7804.JPG",
+    img: "/3/IMG_7804.jpg",
     name: "莊祥穎",
     mail: "andy6662233@gmail.com",
     profile: "無",
@@ -1135,7 +1135,7 @@ export const C2 = [
   },
   {
     id: "47",
-    img: "/5/IMG_7952.JPG",
+    img: "/5/IMG_7952.jpg",
     name: "何若齊",
     mail: "zoeho725@gmail.com",
     profile: "無",
@@ -1148,7 +1148,7 @@ export const C2 = [
   },
   {
     id: "48",
-    img: "/3/IMG_7808.JPG",
+    img: "/3/IMG_7808.jpg",
     name: "劉智傑",
     mail: "jeffliu890608@gmail.com",
     profile: "無",
@@ -1161,7 +1161,7 @@ export const C2 = [
   },
   {
     id: "49",
-    img: "/3/IMG_7805.JPG",
+    img: "/3/IMG_7805.jpg",
     name: "李為璘",
     mail: "cool23253187@gmail.com",
     profile: "無",
@@ -1174,7 +1174,7 @@ export const C2 = [
   },
   {
     id: "50",
-    img: "/11/IMG_7594.JPG",
+    img: "/11/IMG_7594.jpg",
     name: "郭俊語",
     mail: "fish28573268@gmail.com",
     profile: "無",
@@ -1183,7 +1183,7 @@ export const C2 = [
   },
   {
     id: "51",
-    img: "/15/IMG_7827.JPG",
+    img: "/15/IMG_7827.jpg",
     name: "朱王韜",
     mail: "無",
     profile: "無",
@@ -1192,7 +1192,7 @@ export const C2 = [
   },
   {
     id: "52",
-    img: "/17/IMG_7943.JPG",
+    img: "/17/IMG_7943.jpg",
     name: "鄭雨桐",
     mail: "firmianaz7@gmail.com",
     profile: "https://firmianaz7.wixsite.com/website",
@@ -1206,7 +1206,7 @@ export const C2 = [
   },
   {
     id: "53",
-    img: "/11/IMG_7599.JPG",
+    img: "/11/IMG_7599.jpg",
     name: "陳怡如",
     mail: "cyes30625@gmail.com",
     profile: "https://cyes30625.wixsite.com/ijuhome",
@@ -1219,7 +1219,7 @@ export const C2 = [
   },
   {
     id: "54",
-    img: "/11/IMG_7596.JPG",
+    img: "/11/IMG_7596.jpg",
     name: "方湘楀",
     mail: "he02725509@gmail.com",
     profile: "https://he02725509.wixsite.com/my-site-1",
@@ -1232,7 +1232,7 @@ export const C2 = [
   },
   {
     id: "55",
-    img: "/1/IMG_8389.JPG",
+    img: "/1/IMG_8389.jpg",
     name: "張芝琳",
     mail: "c8911202@gmail.com",
     profile: "https://linda0983653614.wixsite.com/website",
@@ -1241,7 +1241,7 @@ export const C2 = [
   },
   {
     id: "56",
-    img: "/5/IMG_7958.JPG",
+    img: "/5/IMG_7958.jpg",
     name: "邱郁琳",
     mail: "a0909412456@gmail.com",
     profile: "無",
@@ -1250,7 +1250,7 @@ export const C2 = [
   },
   {
     id: "57",
-    img: "/19/IMG_7931.JPG",
+    img: "/19/IMG_7931.jpg",
     name: "陳品皓",
     mail: "phao2233@gmail.com",
     profile: "https://pinhao_pp8.artstation.com/",
@@ -1266,7 +1266,7 @@ export const C2 = [
   },
   {
     id: "58",
-    img: "/1/IMG_8390.JPG",
+    img: "/1/IMG_8390.jpg",
     name: "趙婉芸",
     mail: "a96004731811@gmail.com",
     profile: "https://www.behance.net/belladodo",
@@ -1278,7 +1278,7 @@ export const C2 = [
   },
   {
     id: "59",
-    img: "/14/IMG_8499.JPG",
+    img: "/14/IMG_8499.jpg",
     name: "李美文",
     mail: "limeiwen0213@gmail.com",
     profile: "無",
@@ -1291,7 +1291,7 @@ export const C2 = [
   },
   {
     id: "60",
-    img: "/10/IMG_8488.JPG",
+    img: "/10/IMG_8488.jpg",
     name: "林若芸",
     mail: "love2001226@gmail.com",
     profile: "無",
