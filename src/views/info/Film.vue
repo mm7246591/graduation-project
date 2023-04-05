@@ -1,5 +1,7 @@
 <script setup lang="ts">
 import { videos } from '@/utils/info';
+import { NCarousel } from "naive-ui";
+import { Swipe, SwipeItem } from 'vant';
 import { useRouter } from 'vue-router';
 
 const router = useRouter()
@@ -11,19 +13,34 @@ const handleToWork = (id: string) => {
 
 <template>
     <div class="w-full pt-8 text-[#58595B] bg-[#EFEFEF]">
-        <div class="w-[90vw] flex flex-col justify-evenly items-center mx-auto">
-            <div class="w-full h-[70vh]">
-                <img src="https://picsum.photos/200/300" class="w-full h-full">
+        <div class="w-[80vw] flex flex-col justify-evenly items-center mx-auto">
+            <div class="w-full">
+                <NCarousel class="hidden lg:block mt-9 mb-24 w-full" draggable autoplay show-arrow>
+                    <div v-for="item of videos" :key="item.id">
+                        <img v-lazy="item.poster" class="w-full object-contain" />
+                    </div>
+                </NCarousel>
+                <Swipe class="lg:hidden mt-4 mb-9 w-full" indicator-color="white" :autoplay="3000">
+                    <SwipeItem v-for="item of videos" :key="item.id">
+                        <img v-lazy="item.poster" class="w-full object-contain" />
+                    </SwipeItem>
+                </Swipe>
             </div>
-            <div class="mb-12 w-[80vw] flex flex-col justify-evenly py-[4vh] lg:py-[8vh] text-[#2A3752]">
+            <div class="mb-12 w-[80vw] flex flex-col justify-evenly pb-[4vh] lg:pb-[8vh] text-[#2A3752]">
                 <div
                     class="relative text-4xl sm:text-xl font-bold before:content-[''] before:absolute before:top-0 before:-left-5 lg:before:-left-8 before:w-1.5 lg:before:w-3 before:h-full before:rounded-full before:bg-[#00E4FF]">
                     元智大學資訊傳播學系<br> 第 26 屆影展
                 </div>
                 <div
                     class="relative lg:hidden mt-[6vw] mb-[2vh] text-lg sm:text-base before:content-[''] before:absolute before:top-1.5 before:-left-5 before:w-3 before:h-3 before:rounded-full before:bg-[#00E4FF]">
-                    影展日期：112/4/14</div>
-                <div class="hidden lg:inline-block mt-12 mb-[2vh] text-2xl">1 1 2 年 4 月 1 4 日</div>
+                    日期：112/4/14</div>
+                <div
+                    class="relative lg:hidden mb-[2vh] text-lg sm:text-base before:content-[''] before:absolute before:top-1.5 before:-left-5 before:w-3 before:h-3 before:rounded-full before:bg-[#00E4FF]">
+                    時間：18:30 - 20:30</div>
+                <div
+                    class="relative lg:hidden mb-[2vh] text-lg sm:text-base before:content-[''] before:absolute before:top-1.5 before:-left-5 before:w-3 before:h-3 before:rounded-full before:bg-[#00E4FF]">
+                    地點：元智大學五館 5310</div>
+                <div class="hidden lg:inline-block mt-12 mb-[2vh] text-2xl">112 年 4 月 14 日 18:30 - 20:30 元智大學五館 5310</div>
                 <div
                     class="relative lg:text-base before:content-[''] lg:before:hidden before:absolute before:top-1.5 before:-left-5 before:w-3 before:h-3 before:rounded-full before:bg-[#00E4FF]">
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit quibusdam repudiandae cupiditate
