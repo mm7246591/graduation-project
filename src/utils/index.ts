@@ -894,7 +894,7 @@ export const C2 = [
   },
   {
     id: "24",
-    img: "/20/相片 2022-12-31 08.14.04 下午.JPG",
+    img: "/20/相片 2022-12-31 08.14.04 下午.jpg",
     name: "張文安",
     mail: "angus14242@gmail.com",
     profile: "無",

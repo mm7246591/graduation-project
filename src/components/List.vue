@@ -45,7 +45,7 @@ onMounted(() => {
             :class="[routeName === '科技組' ? 'c1' : 'c2']">
             <div class="sm:w-[90vw] flex flex-wrap justify-center items-center">
                 <div v-for="item of items" :key="item.id"
-                    class="w-[10vw] sm:w-[25vw] flex flex-col justify-center items-center mx-[1vw] my-[2vh] bg-[#E3F4F7] cursor-pointer"
+                    class="w-[10vw] sm:w-[25vw] h-[20vh] flex flex-col justify-center items-center mx-[1vw] my-[2vh] bg-[#E3F4F7] cursor-pointer"
                     @click="handleSelect(item.id)">
                     <div class="w-[5vw] sm:w-[20vw] mx-auto my-[2vh]">
                         <img v-lazy="item.img" class="w-full h-full rounded-full object-contain" />
