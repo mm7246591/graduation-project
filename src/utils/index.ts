@@ -58,34 +58,29 @@ export const classes = [
 export const sponsors = [
   {
     id: "1",
-    img: "https://fakeimg.pl/300/",
+    img: "/img/1200px-Emblem_of_Taoyuan_City.svg.png",
     name: "test",
   },
   {
     id: "2",
-    img: "https://fakeimg.pl/300/",
+    img: "/public/img/2111031134372079761813-2.jpg",
     name: "test",
   },
   {
     id: "3",
-    img: "https://fakeimg.pl/300/",
+    img: "/public/img/300004163_210694394614458_1982748922942161344_n.jpg",
     name: "test",
   },
   {
     id: "4",
-    img: "https://fakeimg.pl/300/",
+    img: "/public/img/301115969_385086180471596_520779162512465737_n.jpg",
     name: "test",
   },
   {
     id: "5",
-    img: "https://fakeimg.pl/300/",
+    img: "/public/img/ROC_Taoyuan_City_Council_logo.svg.png",
     name: "test",
-  },
-  {
-    id: "6",
-    img: "https://fakeimg.pl/300/",
-    name: "test",
-  },
+  }
 ];
 
 export const contacts = [
