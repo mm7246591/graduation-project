@@ -63,24 +63,24 @@ export const sponsors = [
   },
   {
     id: "2",
-    img: "/public/img/2111031134372079761813-2.jpg",
+    img: "/img/2111031134372079761813-2.jpg",
     name: "test",
   },
   {
     id: "3",
-    img: "/public/img/300004163_210694394614458_1982748922942161344_n.jpg",
+    img: "/img/300004163_210694394614458_1982748922942161344_n.jpg",
     name: "test",
   },
   {
     id: "4",
-    img: "/public/img/301115969_385086180471596_520779162512465737_n.jpg",
+    img: "/img/301115969_385086180471596_520779162512465737_n.jpg",
     name: "test",
   },
   {
     id: "5",
-    img: "/public/img/ROC_Taoyuan_City_Council_logo.svg.png",
+    img: "/img/ROC_Taoyuan_City_Council_logo.svg.png",
     name: "test",
-  }
+  },
 ];
 
 export const contacts = [
@@ -248,7 +248,8 @@ export const C1 = [
     img: "/12/IMG_7907.JPG",
     name: "黃郁淇",
     mail: "joyce890926@gmail.com",
-    profile: "https://drive.google.com/file/d/1CTH3sfCk8f2mS891LoIcXy_olX3hJtkA/view",
+    profile:
+      "https://drive.google.com/file/d/1CTH3sfCk8f2mS891LoIcXy_olX3hJtkA/view",
     experience: ["富邦人壽前端工程師實習生"],
     skill: ["前端網頁程式設計", "Vue.js", "Tailwind.css"],
   },
@@ -271,7 +272,8 @@ export const C1 = [
     img: "/15/IMG_7826.JPG",
     name: "王　晨",
     mail: "mark02160216@gmail.com",
-    profile: "https://drive.google.com/drive/folders/1eeE56uiKRyzbQxqgI6d7J__PPb74-8s7?usp=share_link",
+    profile:
+      "https://drive.google.com/drive/folders/1eeE56uiKRyzbQxqgI6d7J__PPb74-8s7?usp=share_link",
     experience: ["無"],
     skill: ["Unity", "C#", "遊戲企劃"],
   },
@@ -508,9 +510,10 @@ export const C1 = [
     img: "/1/IMG_8392.JPG",
     name: "郭心柔",
     mail: "h4207289@gmail.com",
-    profile: "https://drive.google.com/drive/folders/1mtXh3tR4rRUk7fh5RQgyXscXRHNx-0EU",
+    profile:
+      "https://drive.google.com/drive/folders/1mtXh3tR4rRUk7fh5RQgyXscXRHNx-0EU",
     experience: ["無"],
-    skill: ["手機應用程式開發","動畫後製"],
+    skill: ["手機應用程式開發", "動畫後製"],
   },
   {
     id: "41",
@@ -681,7 +684,8 @@ export const C2 = [
     img: "/13/IMG_7609.JPG",
     name: "白紀葳",
     mail: "dona1599877@gmail.com",
-    profile: "https://drive.google.com/file/d/1NDbK3_ctff4ZA1llQGR3YWQBQ_AeJ_R_/view?usp=share_link",
+    profile:
+      "https://drive.google.com/file/d/1NDbK3_ctff4ZA1llQGR3YWQBQ_AeJ_R_/view?usp=share_link",
     experience: [
       "Vtuber黑客松創作大賽[台灣原創IP跨域組-最佳影片獎]",
       "金犢獎平面廣告設計-入圍",
@@ -1224,7 +1228,17 @@ export const C2 = [
       "在地文化創作徵獎 影片組-第二名",
       "黑客松許擬人創作大賽學生組-最佳影片獎",
     ],
-    skill: ["版面編排設計","影像處理編輯","電腦繪圖","基礎剪輯","UIUX", "PhotoShop", "Illustrator","Figma","davinci"],
+    skill: [
+      "版面編排設計",
+      "影像處理編輯",
+      "電腦繪圖",
+      "基礎剪輯",
+      "UIUX",
+      "PhotoShop",
+      "Illustrator",
+      "Figma",
+      "davinci",
+    ],
   },
   {
     id: "55",
