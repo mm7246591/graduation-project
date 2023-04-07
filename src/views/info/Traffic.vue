@@ -66,7 +66,7 @@ onMounted(() => {
                     class="absolute -top-5 rounded-full px-[4vw] sm:px-[10vw] py-[1.5vh] sm:py-[1vh] bg-[#2A3752] text-[#fff] text-xl sm:text-base font-bold">
                     展區導覽圖</div>
                 <div class="w-[70vw] lg:w-[40vw] my-[2vh]">
-                    <img src="/img/sccp.jpeg" class="w-full object-contain" alt="">
+                    <img v-lazy="'/img/sccp.jpeg'" class="w-full object-contain" alt="">
                 </div>
             </div>
         </div>
