@@ -70,15 +70,16 @@ onMounted(() => {
                         </div>
                         <div class="flex flex-col mt-[1vh]">
                             <div class="flex">
-                                <a :href="'mailto:' + select.mail" class="w-[23px] object-cover cursor-pointer"><img
-                                        src="/img/email.png" alt=""></a>
+                                <a :href="'mailto:' + select.mail"
+                                    class="w-[23px] object-cover cursor-pointer sm:mr-[2.5vw]"><img src="/img/email.png"
+                                        alt=""></a>
                                 <a v-if="select.profile === '無'" href="#"
-                                    class="w-[23px] object-cover cursor-pointer mx-[1vw]"><img src="/img/portfolio.png"
-                                        alt="">
+                                    class="w-[23px] object-cover cursor-pointer lg:mx-[1vw] sm:ml-[2.5vw]"><img
+                                        src="/img/portfolio.png" alt="">
                                 </a>
                                 <a v-else :href="'' + select.profile" target="_blank"
-                                    class="w-[23px] object-cover cursor-pointer mx-[1vw]"><img src="/img/portfolio.png"
-                                        alt="">
+                                    class="w-[23px] object-cover cursor-pointer lg:mx-[1vw] sm:ml-[2.5vw]"><img
+                                        src="/img/portfolio.png" alt="">
                                 </a>
                             </div>
                         </div>

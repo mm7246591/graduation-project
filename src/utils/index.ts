@@ -207,7 +207,8 @@ export const C1 = [
     img: "/16/IMG_7997.JPG",
     name: "詹采融",
     mail: "maffy0426@gmail.com",
-    profile: "無",
+    profile:
+      "https://issuu.com/oooo_rong/docs/_e4_bd_9c_e5_93_81_e9_9b_86?fbclid=IwAR10Q2mNn7gpvHVjtp4dyyAJD1nMVk9195PLwyw7HxlZlHKp3YMZG8WRQKk",
     experience: ["VS Media社群影片剪輯實習生", "畢籌會公關"],
     skill: ["行銷企劃", "Premiere", "PhotosShop"],
   },
