@@ -9,6 +9,12 @@ const router = useRouter()
 const handleToWork = (id: string) => {
     router.push({ path: `/intro/film/${id}` })
 }
+
+const isTitta = (id: string) => {
+    if (id == '3') {
+        return true;
+    }
+}
 </script>
 
 <template>
@@ -58,7 +64,9 @@ const handleToWork = (id: string) => {
                     <div class="flex justify-between mt-2 w-full">
                         <div
                             class="relative flex items-end ml-4 mt-2 h-10 text-[#2A3752] text-base font-semibold before:content-[''] before:absolute before:bottom-0 before:-left-4 before:w-1.5 lg:before:w-2 before:h-full before:rounded-full before:bg-[#00E4FF]">
-                            {{ item.title }}</div>
+                            {{ item.title }}
+                            <div v-if="isTitta(item.id)" class="font-normal">（未參與影展）</div>
+                        </div>
                         <div class="cursor-pointer w-24" @click="handleToWork(item.id)">
                             <img src="/img/band-aid-pc.png" alt="">
                         </div>
@@ -74,9 +82,13 @@ const handleToWork = (id: string) => {
             <div v-for="item of videos" :key="item.id" class="flex flex-col lg:flex-row mb-8 w-[64vw]">
                 <img v-lazy="item.poster_mobile" class="w-full object-contain" />
                 <div class="flex justify-between w-full">
-                    <div
-                        class="relative mt-3 ml-4 h-fit text-[#2A3752] text-base font-semibold before:content-[''] before:absolute before:bottom-0 before:-left-4 before:w-1.5 before:h-full before:rounded-full before:bg-[#00E4FF]">
-                        {{ item.title }}</div>
+                    <div>
+                        <div
+                            class="relative mt-3 ml-4 h-fit text-[#2A3752] text-base font-semibold before:content-[''] before:absolute before:bottom-0 before:-left-4 before:w-1.5 before:h-full before:rounded-full before:bg-[#00E4FF]">
+                            {{ item.title }}
+                        </div>
+                        <div v-if="isTitta(item.id)" class="font-normal">（未參與影展）</div>
+                    </div>
                     <div class="cursor-pointer w-20" @click="handleToWork(item.id)">
                         <img src="/img/band-aid.png" alt="">
                     </div>
