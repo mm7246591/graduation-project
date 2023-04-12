@@ -377,7 +377,7 @@ export const C1 = [
     name: "方子樽",
     mail: "jmjmjim1101@gmail.com",
     profile: "https://github.com/ZJimFang",
-    experience: ["無"],
+    experience: ["NASA app 全球40名,宇宙製造網頁全端實習生","元智明星賽三分球亞軍"],
     skill: ["網頁程式設計", "三分射手"],
   },
   {
@@ -1080,8 +1080,8 @@ export const C2 = [
     img: "/18/IMG_7590.JPG",
     name: "吳宜樺",
     mail: "rebecca90052626@gmail.com",
-    profile: "無",
-    experience: ["無"],
+    profile: "https://www.behance.net/yihuawu2",
+    experience: ["新眺創意實驗室-實習生","《欲無⽌盡-象棋篇》劇情短⽚ 桃園廉政電影節佳作 - 製片","金犢獎平面設計-入圍"],
     skill: ["UI&UX設計", "平面設計", "動態設計"],
   },
   {

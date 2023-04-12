@@ -33,14 +33,14 @@ const handleToWork = (id: string) => {
                 </div>
                 <div
                     class="relative lg:hidden mt-[6vw] mb-[2vh] text-lg sm:text-base before:content-[''] before:absolute before:top-1.5 before:-left-5 before:w-3 before:h-3 before:rounded-full before:bg-[#00E4FF]">
-                    日期：112/4/14</div>
+                    日期：112/4/13</div>
                 <div
                     class="relative lg:hidden mb-[2vh] text-lg sm:text-base before:content-[''] before:absolute before:top-1.5 before:-left-5 before:w-3 before:h-3 before:rounded-full before:bg-[#00E4FF]">
                     時間：18:30 - 20:30</div>
                 <div
                     class="relative lg:hidden mb-[2vh] text-lg sm:text-base before:content-[''] before:absolute before:top-1.5 before:-left-5 before:w-3 before:h-3 before:rounded-full before:bg-[#00E4FF]">
                     地點：元智大學五館 5310</div>
-                <div class="hidden lg:inline-block mt-12 mb-[2vh] text-2xl">112 年 4 月 14 日 18:30 - 20:30 元智大學五館 5310</div>
+                <div class="hidden lg:inline-block mt-12 mb-[2vh] text-2xl">112 年 4 月 13 日 18:30 - 20:30 元智大學五館 5310</div>
                 <div
                     class="relative lg:text-base before:content-[''] lg:before:hidden before:absolute before:top-1.5 before:-left-5 before:w-3 before:h-3 before:rounded-full before:bg-[#00E4FF]">
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit quibusdam repudiandae cupiditate

@@ -123,7 +123,7 @@ export const videos=[
         id: "4",
         group: "影視組",
         poster: "/works/film/4.jpg",
-        poster_mobile:"/works/film/4-mobile.jpg",
+        poster_mobile:"/works/film/4-mobile.png",
         imgs: [
             "/works/film/4/畢制海報橫式.jpg",
             "/works/film/4/R1 - 張畢制.png",
@@ -149,6 +149,6 @@ export const videos=[
         "\n" +
         "方湘楀：收音、調色、海報、社群" +
         "\n" +
-        "郭岱旻：燈光、社群、音樂、特效",
+        "郭岱旻：燈光、社群、特效助理",
     }
 ]
