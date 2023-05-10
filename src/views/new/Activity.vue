@@ -5,7 +5,7 @@
         <div
             class="video relative w-[95vw] flex flex-col items-center mx-auto bg-[#FFFFFF] mb-16 lg:mb-20 rounded-[45px] sm:rounded-[17px]">
             <div class="w-[85vw] lg:h-[80vh] mt-12 lg:mt-16">
-                <iframe src="https://www.youtube.com/embed/LTadWD2rvhY"
+                <iframe src="https://www.youtube.com/embed/387WBblZ-hs"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                     allowfullscreen class="w-full h-full aspect-video"></iframe>
             </div>
